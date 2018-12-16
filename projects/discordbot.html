@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Matthew Zegar's Website</title>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://bootswatch.com/4/journal/bootstrap.min.css">
+    <link rel="stylesheet" href="../css.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <span class="navbar-brand mb-0 h1">Matthew Zegar</span>
+    <div class="navbar-collapse" id="navbarText">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Project showcase
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="tetracube.html">Tetracube (NES Tetris)</a>
+                    <a class="dropdown-item" href="discordbot.html">DOTA 2 Discord bot</a>
+                    <a class="dropdown-item" href="twitterbot.html">Twitterbot for Smash Bros.</a>
+                    <a class="dropdown-item" href="minesweeper.html">Minesweeper-C++</a>
+                    <a class="dropdown-item" href="connect4.html">Connect 4 using TypeScript</a>
+                    <a class="dropdown-item" href="dailyweatherapp.html">Dailyweatherapp using Electron</a>
+                </div>
+        </ul>
+    </div>
+</nav>
+
+
+<div class="container">
+    <section>
+        <h3><b>Discord DOTA 2 BOT</b></h3>
+        <p>A discord bot that gathers API information using https://docs.opendota.com/ for the game Dota 2. The API data is in JSON format which feeds through the bot and then
+            is neatly formatted to public discord servers. Here is a list of all the commands...
+
+            <br>
+            <a href="https://github.com/mzegar/dotabot">Link to Github</a>
+
+            <br><br>
+            !help - shows all commands
+            <br><br>
+            !info {id} - displays info about the dota player
+            <br><br>
+            !database - shows which names are present within the database
+            <br><br>
+            !lastmatch {id} - displays info about the last match the user played
+            <br><br>
+            !matches {id} - displays info about all the matches the user has played
+            <br><br>
+            !match {matchid} - displays match information
+            <br><br>
+
+            <img class="img-fluid" src="img/d1.png">
+            <br><br>
+            <img class="img-fluid" src="img/d2.png">
+            <br><br>
+            <img class="img-fluid" src="img/d3.png">
+            <br><br>
+            <img class="img-fluid" src="img/d4.png">
+            <br><br>
+            <img class="img-fluid" src="img/d5.png">
+        </p>
+    </section>
+</div>
+
+<script>
+    $(document).ready(function() {
+        $('li.active').removeClass('active');
+        $('a[href="' + location.pathname + '"]').closest('li').addClass('active');
+    });
+</script>
+
+
+
+</body>
+</html>

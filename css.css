@@ -1,0 +1,71 @@
+.jumbotron {
+    background-color: #f4f4f4;
+}
+
+h4 {
+    font-size: 70px;
+    color: #000000;
+}
+
+.container {
+    color: #000000;
+}
+
+.sectionmain {
+    background-color: #ffffff;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 25px;
+    margin-top: -50px;
+}
+
+.navbar-brand {
+    margin-top: -3px;
+}
+
+.icon {
+    color: black !important;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    color: #fff;
+    background-color: dodgerblue;
+}
+
+.titleup {
+    margin-top: 25px;
+}
+
+body {
+    background: #f4f4f4;
+}
+
+section {
+    background-color: #ffffff;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 25px;
+}
+
+p {
+    font-size: 15px;
+}
+
+p2 {
+    font-size: 24px;
+    color: #666666;
+}
+
+p a {
+    color: #0000EE;
+}
+
+p a:hover {
+    color: darkblue;
+}
+
+p a:visited {
+    color: #0000EE;
+}
+
+

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Matthew Zegar's Website</title>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://bootswatch.com/4/journal/bootstrap.min.css">
+    <link rel="stylesheet" href="../css.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <span class="navbar-brand mb-0 h1">Matthew Zegar</span>
+    <div class="navbar-collapse" id="navbarText">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Project showcase
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="tetracube.html">Tetracube (NES Tetris)</a>
+                    <a class="dropdown-item" href="discordbot.html">DOTA 2 Discord bot</a>
+                    <a class="dropdown-item" href="twitterbot.html">Twitterbot for Smash Bros.</a>
+                    <a class="dropdown-item" href="minesweeper.html">Minesweeper-C++</a>
+                    <a class="dropdown-item" href="connect4.html">Connect 4 using TypeScript</a>
+                    <a class="dropdown-item" href="dailyweatherapp.html">Dailyweatherapp using Electron</a>
+                </div>
+        </ul>
+    </div>
+</nav>
+
+<div class="container">
+    <section>
+        <h3><b>Connect 4</b></h3>
+        <p>After I finished my first introduction to C++ course I decided to apply my skills in a different environment. Using the application Superpowers I was able to create models and texture them
+        within the program itself. Then using the built in TypeScript language I used the skills learned from my C++ course to program the rest of the application. The most valuable skills I learned
+        from this project related to managing a 2D array with a graphical interface. Also, completely picking up a language blind and having to look through documentation.</p>
+        <p>
+            <a href="https://github.com/mzegar/Connect4">Link to Github</a> <br>
+            <a href="https://mzegar.itch.io/connect4">Connect 4 (playable browser-based)</a>
+        </p>
+
+        <img class="img-fluide" src="img/c4.png" alt="connect4ex">
+
+    </section>
+</div>
+
+<script>
+    $(document).ready(function() {
+        $('li.active').removeClass('active');
+        $('a[href="' + location.pathname + '"]').closest('li').addClass('active');
+    });
+</script>
+
+
+
+</body>
+</html>

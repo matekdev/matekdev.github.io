@@ -1,0 +1,104 @@
+<html>
+  <head>
+      <!--Import bootstrap-->
+      <link rel="stylesheet" href="https://bootswatch.com/4/lux/bootstrap.css" crossorigin="anonymous">
+      <meta charset="utf-8"/>
+      <!--Import css-->
+      <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Chip8 Team 13</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Emulator</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tool/index.html">Tool</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../chip8.html">Back to Matthew's Website</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+  <!-- Top text -->
+  <div class="jumbotron text-center">
+      <h1>Chip8 Emulator</h1>
+      <p>TEAM 13</p> 
+    </div>
+
+    <!-- File -->
+    <center>
+      <input type="file" id="input">
+    </center>
+
+    <!--Chip8 size is 64x32-->
+    <!-- Canvas -->
+    <canvas id="canvas" width="640" height="320" style="border:2px solid #000000;"></canvas>
+    <script src="lodash.js"></script>
+    <script src="class.js"></script>
+    <script src="main.js"></script>
+
+    <center>
+      <form>
+        <input type="number" id="speedInput">
+        <button type="button" class="btn btn-primary" onclick="setSpeed()">Set Speed</button>
+      </form>
+    </center>
+
+    <div class="col text-center">
+      <button type="button" class="btn btn-primary" onclick="restartEmulator()">Restart</button>
+      <button type="button" class="btn btn-primary" onclick="pauseEmulator()">Pause</button>
+      <button type="button" class="btn btn-primary" onclick="stepBackward()">Step-Backward</button>
+      <button type="button" class="btn btn-primary" onclick="stepForward()">Step-Forward</button>
+    </div>
+    
+    
+    <!-- Table for registers/stack/etc -->
+    <table class="table table-bordered table-striped text-center">
+      <thead>
+        <tr>
+          <th scope="col">V0: <span id="V0"></span></th>
+          <th scope="col">V1: <span id="V1"></span></th>
+          <th scope="col">V2: <span id="V2"></span></th>
+          <th scope="col">V3: <span id="V3"></span></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="col">V4: <span id="V4"></span></th>
+          <th scope="col">V5: <span id="V5"></span></th>
+          <th scope="col">V6: <span id="V6"></span></th>
+          <th scope="col">V7: <span id="V7"></span></th>
+        </tr>
+        <tr>
+          <th scope="col">V8: <span id="V8"></span></th>
+          <th scope="col">V9: <span id="V9"></span></th>
+          <th scope="col">VA: <span id="VA"></span></th>
+          <th scope="col">VB: <span id="VB"></span></th>
+        </tr>
+        <tr>
+          <th scope="col">VC: <span id="VC"></span></th>
+          <th scope="col">VD: <span id="VD"></span></th>
+          <th scope="col">VE: <span id="VE"></span></th>
+          <th scope="col">VF: <span id="VF"></span></th>
+        </tr>
+
+        <tr>
+          <th scope="col">Delay Timer: <span id="DT"></span></th>
+          <th scope="col">Sound Timer: <span id="ST"></span></th>
+          <th scope="col">Register I: <span id="RI"></span></th>
+          <th scope="col">Program Counter: <span id="PC"></span></th>
+        </tr>
+      </tbody>
+    </table>
+
+  </body>
+</html>

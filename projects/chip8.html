@@ -16,10 +16,10 @@
     <span class="navbar-brand mb-0 h1">Matthew Zegar</span>
     <div class="navbar-collapse" id="navbarText">
         <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
+            <li class="nav-item">
                 <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item dropdown">
+            <li class="nav-item dropdown active">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Project showcase
                 </a>
@@ -39,23 +39,28 @@
 <div class="container">
     <section>
         <h3><b>JavaScript Chip8 emulator</b></h3>
-        <p>Chip8 is an interpreted programming language. As a part of CMPT 276, we were tasked with designing a Chip8 interpreter that runs in JavaScript. The tasks I completed during the duration of this project were...</p>
-        <p>- Fully created the entire HTML page for both the emulator and tool</p>
-        <p>- Created the base structure for the emulator itself (the classes, how the emulator cycled, emulator variables, etc)</p>
-        <p>- Implemented various opcodes</p>
-        <p>- Created test suites using Jest for most opcodes</p>
-        <p>- Entirely created the tool</p>
-        <p>- Played the role of GitHub master for the duration of the project</p>
-        <p><a href="chip8/index.html">Link the Chip8 Emulator</a></p>
+        <p>Chip8 is an interpreted programming language. As a part of CMPT 276 (Introduction to Software Engineering), we were tasked with designing a Chip8 interpreter that runs in JavaScript. The tasks I completed during the duration of this project were...</p>
+        <ul class="list">
+            <li>Played the role of GitHub master and managed the repository for group members</li>
+            <li>Implemented all front-end work for the project</li>
+            <ul>
+                <li>HTML page for the emulator and tool using Bootstrap</li>
+                <li>JavaScript that interacted with the web page for a number of components</li>
+                <ul>
+                    <li>Rom uploading directly from the web page</li>
+                    <li>Buttons to interact directly with the emulator</li>
+                    <li>Emulator debug information such as variable values</li>
+                </ul>
+            </ul>
+            <li>Created the base structure for the emulator using JavaScript (the classes, how the emulator cycled, emulator variables)</li>
+            <li>Implemented various opcodes</li>
+            <li>Wrote test suites using Jest for a majority of opcodes</li>
+            <li>Entirely developed the tool</li>
+        </ul>
+        <img class="img-fluid" src="img/chip1.png" alt="chip8img">
+        <img class="img-fluid" src="img/chip2.png" alt="chip8img">
     </section>
 </div>
-
-<script>
-    $(document).ready(function() {
-        $('li.active').removeClass('active');
-        $('a[href="' + location.pathname + '"]').closest('li').addClass('active');
-    });
-</script>
 
 
 

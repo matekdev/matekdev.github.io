@@ -39,6 +39,10 @@ jobtitle {
     font-weight: bold;
 }
 
+jobtitle:hover {
+    color: #274C77;
+}
+
 a {
     color: #4A6FA5;
 }
@@ -53,6 +57,14 @@ p a:visited {
 
 p a:hover {
     color: #274C77;
+}
+
+a:hover {
+    color: #274C77;
+}
+
+a:visited {
+    color: #4A6FA5;
 }
 
 

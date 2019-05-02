@@ -1,72 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<!--Boostrap, icons, css, etc-->
 <head>
-    <title>Matthew Zegar's Website</title>
+    <title>Matthew Zegar | Portfolio</title>
     <meta charset="utf-8">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://bootswatch.com/4/journal/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <span class="navbar-brand mb-0 h1">Matthew Zegar</span>
-    <div class="navbar-collapse" id="navbarText">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Project showcase
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="projects/tetracube.html">Tetracube (NES Tetris)</a>
-                    <a class="dropdown-item" href="projects/chip8.html">Chip8 Emulator</a>
-                    <a class="dropdown-item" href="projects/discordbot.html">DOTA 2 Discord bot</a>
-                    <a class="dropdown-item" href="projects/twitterbot.html">Twitterbot for Smash Bros.</a>
-                    <a class="dropdown-item" href="projects/minesweeper.html">Minesweeper-C++</a>
-                    <a class="dropdown-item" href="projects/connect4.html">Connect 4 using TypeScript</a>
-                    <a class="dropdown-item" href="projects/dailyweatherapp.html">Dailyweatherapp using Electron</a>
-                </div>
-        </ul>
-    </div>
-</nav>
-
 <div class="jumbotron text-center">
+    <!--Image of me-->
+    <img src="matt.png" class="rounded mx-auto d-block" alt="pictureofme:)" width="200" height="200">
+
+    <!--Header text-->
     <h4>Matthew Zegar</h4>
+    <!--Sub header text-->
     <p2>Computer Science Student at Simon Fraser University</p2>
     <br>
-    <div id="imagesflag">
-        <img class="center" style="width:50px;height:39px;" src="c.png" alt="canadianflag">
-        <img  class="center" style="width:50px;height:39px;" src="p.png" alt="polishflag">
+
+    <!--Nav bar links-->
+    <ul class="nav justify-content-center">
+        <li class="nav-item">
+            <p><a class="nav-link" href="https://drive.google.com/file/d/1-7PLTaQzG5Fj772APEt99ewmJNxC12qR/view?usp=sharing">Resume  <i class="fa fa-address-card icon" style="font-size:24px"></i></a></p>
+        </li>
+        <li class="nav-item">
+            <p><a class="nav-link" href="https://github.com/mzegar">GitHub  <i class="fa fa-github icon" style="font-size:24px"></i></a></p>
+        </li>
+        <li class="nav-item">
+            <p><a class="nav-link" href="https://www.linkedin.com/in/matthewzegar">LinkedIn  <i class="fa fa-linkedin-square icon" style="font-size:24px"></i></a></p>
+        </li>
+        <li class="nav-item">
+            <p><a class="nav-link" href="index.html#WorkExperience">Work Experience  <i class="fa fa-code-fork icon" style="font-size:24px"></i></a></p>
+        </li>
+        <li class="nav-item">
+            <p><a class="nav-link" href="index.html#Projects">Projects  <i class="fa fa-files-o icon" style="font-size:24px"></i></a></p>
+        </li>
+    </ul>
+</div>
+
+
+
+<!--Grid-->
+<div class="container center">
+    <div class="row">
+        <div class="col-md">
+            <section class="sectionmain">
+                <h3>About Me</h3>
+                <p>Hello! My name is Matthew Zegar, I am currently a student at Simon Fraser University. This website showcases my previous work experience alongside my personal projects.</p>
+            </section>
+        </div>
+        <div class="col-md-4">
+            <section class="sectionmain">
+                <h3>Contact Me</h3>
+                <p><a href="mailto:matthew_zegar@sfu.ca">matthew_zegar@sfu.ca<i class="fa fa-address-book icon" style="font-size:24px"></i></a></p>
+            </section>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-8">
+            <section class="sectionmain" id="WorkExperience">
+                <h3>Work Experience</h3>
+                <jobtitle><a href="https://kabam.com/">Kabam - Software Engineer Coop</a></jobtitle> <date>(May 2019 - Present)</date>
+                <ul style="list-style-type:disc;">
+                    <li>Front-end work using C#</li>
+                    <li>T.B.D</li>
+                    <li>T.B.D</li>
+                </ul>
+            </section>
+        </div>
+        <div class="col-md">
+            <section class="sectionmain">
+                <h3>Courses</h3>
+                <ul style="list-style-type:disc;">
+                    <li>Data Structures and Programming</li>
+                    <li>Introduction to Software Engineering</li>
+                    <li>Database Systems</li>
+                    <li>OOP using C++</li>
+                    <li>OOP using Java</li>
+                </ul>
+            </section>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md">
+            <section class="sectionmain">
+                <h3>Languages</h3>
+                <p>C++, Java, C#, JavaScript, Python</p>
+            </section>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md">
+            <section class="sectionmain" id="Projects">
+                <!--Projects-->
+                <h3>Projects</h3>
+                <jobtitle><a href="https://github.com/mzegar/DotNetNesEmu">DotNetNesEmu</a></jobtitle> <date>C# – (April 2019 - Present)</date>
+                <ul style="list-style-type:disc;">
+                    <li>Modernized NES emulator coded with C# using 6502 CPU specifications</li>
+                    <li>Implemented a quick decoding of opcodes using a hash map</li>
+                    <li>Used test scripts to verify the consistency of the CPU implementation</li>
+                </ul>
+
+                <jobtitle>JavaScript Chip8 emulator</jobtitle> <date>JavaScript, Bootstrap – (Jan 2019 - April 2019)</date>
+                <ul style="list-style-type:disc;">
+                    <li>Played the role of GitHub master and managed the repository for group members</li>
+                    <li>Implemented all front-end work for the project (using JavaScript, Bootstrap, HTML)</li>
+                    <li>Designed the internal program structure according to Chip8 system specifications</li>
+                </ul>
+
+                <jobtitle>PokémonApp</jobtitle> <date>Java, JavaFX, Spring – (April 2019)</date>
+                <ul style="list-style-type:disc;">
+                    <li>Setup a Spring server that provides Rest API (CRUD)</li>
+                    <li>Rest API calls modify the "Database" with the information passed in</li>
+                    <li>Designed a front-end JavaFX application responsible for providing UI and making client calls to the server</li>
+                </ul>
+
+                <jobtitle><a href="https://github.com/mzegar/Invoke">Invoke</a></jobtitle> <date>C#, Unity – (Dec 2018)</date>
+                <ul style="list-style-type:disc;">
+                    <li>Participated in the “Homemade Game Jam” by creating a mobile game within Unity</li>
+                    <li>Designed all visual assets and programming used within the game</li>
+                    <li>Complied a mobile and web version</li>
+                </ul>
+
+                <jobtitle><a href="https://github.com/mzegar/Tetracube">Tetracube</a></jobtitle> <date>Python, Pygame – (Oct 2018)</date>
+                <ul style="list-style-type:disc;">
+                    <li>Recreated NES Tetris using Python and Pygame library</li>
+                    <li>Implemented an OOP approach to represent Tetris pieces in memory</li>
+                    <li>Compiled all Python code to an executable using cx_Freeze makefile</li>
+                </ul>
+
+                <jobtitle><a href="https://github.com/mzegar/dotabot">Dotabot</a></jobtitle> <date>JavaScript, Node.js, Heroku – (May 2018)</date>
+                <ul style="list-style-type:disc;">
+                    <li>Gathers API information from a server and neatly formats it for users requesting data</li>
+                    <li>Allows users to input their unique ID to request specific information about their statistics</li>
+                    <li>Hosted on Heroku to maintain constant uptime</li>
+                </ul>
+
+                <jobtitle><a href="https://github.com/mzegar/">Other projects</a></jobtitle>
+                <ul style="list-style-type:disc;">
+                    <li>Smaller other projects found on my GitHub profile</li>
+                </ul>
+            </section>
+        </div>
     </div>
 </div>
 
-<div class="container">
-    <section class="sectionmain">
-        <h3><b>About me</b></h3>
-        <p>Hello! My name is Matthew Zegar, I am currently a student at Simon Fraser University. This website is a personal project that links to all of my current/future personal projects.</p>
-        <h3><b>Education</b></h3>
-        <p>I am a second-year student studying Computer Science under the program of Software Systems at <a href="http://www.sfu.ca/computing/prospective-students/undergraduate-students/programs/degree-programs/softwaresystems.html"> SFU </a>  (Nov 11th, 2018).</p>
-        <h3><b>Projects</b></h3>
-        <h5><u>First year (Fall 2017)</u></h5>
-        <p><a href="projects/discordbot.html">Discord bot created using NodeJS that gathers DOTA 2 API data</a></p>
-        <p><a href="projects/connect4.html">Github to Connect 4</a> --- <a href="https://mzegar.itch.io/connect4">Connect 4 (browser-based)</a> </p>
-        <p><a href="projects/dailyweatherapp.html">Daily weather app created using ElectronJS</a></p>
-        <p><a href="projects/minesweeper.html">Minesweeper in C++</a></p>
-        <h5><u>Second year (Fall 2018)</u></h5>
-        <p><a href="projects/tetracube.html">Tetracube - NES Tetris remake created using Python</a></p>
-        <p><a href="projects/chip8.html">Chip8 Emulator (CMPT 276 Group project)</a></p>
-        <h3><b>Contact information</b></h3>
-        <p><a href="https://github.com/mzegar">Github</a></p>
-        <p><a href="https://www.linkedin.com/in/matthewzegar">Linkedin</a></p>
-        <p>If you have any questions please email me at <b> mzegar@sfu.ca </b> or <b> matthewzegar@gmail.com </b></p>
-    </section>
-</div>
 
 
 </body>

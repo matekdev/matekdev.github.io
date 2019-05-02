@@ -1,54 +1,23 @@
+/*Header text*/
 .jumbotron {
-    background-color: #f4f4f4;
+    background-color: #F5F5F5;
+    padding-bottom: 0;
 }
 
+/*Background related*/
+body {
+    background: #F5F5F5;
+}
+
+/*Text related CSS*/
 h4 {
     font-size: 70px;
     color: #000000;
 }
 
-.container {
-    color: #000000;
-}
-
-.sectionmain {
-    background-color: #ffffff;
-    border: 1px solid black;
-    padding: 20px;
-    margin: 25px;
-    margin-top: -50px;
-}
-
-.navbar-brand {
-    margin-top: -3px;
-}
-
-.icon {
-    color: black !important;
-}
-
-.dropdown-item.active, .dropdown-item:active {
-    color: #fff;
-    background-color: dodgerblue;
-}
-
-.titleup {
-    margin-top: 25px;
-}
-
-body {
-    background: #f4f4f4;
-}
-
-section {
-    background-color: #ffffff;
-    border: 1px solid black;
-    padding: 20px;
-    margin: 25px;
-}
-
 p {
-    font-size: 15px;
+    font-size: 17px;
+    font-family: News Cycle, serif;
 }
 
 p2 {
@@ -56,16 +25,51 @@ p2 {
     color: #666666;
 }
 
-p a {
-    color: #0000EE;
+date {
+    font-family: News Cycle, serif;
+    font-style: italic;
+    font-size: 17px;
 }
 
-p a:hover {
-    color: darkblue;
+jobtitle {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+a {
+    color: #4A6FA5;
 }
 
 p a:visited {
-    color: #0000EE;
+    color: #4A6FA5;
 }
+
+.href {
+    color: #4A6FA5;
+}
+
+p a:hover {
+    color: #274C77;
+}
+
+
+/*Section*/
+section {
+    background-color: #FFFFFF;
+    padding: 20px;
+    margin: -5px;
+    margin-bottom: 30px;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.3);
+}
+
+
+/*Icon related*/
+.icon {
+    position: relative;
+    top: 3px;
+    left: 5px;
+}
+
+
 
 

@@ -16,6 +16,7 @@ body {
 h4 {
     font-size: 70px;
     color: #000000;
+    font-family: News Cycle, serif;
 }
 
 p {
@@ -26,6 +27,7 @@ p {
 p2 {
     font-size: 24px;
     color: #666666;
+    font-family: News Cycle, serif;
 }
 
 date {
@@ -37,6 +39,7 @@ date {
 jobtitle {
     font-size: 17px;
     font-weight: bold;
+    font-family: News Cycle, serif;
 }
 
 jobtitle:hover {
@@ -53,6 +56,10 @@ p a:visited {
 
 .href {
     color: #4A6FA5;
+}
+
+li {
+    font-family: News Cycle, serif;
 }
 
 p a:hover {

@@ -1,3 +1,6 @@
+/*Scrolling*/
+html { scroll-behavior: smooth; }
+
 /*Header text*/
 .jumbotron {
     background-color: #F5F5F5;

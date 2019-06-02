@@ -13,19 +13,23 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
     <link rel="icon" href="icon.png">
+
 </head>
 <body>
 
-<div class="jumbotron text-center">
+<div class="jumbotron text-center jumbotron-fluid border-bottom border-dark">
     <!--Image of me-->
-    <img src="matt.png" class="rounded mx-auto d-block" alt="pictureofme:)" style="box-shadow: 0px 2px 4px rgba(0,0,0,0.3);" width="200" height="200">
+    <img src="matt.png" alt="pictureofme:)" style="box-shadow: 0px 2px 4px rgba(0,0,0,0.3);" width="200" height="200">
 
     <!--Header text-->
     <h4>Matthew Zegar</h4>
     <!--Sub header text-->
     <p2>Computer Science Student at Simon Fraser University</p2>
     <br>
+</div>
 
+<!--Grid-->
+<div class="container center">
     <!--Nav bar links-->
     <ul class="nav justify-content-center">
         <li class="nav-item">
@@ -43,13 +47,12 @@
         <li class="nav-item">
             <p><a class="nav-link" href="index.html#Projects"><i class="fas fa-code-branch icon" style="font-size:24px"></i>Projects</a></p>
         </li>
+        <li class="nav-item">
+            <p><a class="nav-link" href="index.html#Education"><i class="fas fa-graduation-cap" style="font-size:24px"></i>Education</a></p>
+        </li>
     </ul>
-</div>
 
 
-
-<!--Grid-->
-<div class="container center">
     <!--ABOUT ME & CONTACT ME-->
     <div class="row">
         <div class="col-md-9">
@@ -131,7 +134,7 @@
                     <li>Designed the internal program structure according to Chip8 system specifications</li>
                 </ul>
 
-                <jobtitle>PokémonApp</jobtitle> <date>Java, JavaFX, Spring – (April 2019)</date>
+                <jobtilenolink>PokémonApp</jobtilenolink> <date>Java, JavaFX, Spring – (April 2019)</date>
                 <ul style="list-style-type:disc;">
                     <li>Setup a Spring server that provides Rest API (CRUD)</li>
                     <li>Rest API calls modify the "Database" with the information passed in</li>
@@ -172,7 +175,7 @@
 
     <div class="row">
         <div class="col-md">
-            <section class="sectionmain">
+            <section class="sectionmain" id="Education">
                 <h3>Education</h3>
                 <p>BSc. Software Systems - Computer Science   <i>(Sept 2017 - Sept 2021)</i></p>
                 <i><p>Simon Fraser University, Burnaby, British Columbia</p></i>
@@ -180,7 +183,6 @@
         </div>
     </div>
 </div>
-
 
 
 </body>

@@ -1,11 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f2399a6-30be-4b4b-a4e1-52e946da7392" name="Default Changelist" comment="">
+    <list default="true" id="3445cd34-956d-434d-8668-d1128923e700" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/textstyles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/body.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/mzegar.github.io.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mzegar.github.io.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,92 +51,84 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1S5unZa8VBWDl5KwlwisSKod55q" />
+  <component name="ProjectId" id="1fqpCtyd0cTCALGB1aNpTtD8twt" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="D:\Programs\WebStorm 2020.1.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Matt\Documents\GitHub\mzegar.github.io\projects" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Programs\dev\mzegar.github.io\src\components" />
+      <recent name="D:\Programs\dev\mzegar.github.io\src\common" />
+      <recent name="D:\Programs\dev\mzegar.github.io\src" />
+      <recent name="D:\Programs\dev\mzegar.github.io\public" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1f2399a6-30be-4b4b-a4e1-52e946da7392" name="Default Changelist" comment="" />
-      <created>1555483460787</created>
+      <changelist id="3445cd34-956d-434d-8668-d1128923e700" name="Default Changelist" comment="" />
+      <created>1596955352747</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1555483460787</updated>
-      <workItem from="1555483469436" duration="2472000" />
-      <workItem from="1555486234648" duration="1784000" />
-      <workItem from="1556340331770" duration="28000" />
-      <workItem from="1556767123224" duration="6345000" />
-      <workItem from="1556774976254" duration="2488000" />
-      <workItem from="1556779570448" duration="1397000" />
-      <workItem from="1556781850694" duration="1741000" />
-      <workItem from="1556783757780" duration="81000" />
-      <workItem from="1556783908442" duration="6000" />
-      <workItem from="1556783991362" duration="307000" />
-      <workItem from="1556822106836" duration="1403000" />
-      <workItem from="1556824031203" duration="381000" />
-      <workItem from="1556827574158" duration="2022000" />
-      <workItem from="1556830374325" duration="136000" />
-      <workItem from="1556830618944" duration="212000" />
-      <workItem from="1556840425054" duration="331000" />
-      <workItem from="1556848367437" duration="257000" />
-      <workItem from="1556867331930" duration="50000" />
-      <workItem from="1557041279827" duration="86000" />
-      <workItem from="1557085637388" duration="88000" />
-      <workItem from="1557447664396" duration="97000" />
-      <workItem from="1559507818840" duration="5053000" />
-      <workItem from="1559521102494" duration="90000" />
-      <workItem from="1570865959704" duration="207000" />
-      <workItem from="1573333541827" duration="678000" />
-      <workItem from="1573339933029" duration="26000" />
-      <workItem from="1576905323833" duration="51000" />
-      <workItem from="1576905419585" duration="34000" />
-      <workItem from="1576905520470" duration="50000" />
-      <workItem from="1577059631200" duration="44000" />
-      <workItem from="1579291554152" duration="270000" />
-      <workItem from="1586630589177" duration="859000" />
-      <workItem from="1588467311533" duration="2291000" />
-      <workItem from="1588469927681" duration="214000" />
-      <workItem from="1589060653494" duration="606000" />
+      <updated>1596955352747</updated>
+      <workItem from="1596955358727" duration="2853000" />
+      <workItem from="1596992471723" duration="495000" />
+      <workItem from="1596992980356" duration="1694000" />
+      <workItem from="1597003172967" duration="6664000" />
+      <workItem from="1597022120523" duration="1246000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="667" y="119" width="585" height="801" key="find.popup" timestamp="1597022941914">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="667" y="119" width="585" height="801" key="find.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597022941914" />
   </component>
 </project>

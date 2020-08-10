@@ -4,7 +4,7 @@ import React from "react";
 export function NavBar() {
     return (
         <ul className="nav justify-content-center">
-            <NavBarItem link={'https://github.com/mzegar/resume/blob/master/Matthew%20Zegar%20-%20Resume%202019%201page.pdf'}>
+            <NavBarItem link={'https://github.com/mzegar/resume/blob/master/Matthew%20Zegar%20-%20Resume%202020%201page.pdf'}>
                 <FaIdCard className={'navBarItemIcon'}/> Resume
             </NavBarItem>
 

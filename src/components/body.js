@@ -24,7 +24,7 @@ export function Body() {
             </div>
 
             <div className="row">
-                <div className="col-md" id={'WorkExperience'}>
+                <div className="col-md">
                     <CustomContainer title={'Work Experience'}>
                         <ContainerLink><a href="https://homex.com/">HomeX - Mobile Developer Internship</a></ContainerLink> <Date>(May 2020 - Sept 2020)</Date>
                         <ul>
@@ -59,7 +59,7 @@ export function Body() {
             </div>
 
             <div className="row">
-                <div className="col-md" id={'Projects'}>
+                <div className="col-md">
                     <CustomContainer title={'Projects'}>
                         <ContainerLink><a href="https://github.com/mzegar/Retter">Retter - Flutter Reddit App</a></ContainerLink> <Date>Dart, Flutter – (June 2020)</Date>
                         <ul>
@@ -124,7 +124,7 @@ export function Body() {
             </div>
 
             <div className="row">
-                <div className="col-md" id={'Education'}>
+                <div className="col-md">
                     <CustomContainer title={'Education'}>
                         <p>BSc. Software Systems - Computer Science   <i>(Sept 2017 - Sept 2021)</i></p>
                         <i>Simon Fraser University, Burnaby, British Columbia</i>

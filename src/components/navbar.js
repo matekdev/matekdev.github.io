@@ -15,18 +15,6 @@ export function NavBar() {
             <NavBarItem link={'https://www.linkedin.com/in/matthewzegar/'}>
                 <FaLinkedinIn className={'navBarItemIcon'}/> LinkedIn
             </NavBarItem>
-
-            <NavBarItem link={'#WorkExperience'}>
-                <FaUsers className={'navBarItemIcon'}/> Work Experience
-            </NavBarItem>
-
-            <NavBarItem link={'#Projects'}>
-                <FaCodeBranch className={'navBarItemIcon'}/> Projects
-            </NavBarItem>
-
-            <NavBarItem link={'#Education'}>
-                <FaGraduationCap className={'navBarItemIcon'}/> Education
-            </NavBarItem>
         </ul>
     );
 }

@@ -2,6 +2,8 @@
 
 Personal portfolio website created using React
 
+https://mzegar.github.io/
+
 ## Project Structure
 
 - src/...

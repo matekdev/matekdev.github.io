@@ -8,7 +8,7 @@ export function Body() {
             <div className="row">
                 <div className="col-md-8">
                     <CustomContainer title={'About Me'}>
-                        Hello! My name is Matthew Zegar, I am currently doing an internship at HomeX. This website
+                        Hello! My name is Matthew Zegar. I'm currently doing an internship at NVIDIA. This website
                         contains all relevant information regarding my work experience, projects,
                         and education.
                     </CustomContainer>
@@ -26,7 +26,13 @@ export function Body() {
             <div className="row">
                 <div className="col-md">
                     <CustomContainer title={'Work Experience'}>
-                        <ContainerLink><a href="https://homex.com/">HomeX - Mobile Developer Internship</a></ContainerLink> <Date>(May 2020 - Sept 2020)</Date>
+                        <ContainerLink><a href="https://www.nvidia.com/en-us/">NVIDIA - Software QA Engineer Intern</a></ContainerLink> <Date>(Jan 2021 - Present)</Date>
+                        <ul>
+                            <li>Currently interning here!</li>
+                        </ul>
+
+
+                        <ContainerLink><a href="https://homex.com/">HomeX - Mobile Developer Internship</a></ContainerLink> <Date>(May 2020 - Dec 2020)</Date>
                         <ul>
                             <li>Built core user functionality on pre-production IOS/Android consumer mobile app using Flutter</li>
                             <li>Developed automated end-to-end tests in Dart ran using GitHub actions</li>

@@ -13,6 +13,10 @@ https://mzegar.github.io/
     - header.js - Header for the webpage
     - navbar.js - Navigation bar for the webpage
     
+## Building
+
+`npm install`
+    
 ## Deployment
 
 `yarn run deploy`

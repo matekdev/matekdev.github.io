@@ -54,25 +54,25 @@ a:hover {
 html, body {
     margin: 0;
     height: 100%;
-    background-color: #171727 !important;
+    background-color: #0d0e0f !important;
     scroll-behavior: smooth;
 }
 
 .jumbotron {
-    background-color: #171727 !important;
+    background-color: #0d0e0f !important;
     padding-bottom: 0px !important;
 }
 
 .headerImage {
-    width: 200px;
-    height: 305px;
+    width: 230px;
+    height: 300px;
     margin-bottom: 20px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.3);
     border-radius: 1%;
 }
 
 .customContainer {
-    background-color: #0f0f1a !important;
+    background-color: #16181b !important;
     padding: 20px;
     margin: -5px -5px 30px;
 }

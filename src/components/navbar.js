@@ -1,4 +1,4 @@
-import {FaCodeBranch, FaGithub, FaGraduationCap, FaIdCard, FaLinkedinIn, FaUsers} from "react-icons/fa";
+import {FaGithub, FaIdCard, FaLinkedinIn} from "react-icons/fa";
 import React from "react";
 
 export function NavBar() {

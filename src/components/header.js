@@ -1,6 +1,6 @@
 import {Jumbotron} from "react-bootstrap";
 import {SubTitle, Title} from "../common/textstyles";
-import mattPhoto from "../matt.jpg";
+import mattPhoto from "../assets/matt.jpg";
 import React from "react";
 
 export function Header() {

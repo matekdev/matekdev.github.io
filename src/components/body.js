@@ -157,6 +157,8 @@ export function Body() {
                                         using Java</a></li>
                                     <li><a href="https://www.sfu.ca/students/calendar/2020/spring/courses/cmpt/295.html">Introduction
                                         to Computer Systems</a></li>
+                                    <li><a href="https://www.sfu.ca/students/calendar/2020/fall/courses/cmpt/320.html">Social Implications - Computerized Society</a></li>
+                                    <li><a href="https://www.sfu.ca/students/calendar/2020/summer/courses/cmpt/376w.html">Technical Writing and Group Dynamics</a></li>
                                 </ul>
                             </div>
                             <div className="col-md">
@@ -170,6 +172,14 @@ export function Body() {
                                         Mathematics I</a></li>
                                     <li><a href="https://www.sfu.ca/students/calendar/2020/spring/courses/macm/201.html">Discrete
                                         Mathematics II</a></li>
+                                </ul>
+                            </div>
+                            <div className="col-md">
+                                <ContainerLink>Misc.</ContainerLink>
+                                <ul>
+                                    <li><a href="https://www.sfu.ca/students/calendar/2020/fall/courses/ca/104.html">
+                                        Music Fundamentals
+                                    </a></li>
                                 </ul>
                             </div>
                         </div>

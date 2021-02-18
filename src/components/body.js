@@ -26,9 +26,11 @@ export function Body() {
             <div className="row">
                 <div className="col-md">
                     <CustomContainer title={'Work Experience'}>
-                        <ContainerLink><a href="https://www.nvidia.com/en-us/">NVIDIA - Software QA Engineer Intern</a></ContainerLink> <Date>(Jan 2021 - Present)</Date>
+                        <ContainerLink><a href="https://www.nvidia.com/en-us/">NVIDIA - Internal Tools Developer Intern</a></ContainerLink> <Date>(Jan 2021 - April 2021)</Date>
                         <ul>
-                            <li>Currently interning here!</li>
+                            <li>Contributed various improvements to GPU benchmarking software</li>
+                            <li>Lead the development of tools that aided the analysis process of NVIDIA Reflex Technology</li>
+                            <li>.NET, C#, Python</li>
                         </ul>
 
 
@@ -37,15 +39,17 @@ export function Body() {
                             <li>Built core user functionality on pre-production IOS/Android consumer mobile app using Flutter</li>
                             <li>Developed automated end-to-end tests in Dart ran using GitHub actions</li>
                             <li>Constructed app pages using MVVM (Model-View-ViewModel) and GraphQL endpoints</li>
+                            <li>Flutter, Dart, GraphQL</li>
                         </ul>
 
-                        <ContainerLink><a href="https://kabam.com/">Kabam - Software Engineer Co-op</a></ContainerLink> <Date>(May 2019 - Dec 2019)</Date>
+                        <ContainerLink><a href="https://kabam.com/">Kabam - Software Developer Co-op</a></ContainerLink> <Date>(May 2019 - Dec 2019)</Date>
                         <ul>
                             <li>Worked alongside three different teams during the duration of the co-op (Front-end, Systems, Back-end)</li>
                             <li>Implemented features using C# played by hundreds of thousands of users</li>
                             <li>Optimized game code to improve game performance and reduce game crashes</li>
                             <li>Improved server web interface usability using Javascript, jQuery, and Node.js</li>
                             <li>Fixed bugs and problem solved live in-game issues over multiple releases</li>
+                            <li>C#, JavaScript, JQuery, and Node.js</li>
                         </ul>
                     </CustomContainer>
                 </div>

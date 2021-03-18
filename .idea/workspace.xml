@@ -21,7 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3445cd34-956d-434d-8668-d1128923e700" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/body.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/body.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,6 +105,7 @@
       <workItem from="1607825508103" duration="45000" />
       <workItem from="1611634718441" duration="1831000" />
       <workItem from="1613277147667" duration="164000" />
+      <workItem from="1613610856715" duration="345000" />
     </task>
     <servers />
   </component>

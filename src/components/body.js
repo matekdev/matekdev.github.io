@@ -26,11 +26,9 @@ export function Body() {
             <div className="row">
                 <div className="col-md">
                     <CustomContainer title={'Work Experience'}>
-                        <ContainerLink><a href="https://www.nvidia.com/en-us/">NVIDIA - Internal Tools Developer Intern</a></ContainerLink> <Date>(Jan 2021 - April 2021)</Date>
+                        <ContainerLink><a href="https://www.nvidia.com/en-us/">NVIDIA - Software Intern</a></ContainerLink> <Date>(Jan 2021 - August 2021)</Date>
                         <ul>
-                            <li>Contributed various improvements to GPU benchmarking software</li>
-                            <li>Lead the development of tools that aided the analysis process of NVIDIA Reflex Technology</li>
-                            <li>.NET, C#, Python</li>
+                            <li>Currently working here!</li>
                         </ul>
 
 

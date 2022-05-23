@@ -9,11 +9,6 @@ tags = [
 - Programmed core mechanics for the project (Round system, weapons system, spectating, etc.)
 - Actively reviewed, managed contributions, and handled issues on the GitHub page
 
-**[Action Tag](https://github.com/mzegar/action-tag) C#, SCSS, s&box, Blender (Sept 2021)**
-- Action Quake inspired modification for the game engine s&box
-- Modeled and animated the player viewmodels within Blender
-- Built the map using Valve's Hammer 2 mapping tool
-
 **[Retter - Flutter Reddit App](https://github.com/mzegar/Retter) Dart, Flutter (Jun 2020)**
 - A complete Reddit experience built using Flutter
 - Open sourced and contributed to by other developers
@@ -25,11 +20,6 @@ tags = [
 - Wrote extensive testing for the application using the GoogleTest framework
 - Led an eight-person group as the "Project Manager"
 
-**Database Interface Java, JavaFX, Spring (Apr 2019)**
-- Setup a Spring server that provides Rest API (CRUD)
-- Rest API calls modify the "Database" with the information passed in
-- Designed a front-end JavaFX application responsible for providing UI and making client calls to the server
-
 **[Tetracube](https://github.com/mzegar/Tetracube) Python, Pygame (Oct 2018)**
 - Recreated NES Tetris using Python and Pygame library
 - Implemented an OOP approach to represent Tetris pieces in memory
@@ -40,4 +30,4 @@ tags = [
 - Allows users to input their unique ID to request specific information about their statistics
 - Hosted on Heroku to maintain constant uptime
 
-[Other projects...](https://github.com/mzegar?tab=repositories)
+[Full list available here...](https://github.com/mzegar?tab=repositories)

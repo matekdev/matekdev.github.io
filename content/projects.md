@@ -4,10 +4,11 @@ tags = [
     "projects",
 ]
 +++
-**[TTT](https://github.com/mzegar/sbox-TTT) C#, SCSS, s&box (Present)**
-- TTT is the re-imagining of the popular [Garry's Mod TTT](https://www.troubleinterroristtown.com/) game built for [s&box](https://sbox.facepunch.com/news) (built on Valve's Source 2 engine)
-- Programmed core mechanics for the project (Round system, weapons system, spectating, etc.)
-- Actively reviewed, managed contributions, and handled issues on the GitHub page
+**[TTT](https://sbox-ttt.github.io/) C#, SCSS, s&box (Present)**
+- TTT is the re-imagining of the popular [Garry's Mod TTT](https://www.troubleinterroristtown.com/) game built using [s&box](https://sbox.facepunch.com/news)
+- Programmed every single aspect of the game with the assistance of one other team member
+- Highly anticipated multiplayer game with total player counts in the thousands
+- Development blogs posted to my YouTube accruing [tens of thousands of video views](https://www.youtube.com/watch?v=X4cRa04afgY)
 
 **[Retter - Flutter Reddit App](https://github.com/mzegar/Retter) Dart, Flutter (Jun 2020)**
 - A complete Reddit experience built using Flutter

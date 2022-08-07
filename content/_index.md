@@ -22,6 +22,6 @@ regarding my work experience, projects, and education.
 - C#, JavaScript, JQuery, and Node.js
 
 ### Education
-BSc. Software Systems - Computer Science (Sept 2017 - Sept 2022)
+BSc. Software Systems - Computer Science (Sept 2017 - May 2023)
 
 Simon Fraser University, Burnaby, British Columbia

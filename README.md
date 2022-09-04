@@ -1,7 +1,7 @@
-# mzegar.github.io
+# matekdev.github.io
 
 Personal portfolio website created using [Hugo](https://gohugo.io/).
 
-https://mzegar.github.io/
+https://matekdev.github.io/
 
-Previous personal portfolio React website can be found [here...](https://github.com/mzegar/old-mzegar-github-io)
+Previous personal portfolio React website can be found [here...](https://github.com/matekdev/old-mzegar-github-io)

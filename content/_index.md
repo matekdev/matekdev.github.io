@@ -1,5 +1,5 @@
 ### About Me
-Hello! My name is Matthew Zegar. I'm currently finishing my Computer Science degree at SFU. This website contains all relevant information
+Hello! My name is Matthew Zegar. I'm currently finishing my Computer Science degree at SFU and looking for a New Grad Software Engineer role for 2023. This website contains all relevant information
 regarding my work experience, projects, and education.
 
 ### Work Experience

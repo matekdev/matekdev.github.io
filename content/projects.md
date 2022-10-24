@@ -4,11 +4,15 @@ tags = [
     "projects",
 ]
 +++
-**[TTT](https://sbox-ttt.github.io/) C#, SCSS, s&box (Present)**
+**[TTT](https://cigarlounge.github.io/) C#, SCSS, s&box (Present)**
 - TTT is the re-imagining of the popular [Garry's Mod TTT](https://www.troubleinterroristtown.com/) game built using [s&box](https://sbox.facepunch.com/news)
 - Programmed every single aspect of the game with the assistance of one other team member
 - Highly anticipated multiplayer game with total player counts in the thousands
 - Development blogs posted to my YouTube accruing [tens of thousands of video views](https://www.youtube.com/watch?v=X4cRa04afgY)
+
+**[GroupStock](https://github.com/matekdev/GroupStock) React, Express, MongoDB (May 2022 - August 2022)**
+- Front-end React web application interacting with an Express server pulling data from a Mongo database
+- Full stack web application that enables users to track and analyze stock data
 
 **[Retter - Flutter Reddit App](https://github.com/matekdev/Retter) Dart, Flutter (Jun 2020)**
 - A complete Reddit experience built using Flutter

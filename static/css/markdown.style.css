@@ -1,0 +1,21 @@
+/* 
+    Markdown CSS 
+*/
+
+/* Code snippets need internal padding. */
+pre {
+    padding: 5px;
+}
+
+/* Embed videos need some padding  */
+iframe {
+    padding: 0 0 20px 0;
+}
+
+/* Images should be centered */
+p img {
+    display: block;
+    margin: 1.0rem auto;
+    max-width: 100%;
+    height: auto;
+}

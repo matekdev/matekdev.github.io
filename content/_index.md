@@ -20,5 +20,3 @@
 
 ## Education
 BSc. Computer Science (Sept 2017 - April 2023) @ Simon Fraser University - B.C, Canada
-
-Add footer

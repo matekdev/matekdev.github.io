@@ -2,3 +2,8 @@ body {
     background-color: #131418;
     font-family: Roboto, sans-serif;
 }
+
+i {
+    font-size: 26px;
+    padding: 0px 3px;
+}

@@ -2,7 +2,32 @@
     Markdown CSS 
 */
 
-/* Code snippets need internal padding. */
+/* Text styles */
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: #eaeaea !important;
+}
+
+p,
+li {
+    color: #babdc4;
+}
+
+a,
+a:visited {
+    color: #5292ff;
+    transition: 0.2s;
+    font-weight: 500;
+}
+
+a:hover {
+    color: #457ad4;
+}
+
+/* Code snippets need internal padding */
 pre {
     padding: 5px;
 }

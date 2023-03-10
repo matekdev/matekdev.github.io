@@ -1,5 +1,5 @@
 ## Work Experience
-Update this content
+Update this content & center shit
 
 [NVIDIA - Software Intern](https://www.nvidia.com/en-us/) (Jan 2021 - Dec 2021)
 - Primarily worked on the open source repo [node-rapids](https://github.com/rapidsai/node-rapids)
@@ -20,4 +20,4 @@ Update this content
 - C#, JavaScript, JQuery, and Node.js
 
 ## Education
-BSc. Computer Science (Sept 2017 - May 2023) @ Simon Fraser University - B.C, Canada
+BSc. Computer Science (Sept 2017 - April 2023) @ Simon Fraser University - B.C, Canada

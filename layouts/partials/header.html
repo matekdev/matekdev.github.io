@@ -1,9 +1,9 @@
-<nav class="navbar navbar-expand">
-    <a href="/">MZ</a>
+<nav class="navbar navbar-expand" style="padding: 20px 0px;">
+    <a href="/" style="text-decoration: none; font-weight: bold;">MZ</a>
     <div class="navbar-collapse justify-content-end">
         <div>
             {{ range .Site.Menus.main }}
-            <a href="{{ .URL }}">
+            <a href="{{ .URL }}" style="text-decoration: none; font-weight: bold; padding-left: 20px;">
                 {{ $text := print .Name | safeHTML }}
                 {{ $text }}
             </a>

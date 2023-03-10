@@ -12,7 +12,8 @@ h5 {
 }
 
 p,
-li {
+li,
+span {
     color: #babdc4;
 }
 

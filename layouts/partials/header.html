@@ -1,9 +1,14 @@
 <nav class="navbar navbar-expand" style="padding: 20px 0px;">
-    <a href="/" style="text-decoration: none; font-weight: bold;">matek.dev</a>
+    {{ $isHome := (eq "/" .Page.RelPermalink) }}
+    <a class="nav-item{{ if ($isHome) }} active{{ end }}" href="/"
+        style="text-decoration: none; font-weight: bold;">matek.dev</a>
     <div class="navbar-collapse justify-content-end">
         <div>
+            {{ $page := (replace .Page.RelPermalink "/" "") }}
             {{ range .Site.Menus.main }}
-            <a href="{{ .URL }}" style="text-decoration: none; font-weight: bold; padding-left: 20px;">
+            {{ $active := (eq (lower .Name) $page) }}
+            <a class="nav-item{{ if ($active) }} active{{ end }}" href="{{ .URL }}"
+                style="text-decoration: none; font-weight: bold; padding-left: 20px;">
                 {{ $text := print .Name | safeHTML }}
                 {{ $text }}
             </a>

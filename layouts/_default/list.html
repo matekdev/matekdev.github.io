@@ -2,8 +2,8 @@
 <div>
     <h2>{{ .Title }}</h2>
     {{ range .Pages.ByPublishDate.Reverse }}
-    <div class="container card" onclick="location.href='{{ .RelPermalink }}'">
-        <h4>{{ .Title }}</h4>
+    <a href="{{ .RelPermalink }}" class="container card" style="text-decoration: none;">
+        <h4 style="text-decoration: underline;">{{ .Title }}</h4>
         {{if .Params.date}}
         {{ $dateTime := .PublishDate.Format "2006-01-02" }}
         {{ $dateFormat := .Site.Params.dateFormat | default "Jan 2, 2006" }}
@@ -14,7 +14,7 @@
             math.Round (div (countwords .Content)
             220.0) }} min read</span>
         {{end}}
-    </div>
+    </a>
     {{ end }}
 </div>
 {{ end }}

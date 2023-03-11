@@ -39,7 +39,7 @@ iframe {
 }
 
 /* Images should be centered */
-p img {
+#post img {
     display: block;
     margin: 1.0rem auto;
     max-width: 100%;

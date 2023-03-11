@@ -7,7 +7,7 @@ tags = [
 
 <div class="d-flex flex-wrap">
 
-{{< project-preview "Grubs" "C#, Razor, s&box" "/images/projects/grubs.png" "https://github.com/apetavern/sbox-grubs"  >}} 
+{{< project-preview "Grubs" "C#, Razor, s&box" "/images/projects/Grubs.png" "https://github.com/apetavern/sbox-grubs"  >}} 
 Multiplayer *worms-like* game
 {{< /project-preview >}}
 

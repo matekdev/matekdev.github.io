@@ -35,6 +35,10 @@ pre {
     padding: 5px;
 }
 
+code {
+    font-family: JetBrains Mono, sans-serif;
+}
+
 /* Embed videos need some padding  */
 iframe {
     padding: 0 0 20px 0;

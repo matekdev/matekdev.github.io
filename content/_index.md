@@ -20,3 +20,5 @@
 
 ## Education
 BSc. Computer Science *(Sept 2017 - April 2023)* @ [Simon Fraser University](https://www.sfu.ca/) - British Columbia, Canada
+- Awarded Co-operative Education Computing Science Certificate
+- Spent 2+ years interning at various companies (NVIDIA, HomeX, Kabam)

@@ -19,4 +19,4 @@
 - C#, JavaScript, JQuery, Node.js
 
 ## Education
-BSc. Computer Science *(Sept 2017 - April 2023)* @ Simon Fraser University - British Columbia, Canada
+BSc. Computer Science *(Sept 2017 - April 2023)* @ [Simon Fraser University](https://www.sfu.ca/) - British Columbia, Canada

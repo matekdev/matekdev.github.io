@@ -1,0 +1,18 @@
+{{ define "main" }}
+
+<header class="d-flex align-items-center" style="padding: 0px 0px 20px 10px;">
+    <img src="images/home/lr.jpg" style="border-radius: 8px; width: 90px; margin-right: 10px;" />
+    <div class="d-flex justify-content-center flex-column">
+        <h1 style="margin: 0px;">Matthew Zegar</h1>
+        <div>
+            <a href="https://github.com/matekdev"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/matthewzegar/"><i class="fab fa-linkedin"></i></a>
+            <a href="mailto:matthewzegar@gmail.com"><i class="fas fa-envelope-square"></i></a>
+        </div>
+    </div>
+</header>
+
+<main>
+    {{ .Content }}
+</main>
+{{ end }}

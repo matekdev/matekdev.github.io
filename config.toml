@@ -1,7 +1,6 @@
-baseURL = "https://matekdev.github.io/"
-languageCode = "en-us"
-theme = "reloaded"
-title = "Matthew Zegar | Personal Website"
+baseURL = 'https://matekdev.github.io/'
+languageCode = 'en-us'
+title = 'Matthew Zegar'
 
 [markup]
     [markup.goldmark]

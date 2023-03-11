@@ -1,4 +1,4 @@
-# matekdev.github.io
+# matek.dev
 
 Personal portfolio website created using [Hugo](https://gohugo.io/).
 

@@ -27,7 +27,7 @@ GPU-accelerated data-science libraries on Node.js
 Full-stack stock tracking web app
 {{< /project-preview >}}
 
-{{< project-preview "Many more..." "" "/images/home/lr.jpg" "https://github.com/matekdev?tab=repositories"  >}} 
+{{< project-preview "Many more..." "" "/images/home/lr.png" "https://github.com/matekdev?tab=repositories"  >}} 
 available on my GitHub
 {{< /project-preview >}}
 

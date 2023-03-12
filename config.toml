@@ -1,6 +1,7 @@
 baseURL = 'https://matekdev.github.io/'
 languageCode = 'en-us'
 title = 'Matthew Zegar'
+pluralizeListTitles = false
 
 [markup]
     [markup.goldmark]
@@ -15,6 +16,6 @@ title = 'Matthew Zegar'
         url = "/projects/"
         weight = 1
     [[menu.main]]
-        name = "Posts"
-        url = "/posts/"
+        name = "Blog"
+        url = "/blog/"
         weight = 2

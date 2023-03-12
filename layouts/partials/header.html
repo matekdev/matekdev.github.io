@@ -6,7 +6,7 @@
         <div>
             {{ $page := (replace .Page.RelPermalink "/" "") }}
             {{ range .Site.Menus.main }}
-            {{ $active := (eq (lower .Name) $page) }}
+            {{ $active := (in $page (lower .Name)) }}
             <a class="nav-item{{ if ($active) }} active{{ end }}" href="{{ .URL }}"
                 style="text-decoration: none; font-weight: bold; padding-left: 20px;">
                 {{ $text := print .Name | safeHTML }}

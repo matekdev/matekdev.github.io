@@ -23,6 +23,10 @@ GPU-accelerated data-science libraries on Node.js
 Multiplayer mafia-esque game
 {{< /project-preview >}}
 
+{{< project-preview "Vulkan Model Viewer" "C++, Vulkan" "/images/projects/vulkan-model-viewer.jpg" "https://github.com/matekdev/vulkan-model-viewer"  >}} 
+.obj Model Viewer
+{{< /project-preview >}}
+
 {{< project-preview "Retter" "Flutter, Dart" "/images/projects/Retter.jpg" "https://github.com/matekdev/Retter"  >}} 
 Reddit mobile app
 {{< /project-preview >}}

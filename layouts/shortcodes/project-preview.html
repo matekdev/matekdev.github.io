@@ -1,12 +1,11 @@
-<a href="{{.Get 3}}"
-class="card flex-row align-items-center col-12 col-sm-12 col-md-12 col-lg-6"
-style="text-decoration: none;">
+<a href="{{.Get 3}}" class="card flex-row align-items-center col-12 col-sm-12 col-md-12 col-lg-6"
+    style="text-decoration: none;">
     <i class=" fas fa-external-link-alt"
-    style="position: absolute; top: 10px; right: 5px; color: white; font-size: 15px;"></i>
+        style="position: absolute; top: 10px; right: 5px; color: white; font-size: 15px;"></i>
     <img src="{{.Get 2}}" style="border-radius: 8px; width: 100px; height: 100px; margin: 0px 10px 0px 0px;" />
     <div class="d-flex flex-column">
         <h4 style="margin: 0px;">{{.Get 0}}</h4>
-        <span style="font-style: italic; color: #999999;">{{.Get 1}}</span>
+        <span style="color: #999999;">{{.Get 1}}</span>
         <span>{{ .Inner | markdownify }}</span>
     </div>
 </a>

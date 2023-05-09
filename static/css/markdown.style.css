@@ -1,3 +1,9 @@
+@font-face {
+    font-family: "JetBrainsMono";
+    src: url("../fonts/JetBrainsMono/JetBrainsMono-Regular.woff2");
+    font-weight: normal;
+}
+
 /* 
     Markdown CSS 
 */
@@ -36,7 +42,7 @@ pre {
 }
 
 code {
-    font-family: JetBrains Mono, sans-serif;
+    font-family: JetBrainsMono;
 }
 
 /* Embed videos need some padding  */

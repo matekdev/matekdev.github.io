@@ -18,17 +18,17 @@ Procedurally generated multiplayer *worms-like* game
 {{< project-preview "Node RAPIDS" "C++, TypeScript, CUDA" "/images/projects/Node.jpg" "https://github.com/rapidsai/node"  >}} 
 GPU-accelerated data-science libraries on Node.js
 {{< /project-preview >}}
-    
-{{< project-preview "TTT" "C#, Razor, s&box" "/images/projects/TTT.jpg" "https://github.com/CigarLounge/sbox-TTT"  >}} 
-Multiplayer mafia-esque game
-{{< /project-preview >}}
 
-{{< project-preview "Vulkan Model Viewer" "C++, Vulkan" "/images/projects/vulkan-model-viewer.jpg" "https://github.com/matekdev/vulkan-model-viewer"  >}} 
-.obj Model Viewer
+{{< project-preview "WebGL2 Model Viewer" "JavaScript, WebGL2" "/images/projects/webgl2-model-viewer.jpg" "https://github.com/matekdev/webgl2-model-viewer"  >}} 
+WebGL2 Model Viewer
 {{< /project-preview >}}
 
 {{< project-preview "Retter" "Flutter, Dart" "/images/projects/Retter.jpg" "https://github.com/matekdev/Retter"  >}} 
 Reddit mobile app
+{{< /project-preview >}}
+    
+{{< project-preview "TTT" "C#, Razor, s&box" "/images/projects/TTT.jpg" "https://github.com/CigarLounge/sbox-TTT"  >}} 
+Multiplayer mafia-esque game
 {{< /project-preview >}}
 
 {{< project-preview "Group Stock" "JavaScript, React, Express" "/images/projects/GroupStock.jpg" "https://github.com/matekdev/GroupStock"  >}} 

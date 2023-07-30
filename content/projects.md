@@ -7,6 +7,10 @@ tags = [
 
 <div class="d-flex flex-wrap">
 
+{{< project-preview "Matt's Minigolf" "C#, Razor, s&box" "/images/projects/Minigolf.jpg" "https://github.com/sboxgame/minigolf"  >}} 
+Multiplayer minigolf game
+{{< /project-preview >}}
+
 {{< project-preview "Parkour Painters" "C#, Razor, s&box" "/images/projects/ParkourPainters.jpg" "https://github.com/apetavern/parkour-painters"  >}} 
 Retro multiplayer platformer game
 {{< /project-preview >}}
@@ -27,7 +31,7 @@ WebGL2 Model Viewer
 Reddit mobile app
 {{< /project-preview >}}
     
-{{< project-preview "TTT" "C#, Razor, s&box" "/images/projects/TTT.jpg" "https://github.com/CigarLounge/sbox-TTT"  >}} 
+{{< project-preview "TTT" "C#, Razor, s&box" "/images/projects/TTT.jpg" "https://github.com/matekdev/sbox-TTT"  >}} 
 Multiplayer mafia-esque game
 {{< /project-preview >}}
 

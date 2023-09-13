@@ -11,7 +11,7 @@ tags = [
 
 I recently finished my [Software Systems degree at Simon Fraser University](https://www.sfu.ca/computing/prospective-students/undergraduate-students/programs/degree-programs/softwaresystems.html). I started it back in 2017... so it took some time... but here are my scattered thoughts...
 
-{{< img "/images/blog/20230911/sfu.jpg" "SFU Sustainable Energy Engineering Building" "https://www.sfu.ca/surrey/about/our-locations/sfu-on-university-drive.html" >}}
+{{< img "/images/blog/graduating-university/sfu.jpg" "SFU Sustainable Energy Engineering Building" "https://www.sfu.ca/surrey/about/our-locations/sfu-on-university-drive.html" >}}
 
 ### "University is a waste of time"
 

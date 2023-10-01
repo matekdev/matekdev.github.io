@@ -16,7 +16,7 @@ Multiplayer minigolf game
 {{< /project-preview >}}
 
 {{< project-preview "OpenGL Model Viewer" "OpenGL, C++" "/images/projects/opengl-model-viewer.jpg" "https://github.com/matekdev/opengl-model-viewer"  >}}
-OpenGL Model Viewer written in C++
+OpenGL Model Viewer
 {{< /project-preview >}}
 
 {{< project-preview "Grubs" "C#, Razor, s&box" "/images/projects/Grubs.jpg" "https://github.com/apetavern/sbox-grubs"  >}}

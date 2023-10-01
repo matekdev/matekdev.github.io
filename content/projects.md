@@ -19,12 +19,12 @@ Multiplayer minigolf game
 OpenGL Model Viewer written in C++
 {{< /project-preview >}}
 
-{{< project-preview "Parkour Painters" "C#, Razor, s&box" "/images/projects/ParkourPainters.jpg" "https://github.com/apetavern/parkour-painters"  >}}
-Retro multiplayer platformer game
-{{< /project-preview >}}
-
 {{< project-preview "Grubs" "C#, Razor, s&box" "/images/projects/Grubs.jpg" "https://github.com/apetavern/sbox-grubs"  >}}
 Procedurally generated multiplayer _worms-like_ game
+{{< /project-preview >}}
+
+{{< project-preview "Turtle Links" "Svelte, Supabase, Tailwind" "/images/projects/turtle-links.jpg" "https://github.com/chandertech/turtlelinks"  >}}
+Dynamic link service provider
 {{< /project-preview >}}
 
 {{< project-preview "Retter" "Flutter, Dart" "/images/projects/Retter.jpg" "https://github.com/matekdev/Retter"  >}}
@@ -37,6 +37,10 @@ Multiplayer mafia-esque game
 
 {{< project-preview "Group Stock" "JavaScript, React, Express" "/images/projects/GroupStock.jpg" "https://github.com/matekdev/GroupStock"  >}}
 Full-stack stock tracking web app
+{{< /project-preview >}}
+
+{{< project-preview "Parkour Painters" "C#, Razor, s&box" "/images/projects/ParkourPainters.jpg" "https://github.com/apetavern/parkour-painters"  >}}
+Retro multiplayer platformer game
 {{< /project-preview >}}
 
 {{< project-preview "Many more..." "" "/images/home/lr.jpg" "https://github.com/matekdev?tab=repositories"  >}}

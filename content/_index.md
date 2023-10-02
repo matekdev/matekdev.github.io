@@ -3,7 +3,7 @@
 - Wrote TypeScript/C++ bindings extending [RAPIDS](https://developer.nvidia.com/rapids) data science libraries for the open source NVIDIA project [node-rapids](https://github.com/rapidsai/node-rapids)
 - Integrated [BlazingSQL](https://github.com/BlazingDB/blazingsql) (GPU accelerated SQL engine written in python) support for [node-rapids](https://github.com/rapidsai/node-rapids)
 - Developed a Node.js IO module that accelerated file reads using CUDA and NVIDIA GDS
-- Constructed a React visualization app which integrated server-side rendered graph visualizations
+- Developed internal tools to assist with testing NVIDIA technologies and hardware (GPUs, DLSS, Reflex, etc.)
 - C++, TypeScript, Node.js, React
 
 [HomeX - Mobile Developer Intern](https://homex.com/) *(May 2020 - Dec 2020)*

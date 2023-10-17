@@ -1,4 +1,6 @@
 ## Work Experience
+[Kijiji - Software Developer](https://www.kijiji.ca/) *(Oct 2023 - Present)*
+
 [NVIDIA - Software Intern](https://www.nvidia.com/en-us/) *(Jan 2021 - Dec 2021)*
 - Wrote TypeScript/C++ bindings extending [RAPIDS](https://developer.nvidia.com/rapids) data science libraries for the open source NVIDIA project [node-rapids](https://github.com/rapidsai/node-rapids)
 - Integrated [BlazingSQL](https://github.com/BlazingDB/blazingsql) (GPU accelerated SQL engine written in python) support for [node-rapids](https://github.com/rapidsai/node-rapids)

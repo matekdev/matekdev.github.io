@@ -28,7 +28,7 @@
 		{
 			name: 'HomeX',
 			subheading: 'Mobile Developer Intern',
-			location: 'Toronto',
+			location: 'Remote',
 			startDate: '2020-05-18',
 			endDate: '2020-12-14',
 			href: 'https://homex.com/'

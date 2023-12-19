@@ -13,9 +13,17 @@
 			name: 'NVIDIA',
 			subheading: 'Software Intern',
 			location: 'Remote',
-			startDate: '2021-01-04',
+			startDate: '2021-05-04',
 			endDate: '2021-12-30',
-			href: 'https://www.nvidia.com/'
+			href: 'https://www.nvidia.com/',
+			additionalRoles: [
+				{
+					subheading: 'Performance Lab Intern',
+					location: 'Remote',
+					startDate: '2021-01-04',
+					endDate: '2021-05-14'
+				}
+			]
 		},
 		{
 			name: 'HomeX',

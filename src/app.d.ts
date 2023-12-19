@@ -11,6 +11,16 @@ declare global {
 			href: string;
 			skills?: string;
 			accomplishments?: string[];
+			additionalRoles?: Role[];
+		}
+
+		interface Role {
+			subheading: string;
+			location: string;
+			startDate: string;
+			endDate: string;
+			skills?: string;
+			accomplishments?: string[];
 		}
 	}
 }

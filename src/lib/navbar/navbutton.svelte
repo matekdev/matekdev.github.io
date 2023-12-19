@@ -1,14 +1,18 @@
 <script lang="ts">
+	import { page } from '$app/stores';
 	import Icon from '@iconify/svelte';
 
 	export let icon: string = '';
 	export let text: string;
 	export let href: string;
+
+	const isActive = $page.url.pathname == href;
 </script>
 
 <a
 	{href}
-	class="font-roboto hover:text-darkblue text-blue flex text-xl font-medium transition-all hover:scale-105"
+	class="font-roboto hover:text-darkblue text-blue flex text-xl font-medium transition-all hover:scale-105 hover:opacity-100
+	{!isActive ? 'opacity-50' : ''}"
 >
 	{#if icon}
 		<Icon {icon} class="mr-1 self-center"></Icon>

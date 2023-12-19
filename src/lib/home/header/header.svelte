@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Divider from '$lib/divider/divider.svelte';
+	import Divider from '$lib/home/divider/divider.svelte';
 	import Icon from '@iconify/svelte';
 
 	interface Link {

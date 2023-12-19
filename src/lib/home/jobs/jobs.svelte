@@ -1,6 +1,5 @@
 <script lang="ts">
 	import Experience from '$lib/home/experience/experience.svelte';
-	import Icon from '@iconify/svelte';
 
 	const jobs: App.Experience[] = [
 		{

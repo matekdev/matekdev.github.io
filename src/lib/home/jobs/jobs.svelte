@@ -47,6 +47,6 @@
 	<a
 		href="https://www.linkedin.com/in/matthewzegar/"
 		class="flex text-blue transition-all hover:text-darkblue pt-4 text-center justify-center"
-		>Read more about my work experiences on <Icon icon="mdi:linkedin" class="ml-1 text-xl" /> Linkedin</a
+		>Read more about my work experiences on Linkedin</a
 	>
 </div>

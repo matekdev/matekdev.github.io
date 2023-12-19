@@ -2,7 +2,27 @@
 export default {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 	theme: {
-		extend: {}
+		container: {
+			padding: {
+				DEFAULT: '1rem',
+				sm: '0rem',
+				md: '2rem',
+				lg: '10rem',
+				xl: '18rem',
+			  },
+		},
+		colors: {
+			white: '#eaeaea',
+			gray: '#babdc4',
+			jetblack: '#141416',
+			blue: '#5292ff',
+			darkblue: '#2461c9'
+		},
+		extend: {
+			fontFamily: {
+				roboto: ['Roboto', 'sans-serif']
+			}
+		}
 	},
 	plugins: []
 };

@@ -3,7 +3,7 @@
 	import '../app.css';
 </script>
 
-<div class="bg-jetblack absolute h-screen w-screen" style="z-index: -5;" />
+<div class="fixed bg-jetblack h-screen w-screen" style="z-index: -5;" />
 
 <div class="container mx-auto">
 	<Navbar />

@@ -2,11 +2,16 @@
 // for information about these interfaces
 declare global {
 	namespace App {
-		// interface Error {}
-		// interface Locals {}
-		// interface PageData {}
-		// interface PageState {}
-		// interface Platform {}
+		interface Experience {
+			name: string;
+			subheading: string;
+			location: string;
+			startDate?: string;
+			endDate?: string;
+			href: string;
+			skills?: string;
+			accomplishments?: string[];
+		}
 	}
 }
 

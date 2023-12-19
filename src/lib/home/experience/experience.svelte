@@ -9,11 +9,13 @@
 
 <div class="flex flex-col">
 	<div class="flex">
-		<img
-			src="/home/experiences/{experience.name.toLowerCase().replaceAll(' ', '_')}.jpg"
-			alt={experience.name}
-			class="h-[45px] w-[45px] rounded mr-2"
-		/>
+		<a href={experience.href} class="hover:scale-105 transition-all">
+			<img
+				src="/home/experiences/{experience.name.toLowerCase().replaceAll(' ', '_')}.jpg"
+				alt={experience.name}
+				class="min-h-[45px] min-w-[45px] h-[45px] w-[45px] rounded mr-2"
+			/>
+		</a>
 		<div>
 			<a
 				href={experience.href}
@@ -31,7 +33,7 @@
 	{#if experience.accomplishments}
 		<div class="pt-1 text-white">
 			{#each experience.accomplishments as accomplishment}
-				<li>{accomplishment}</li>
+				<p>• {accomplishment}</p>
 			{/each}
 		</div>
 	{/if}

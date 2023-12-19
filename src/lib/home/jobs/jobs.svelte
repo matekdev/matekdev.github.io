@@ -1,5 +1,6 @@
 <script lang="ts">
 	import Experience from '$lib/home/experience/experience.svelte';
+	import Icon from '@iconify/svelte';
 
 	const jobs: App.Experience[] = [
 		{
@@ -7,8 +8,7 @@
 			subheading: 'Software Developer',
 			location: 'Toronto, Canada',
 			startDate: '2023-12-18',
-			href: 'https://www.kijiji.ca/',
-			skills: 'Java'
+			href: 'https://www.kijiji.ca/'
 		},
 		{
 			name: 'NVIDIA',
@@ -16,8 +16,7 @@
 			location: 'Remote',
 			startDate: '2021-01-04',
 			endDate: '2021-12-30',
-			href: 'https://www.nvidia.com/',
-			skills: 'C++, TypeScript, CUDA, Node.js, React.js, JavaScript'
+			href: 'https://www.nvidia.com/'
 		},
 		{
 			name: 'HomeX',
@@ -25,8 +24,7 @@
 			location: 'Toronto',
 			startDate: '2020-05-18',
 			endDate: '2020-12-14',
-			href: 'https://homex.com/',
-			skills: 'Flutter, Dart'
+			href: 'https://homex.com/'
 		},
 		{
 			name: 'Kabam',
@@ -34,8 +32,7 @@
 			location: 'Vancouver, Canada',
 			startDate: '2019-05-18',
 			endDate: '2019-12-14',
-			href: 'https://kabam.com/',
-			skills: 'C#, Unity, jQuery, JavaScript'
+			href: 'https://kabam.com/'
 		}
 	];
 </script>
@@ -47,4 +44,9 @@
 			<Experience experience={job} />
 		{/each}
 	</div>
+	<a
+		href="https://www.linkedin.com/in/matthewzegar/"
+		class="flex text-blue transition-all hover:text-darkblue pt-4 text-center justify-center"
+		>Read more about my work experiences on <Icon icon="mdi:linkedin" class="ml-1 text-xl" /> Linkedin</a
+	>
 </div>

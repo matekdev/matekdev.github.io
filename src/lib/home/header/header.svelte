@@ -25,7 +25,7 @@
 
 <header class="flex flex-col">
 	<div class="flex pb-4">
-		<img src="/home/lr.jpg" class="h-[100px] w-[100px] rounded-lg mr-3" alt="Profile Picture" />
+		<img src="/home/lr.jpg" class="h-[100px] w-[100px] rounded-lg mr-3" alt="Low Roar Album" />
 		<div class="flex flex-col justify-center">
 			<div class="text-white transition-all font-roboto">
 				<h1 class="text-2xl md:text-3xl font-bold">Matthew Zegar</h1>

@@ -6,7 +6,7 @@
 	export let text: string;
 	export let href: string;
 
-	const isActive = $page.url.pathname == href;
+	$: isActive = $page.url.pathname == href;
 </script>
 
 <a

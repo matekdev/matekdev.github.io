@@ -26,7 +26,7 @@
 </script>
 
 <div class="py-4 font-roboto">
-	<p class="pb-2 text-3xl text-white">Blog</p>
+	<p class="pb-4 text-3xl text-white">Blog</p>
 	<div class="flex flex-col gap-4">
 		{#each groupedPosts.entries() as [year, postsInYear]}
 			<div class="rounded-lg bg-darkblue p-2 text-xl font-bold text-jetblack">{year}</div>

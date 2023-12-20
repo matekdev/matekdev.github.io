@@ -33,7 +33,7 @@
 			{#each postsInYear as post}
 				<a
 					href="/blog/{post.slug}"
-					class="flex flex-col p-2 font-roboto text-white transition-all hover:-translate-y-1"
+					class="flex flex-col p-2 font-roboto text-white transition-all hover:-translate-y-1 hover:text-gray"
 				>
 					<h1 class="pb-2 text-2xl underline">{post.title}</h1>
 					<div class="flex items-center">

@@ -3,6 +3,7 @@
 
 	export let src: string;
 	export let caption: string;
+	export let href: string = '';
 	export let alt: string = '';
 
 	function resolvePath(src: string) {
@@ -20,7 +21,11 @@
 		alt={alt ? alt : src}
 	/>
 	{#if caption}
-		<p style="margin-top: 0px;">{caption}</p>
+		{#if href}
+			<a {href} style="margin-top: 0px;">{caption}</a>
+		{:else}
+			<p style="margin-top: 0px;">{caption}</p>
+		{/if}
 	{/if}
 </div>
 

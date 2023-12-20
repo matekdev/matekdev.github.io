@@ -18,6 +18,10 @@
 		margin-bottom: 0px;
 	}
 
+	a {
+		text-decoration: none;
+	}
+
 	p {
 		margin-top: 0px;
 	}

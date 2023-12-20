@@ -19,7 +19,11 @@
 		<p>{formatDate(post.metadata.date)}</p>
 	</div>
 	<div class="flex w-full justify-center">
-		<div class="prose prose-invert prose-headings:font-normal">
+		<div
+			class="prose prose-invert prose-headings:font-normal prose-a:text-blue
+		hover:prose-a:text-darkblue
+		hover:prose-a:transition-all"
+		>
 			<svelte:component this={post.content} />
 		</div>
 	</div>

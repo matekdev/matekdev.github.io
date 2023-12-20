@@ -22,6 +22,13 @@ declare global {
 			skills?: string;
 			accomplishments?: string[];
 		}
+
+		interface Project {
+			name: string;
+			description: string;
+			skills: string;
+			href: string;
+		}
 	}
 }
 

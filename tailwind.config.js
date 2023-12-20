@@ -8,8 +8,8 @@ export default {
 				sm: '0rem',
 				md: '2rem',
 				lg: '10rem',
-				xl: '20rem',
-			  },
+				xl: '20rem'
+			}
 		},
 		colors: {
 			white: '#eaeaea',
@@ -24,5 +24,5 @@ export default {
 			}
 		}
 	},
-	plugins: []
+	plugins: [require('@tailwindcss/typography')]
 };

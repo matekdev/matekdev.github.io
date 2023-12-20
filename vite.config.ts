@@ -5,7 +5,7 @@ export default {
 	plugins: [
 		autoImport({
 			include: ['**/*.(svelte|md)'],
-			components: ['./src/lib/', { name: './src' }],
+			components: ['./src/lib/components/', { name: './src' }],
 			module: {
 				svelte: ['onMount']
 			}

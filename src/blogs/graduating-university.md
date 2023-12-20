@@ -7,7 +7,7 @@ I recently finished my [Software Systems degree at Simon Fraser University](http
 
 <Img src="sfu.jpg" caption="SFU Sustainable Energy Engineering Building" />
 
-### "University is a waste of time"
+<Heading title="University is a waste of time" />
 
 I've spent enough time in computer science circles to see people mention that university is a complete waste of time. I had the complete opposite experience. I genuinely believe that there is no way I could have reached the level of programming I'm at without the guidance of my degree. Alongside that, my degree has been the best investment I have made in my life thus far. Here are a few reasons why:
 
@@ -15,7 +15,7 @@ I've spent enough time in computer science circles to see people mention that un
 2. Universities give you a complete understanding of all underlying aspects of Computer Science. For instance, one of my last university courses [CMPT 379](http://www.sfu.ca/students/calendar/2022/fall/courses/cmpt/379.html), had us writing a multi-thousand-line compiler. One of the most unique ways to learn how programming languages actually function behind the scenes.
 3. The Computer Science field is slowly getting saturated. At the time of writing this, there have been multiple major hiring freezes by most companies for the past year. Due to this, new graduates are having an extremely awful time finding work at this current moment. A degree is useful to separate yourself from other candidates with no degree or boot camp experience.
 
-### University Isn’t Expensive
+<Heading title="University Isn’t Expensive" />
 
 Obviously, this highly depends on where you are living in the world, but in Canada, a university degree just makes sense.
 
@@ -24,6 +24,6 @@ Obviously, this highly depends on where you are living in the world, but in Cana
 
 I ended up taking out loans to pay for my university degree and paid it off completely with internship wages.
 
-### Final Thoughts
+<Heading title="Final Thoughts" />
 
 Obviously, this isn't a one-size-fits-all piece of advice. If you are the next coming of John Carmack and spend your free time writing complex software, maybe skip out on university. Otherwise, consider it; you won't regret it.

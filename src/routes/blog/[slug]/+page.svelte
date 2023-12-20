@@ -19,7 +19,7 @@
 		<p>{formatDate(data.metadata.date)}</p>
 	</div>
 	<div class="flex w-full justify-center">
-		<div class="prose prose-invert max-w-none">
+		<div class="prose prose-invert prose-headings:font-normal">
 			<svelte:component this={data.content} />
 		</div>
 	</div>

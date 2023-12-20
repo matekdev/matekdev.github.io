@@ -21,6 +21,13 @@ export default {
 		extend: {
 			fontFamily: {
 				roboto: ['Roboto', 'sans-serif']
+			},
+			typography: {
+				DEFAULT: {
+					css: {
+						maxWidth: '100%'
+					}
+				}
 			}
 		}
 	},

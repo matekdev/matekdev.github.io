@@ -3,333 +3,91 @@ title: 'Querying the entirety of English Wikipedia in seconds using GPUs and Nod
 date: '2021-12-16'
 ---
 
-# Markdown: Syntax
+During the summer and fall term I had a chance to intern on the [RAPIDS](https://rapids.ai/) data visualization team working on an assortment of projects.
+One of the larger projects was hooking up a GPU accelerated SQL engine to Node.js. This enabled us to query extremely large datasets on NVIDIA GPUs
+straight from TypeScript and Node.js. For example, a downloaded copy of English Wikipedia is ~16 GBs. We were able to query this entire dataset from a
+Node process in only ~14 seconds with two NVIDIA Titan RTX GPUs.
 
-- [Overview](#overview)
-  - [Philosophy](#philosophy)
-  - [Inline HTML](#html)
-  - [Automatic Escaping for Special Characters](#autoescape)
-- [Block Elements](#block)
-  - [Paragraphs and Line Breaks](#p)
-  - [Headers](#header)
-  - [Blockquotes](#blockquote)
-  - [Lists](#list)
-  - [Code Blocks](#precode)
-  - [Horizontal Rules](#hr)
-- [Span Elements](#span)
-  - [Links](#link)
-  - [Emphasis](#em)
-  - [Code](#code)
-  - [Images](#img)
-- [Miscellaneous](#misc)
-  - [Backslash Escapes](#backslash)
-  - [Automatic Links](#autolink)
+## Node RAPIDS
 
-**Note:** This document is itself written using Markdown; you
-can [see the source for it by adding '.text' to the URL](/projects/markdown/syntax.text).
+[Node RAPIDS](https://github.com/rapidsai/node) is a collection of RAPIDS library bindings in Node.js. [You can check out this blog post to learn more about it](https://medium.com/rapids-ai/accelerating-node-js-javascript-for-visualization-and-beyond-with-rapids-on-gpus-6906f975e86a).
+To summarize, the project aims to provide GPU-accelerated data science to the Node.js developer community (long since deprived of first-class data science libraries)
+by interfacing directly with the RAPIDS C++ libraries, such as libcudf.
 
----
+## SQL Module
 
-## Overview
+On that foundation, we built the [SQL module in Node RAPIDS](https://github.com/rapidsai/node/tree/main/modules/sql). We took the open source BlazingSQL code, stripped away the Python,
+then interfaced with the C++ layer using TypeScript and Node.js. This allowed us to provide a JavaScript centric interface for the module.
+Here’s a snippet using the [SQLContext](https://rapidsai.github.io/node/classes/sql_src.SQLContext.html) class we built…
 
-```ts
-const fetchMarkdownPosts = async () => {
-	const allPostFiles = import.meta.glob('/src/blogs/*.md');
-	const iterablePostFiles = Object.entries(allPostFiles);
+```javascript
+var { Series, DataFrame, Int32 } = require('@rapidsai/cudf');
+var { SQLContext } = require('@rapidsai/sql');
 
-	const allPosts: App.BlogPost[] = await Promise.all(
-		iterablePostFiles.map(async ([path, resolver]) => {
-			const { metadata }: any = await resolver();
-			const postPath = path.slice(11, -3);
+var a = Series.new({ type: new Int32(), data: [1, 2, 3] });
+var b = Series.new({ type: new Int32(), data: [4, 5, 6] });
+var df = new DataFrame({ a: a, b: b });
 
-			return {
-				slug: postPath,
-				title: metadata.title,
-				date: metadata.date
-			};
-		})
-	);
+var sqlContext = new SQLContext();
 
-	return allPosts;
-};
+sqlContext.createDataFrameTable('test_table', df);
+
+await sqlContext.sql('SELECT a FROM test_table').result(); // [1, 2, 3]
 ```
 
-### Philosophy
+The preceding code snippet creates a table from a cuDF DataFrame and then queries it on a single NVIDIA GPU.
+But, what if we wanted to distribute the work among **multiple** NVIDIA GPUs?
 
-Markdown is intended to be as easy-to-read and easy-to-write as is feasible.
+## Multi-GPU Queries
 
-Readability, however, is emphasized above all else. A Markdown-formatted
-document should be publishable as-is, as plain text, without looking
-like it's been marked up with tags or formatting instructions. While
-Markdown's syntax has been influenced by several existing text-to-HTML
-filters -- including [Setext](http://docutils.sourceforge.net/mirror/setext.html), [atx](http://www.aaronsw.com/2002/atx/), [Textile](http://textism.com/tools/textile/), [reStructuredText](http://docutils.sourceforge.net/rst.html),
-[Grutatext](http://www.triptico.com/software/grutatxt.html), and [EtText](http://ettext.taint.org/doc/) -- the single biggest source of
-inspiration for Markdown's syntax is the format of plain text email.
+Using [child_processes](https://nodejs.org/api/child_process.html#child-process) from Node.js we were able to spin up multiple instances and allocate an NVIDIA GPU to each instance.
+We facilitated communication between these instances using BlazingSQL's UCX implementation. This enabled us to query and distribute the workload across multiple NVIDIA GPUs.
+The following snippet uses our multi-GPU [SQLCluster](https://rapidsai.github.io/node/classes/sql_src.SQLCluster.html) class...
 
-## Block Elements
+```javascript
+var { Series, DataFrame } = require('@rapidsai/cudf');
+var { SQLCluster } = require('@rapidsai/sql');
 
-### Paragraphs and Line Breaks
+var a = Series.new(['foo', 'bar']);
+var df = new DataFrame({ a: a });
 
-A paragraph is simply one or more consecutive lines of text, separated
-by one or more blank lines. (A blank line is any line that looks like a
-blank line -- a line containing nothing but spaces or tabs is considered
-blank.) Normal paragraphs should not be indented with spaces or tabs.
+var sqlCluster = await SQLCluster.init({ numWorkers: 2 });
+await sqlCluster.createDataFrameTable('test_table', df);
 
-The implication of the "one or more consecutive lines of text" rule is
-that Markdown supports "hard-wrapped" text paragraphs. This differs
-significantly from most other text-to-HTML formatters (including Movable
-Type's "Convert Line Breaks" option) which translate every line break
-character in a paragraph into a `<br />` tag.
-
-When you _do_ want to insert a `<br />` break tag using Markdown, you
-end a line with two or more spaces, then type return.
-
-### Headers
-
-Markdown supports two styles of headers, [Setext] [1] and [atx] [2].
-
-Optionally, you may "close" atx-style headers. This is purely
-cosmetic -- you can use this if you think it looks better. The
-closing hashes don't even need to match the number of hashes
-used to open the header. (The number of opening hashes
-determines the header level.)
-
-### Blockquotes
-
-Markdown uses email-style `>` characters for blockquoting. If you're
-familiar with quoting passages of text in an email message, then you
-know how to create a blockquote in Markdown. It looks best if you hard
-wrap the text and put a `>` before every line:
-
-> This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
-> consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
-> Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
->
-> Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
-> id sem consectetuer libero luctus adipiscing.
-
-Markdown allows you to be lazy and only put the `>` before the first
-line of a hard-wrapped paragraph:
-
-> This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
-> consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
-> Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
-
-> Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
-> id sem consectetuer libero luctus adipiscing.
-
-Blockquotes can be nested (i.e. a blockquote-in-a-blockquote) by
-adding additional levels of `>`:
-
-> This is the first level of quoting.
->
-> > This is nested blockquote.
->
-> Back to the first level.
-
-Blockquotes can contain other Markdown elements, including headers, lists,
-and code blocks:
-
-> ## This is a header.
->
-> 1.  This is the first list item.
-> 2.  This is the second list item.
->
-> Here's some example code:
->
->     return shell_exec("echo $input | $markdown_script");
-
-Any decent text editor should make email-style quoting easy. For
-example, with BBEdit, you can make a selection and choose Increase
-Quote Level from the Text menu.
-
-### Lists
-
-Markdown supports ordered (numbered) and unordered (bulleted) lists.
-
-Unordered lists use asterisks, pluses, and hyphens -- interchangably
--- as list markers:
-
-- Red
-- Green
-- Blue
-
-is equivalent to:
-
-- Red
-- Green
-- Blue
-
-and:
-
-- Red
-- Green
-- Blue
-
-Ordered lists use numbers followed by periods:
-
-1.  Bird
-2.  McHale
-3.  Parish
-
-It's important to note that the actual numbers you use to mark the
-list have no effect on the HTML output Markdown produces. The HTML
-Markdown produces from the above list is:
-
-If you instead wrote the list in Markdown like this:
-
-1.  Bird
-1.  McHale
-1.  Parish
-
-or even:
-
-3. Bird
-1. McHale
-1. Parish
-
-you'd get the exact same HTML output. The point is, if you want to,
-you can use ordinal numbers in your ordered Markdown lists, so that
-the numbers in your source match the numbers in your published HTML.
-But if you want to be lazy, you don't have to.
-
-To make lists look nice, you can wrap items with hanging indents:
-
-- Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-  Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi,
-  viverra nec, fringilla in, laoreet vitae, risus.
-- Donec sit amet nisl. Aliquam semper ipsum sit amet velit.
-  Suspendisse id sem consectetuer libero luctus adipiscing.
-
-But if you want to be lazy, you don't have to:
-
-- Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-  Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi,
-  viverra nec, fringilla in, laoreet vitae, risus.
-- Donec sit amet nisl. Aliquam semper ipsum sit amet velit.
-  Suspendisse id sem consectetuer libero luctus adipiscing.
-
-List items may consist of multiple paragraphs. Each subsequent
-paragraph in a list item must be indented by either 4 spaces
-or one tab:
-
-1.  This is a list item with two paragraphs. Lorem ipsum dolor
-    sit amet, consectetuer adipiscing elit. Aliquam hendrerit
-    mi posuere lectus.
-
-    Vestibulum enim wisi, viverra nec, fringilla in, laoreet
-    vitae, risus. Donec sit amet nisl. Aliquam semper ipsum
-    sit amet velit.
-
-2.  Suspendisse id sem consectetuer libero luctus adipiscing.
-
-It looks nice if you indent every line of the subsequent
-paragraphs, but here again, Markdown will allow you to be
-lazy:
-
-- This is a list item with two paragraphs.
-
-      This is the second paragraph in the list item. You're
-
-  only required to indent the first line. Lorem ipsum dolor
-  sit amet, consectetuer adipiscing elit.
-
-- Another item in the same list.
-
-To put a blockquote within a list item, the blockquote's `>`
-delimiters need to be indented:
-
-- A list item with a blockquote:
-
-  > This is a blockquote
-  > inside a list item.
-
-To put a code block within a list item, the code block needs
-to be indented _twice_ -- 8 spaces or two tabs:
-
-- A list item with a code block:
-
-      <code goes here>
-
-### Code Blocks
-
-Pre-formatted code blocks are used for writing about programming or
-markup source code. Rather than forming normal paragraphs, the lines
-of a code block are interpreted literally. Markdown wraps a code block
-in both `<pre>` and `<code>` tags.
-
-To produce a code block in Markdown, simply indent every line of the
-block by at least 4 spaces or 1 tab.
-
-This is a normal paragraph:
-
-    This is a code block.
-
-Here is an example of AppleScript:
-
-    tell application "Foo"
-        beep
-    end tell
-
-A code block continues until it reaches a line that is not indented
-(or the end of the article).
-
-Within a code block, ampersands (`&`) and angle brackets (`<` and `>`)
-are automatically converted into HTML entities. This makes it very
-easy to include example HTML source code using Markdown -- just paste
-it and indent it, and Markdown will handle the hassle of encoding the
-ampersands and angle brackets. For example, this:
-
-    <div class="footer">
-        &copy; 2004 Foo Corporation
-    </div>
-
-Regular Markdown syntax is not processed within code blocks. E.g.,
-asterisks are just literal asterisks within a code block. This means
-it's also easy to use Markdown to write about Markdown's own syntax.
-
-```
-tell application "Foo"
-    beep
-end tell
+await sqlCluster.sql("SELECT a FROM test_table WHERE a LIKE '%foo%'"); // ['foo']
 ```
 
-## Span Elements
+## Querying English Wikipedia
 
-### Links
+To showcase this module in action we needed a large dataset to query. We downloaded the entirety of English Wikipedia and loaded it up into our SQL module.
+[The exact instructions on how we generated this dataset can be found here](https://github.com/rapidsai/node/tree/main/modules/demo/sql/sql-cluster-server#dataset).
+This dataset ends up being around ~16 GBs in total size.
 
-Markdown supports two style of links: _inline_ and _reference_.
+## Workarounds
 
-In both styles, the link text is delimited by [square brackets].
+One issue we ran into when importing the dataset was the [maximum DataFrame column size limitation](https://github.com/rapidsai/cudf/issues/3958). cuDF has a limit of two billion elements;
+we were exceeding that limit with the size of our dataset and at times the size of our query result.
+To work around this we created multiple DataFrames and split the data among them instead of storing everything in one single DataFrame.
 
-To create an inline link, use a set of regular parentheses immediately
-after the link text's closing square bracket. Inside the parentheses,
-put the URL where you want the link to point, along with an _optional_
-title for the link, surrounded in quotes. For example:
+We ended up being able to query the entirety of English Wikipedia in around ~40s (using two GPUs). This was blazing fast… but we can do better.
 
-This is [an example](http://example.com/) inline link.
+## GPUDirect Storage (GDS)
 
-[This link](http://example.net/) has no title attribute.
+One of the bottlenecks when processing large datasets on GPUs is the I/O. To move data into and out of GPU memory we previously used the bounce buffer through the CPU.
+We implemented support for GDS which skips that process entirely and moves data from storage directly to GPU memory.
+This resulted in our query time decreasing from ~40s to ~14s (65% decrease!).
 
-### Emphasis
+## Building a Frontend and Results
 
-Markdown treats asterisks (`*`) and underscores (`_`) as indicators of
-emphasis. Text wrapped with one `*` or `_` will be wrapped with an
-HTML `<em>` tag; double `*`'s or `_`'s will be wrapped with an HTML
-`<strong>` tag. E.g., this input:
+While this SQL module is accessible in a typical notebook like [nteract](https://nteract.io/) or [jupyter](https://jupyter.org/),
+we created a quick demo that allows for building queries easily down below...
 
-_single asterisks_
+<Youtube id="-llIzlx7a-U" />
 
-_single underscores_
+<Youtube id="rH7Wxn5Yr_A" />
 
-**double asterisks**
+## Conclusion
 
-**double underscores**
-
-### Code
-
-To indicate a span of code, wrap it with backtick quotes (`` ` ``).
-Unlike a pre-formatted code block, a code span indicates code within a
-normal paragraph. For example:
-
-Use the `printf()` function.
+Hopefully this demo and blog showcases the performance of GPUs as well as ease of use from Node.js.
+If you are interested in the [SQL module](https://github.com/rapidsai/node/tree/main/modules/sql) feel free to check out the [Node RAPIDS](https://github.com/rapidsai/node) project.
+It was a pleasure to intern at NVIDIA and have the opportunity to build out such complicated projects with talented teammates.

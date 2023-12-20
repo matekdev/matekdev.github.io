@@ -1,6 +1,15 @@
 import { sveltekit } from '@sveltejs/kit/vite';
-import { defineConfig } from 'vite';
+import autoImport from 'sveltekit-autoimport';
 
-export default defineConfig({
-	plugins: [sveltekit()]
-});
+export default {
+	plugins: [
+		autoImport({
+			include: ['**/*.(svelte|md)'],
+			components: ['./src/lib/', { name: './src' }],
+			module: {
+				svelte: ['onMount']
+			}
+		}),
+		sveltekit()
+	]
+};

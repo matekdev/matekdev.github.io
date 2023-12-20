@@ -14,7 +14,7 @@
 
 <div class="text-center">
 	<img
-		class="mx-auto mb-0 flex justify-center rounded-lg drop-shadow-md"
+		class="mx-auto mb-0 flex justify-center rounded-lg"
 		class:caption-img={caption}
 		src={resolvePath(src)}
 		alt={alt ? alt : src}

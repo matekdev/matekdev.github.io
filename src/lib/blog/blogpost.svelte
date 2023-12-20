@@ -20,9 +20,7 @@
 	</div>
 	<div class="flex w-full justify-center">
 		<div
-			class="prose prose-invert prose-headings:font-normal prose-a:text-blue
-		hover:prose-a:text-darkblue
-		hover:prose-a:transition-all"
+			class="prose prose-invert prose-headings:font-normal prose-a:text-blue prose-a:no-underline hover:prose-a:text-darkblue hover:prose-a:transition-all"
 		>
 			<svelte:component this={post.content} />
 		</div>

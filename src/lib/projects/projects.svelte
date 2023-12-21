@@ -6,7 +6,19 @@
 			name: 'Node RAPIDS',
 			description: 'GPU-accelerated data-science libraries on Node.js',
 			skills: 'C++, TypeScript, CUDA',
-			href: 'https://github.com/rapidsai/node'
+			href: '/projects/node-rapids'
+		},
+		{
+			name: 'Grubs',
+			description: 'Procedurally generated multiplayer worms-like game',
+			skills: 'C#, Razor, s&box',
+			href: '/projects/grubs'
+		},
+		{
+			name: 'Parkour Painters',
+			description: 'Retro multiplayer parkour game',
+			skills: 'C#, Razor, s&box',
+			href: '/projects/parkour-painters'
 		},
 		{
 			name: `Matt's Minigolf`,
@@ -27,22 +39,10 @@
 			href: 'https://github.com/matekdev/opengl-model-viewer'
 		},
 		{
-			name: 'Grubs',
-			description: 'Procedurally generated multiplayer worms-like game',
-			skills: 'C#, Razor, s&box',
-			href: '/projects/grubs'
-		},
-		{
 			name: 'Retter',
 			description: 'Reddit mobile app',
 			skills: 'Flutter, Dart',
 			href: 'https://github.com/matekdev/Retter'
-		},
-		{
-			name: 'Parkour Painters',
-			description: 'Retro multiplayer parkour game',
-			skills: 'C#, Razor, s&box',
-			href: '/projects/parkour-painters'
 		},
 		{
 			name: 'Turtle Links',

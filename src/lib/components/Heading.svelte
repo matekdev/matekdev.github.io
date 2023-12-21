@@ -1,7 +1,7 @@
 <script lang="ts">
 	export let h: string = 'h2';
 	export let title: string;
-	export let caption: string;
+	export let caption: string = '';
 </script>
 
 <div>

@@ -1,4 +1,5 @@
 import { json } from '@sveltejs/kit';
+import path from 'path';
 
 export const GET = async () => {
 	const allPosts = await fetchMarkdownPosts();
@@ -11,16 +12,16 @@ export const GET = async () => {
 };
 
 const fetchMarkdownPosts = async () => {
-	const allPostFiles = import.meta.glob('/src/blogs/*.md');
+	const allPostFiles = import.meta.glob('/src/markdown/blogs/*.md');
 	const iterablePostFiles = Object.entries(allPostFiles);
 
 	const allPosts: App.BlogPost[] = await Promise.all(
-		iterablePostFiles.map(async ([path, resolver]) => {
+		iterablePostFiles.map(async ([filePath, resolver]) => {
 			const { metadata }: any = await resolver();
-			const postPath = path.slice(11, -3);
+			const { name } = path.parse(filePath);
 
 			return {
-				slug: postPath,
+				slug: name,
 				title: metadata.title,
 				date: metadata.date
 			};

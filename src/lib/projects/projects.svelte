@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Project from '$lib/projects/project.svelte';
+	import Project from '$lib/projects/projectpreview.svelte';
 
 	const projects: App.Project[] = [
 		{
@@ -60,7 +60,7 @@
 </script>
 
 <div class="py-4 font-roboto">
-	<p class="text-3xl pb-2 text-white">Projects & Contributions</p>
+	<p class="pb-2 text-3xl text-white">Projects & Contributions</p>
 	<div class="grid grid-cols-1 md:grid-cols-2">
 		{#each projects as project}
 			<Project {project} />

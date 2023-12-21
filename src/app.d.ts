@@ -42,6 +42,11 @@ declare global {
 			title: string;
 			date: string;
 		}
+
+		interface ProjectPage {
+			slug: string;
+			title: string;
+		}
 	}
 }
 

@@ -30,7 +30,7 @@
 			name: 'Grubs',
 			description: 'Procedurally generated multiplayer worms-like game',
 			skills: 'C#, Razor, s&box',
-			href: 'https://github.com/apetavern/grubs'
+			href: '/projects/grubs'
 		},
 		{
 			name: 'Retter',

@@ -9,7 +9,7 @@
 	function resolvePath(src: string) {
 		return src.startsWith('http://') || src.startsWith('https://')
 			? src
-			: `/blogs/${$page.params.slug}/${src}`;
+			: `/markdown/${$page.params.slug}/${src}`;
 	}
 </script>
 

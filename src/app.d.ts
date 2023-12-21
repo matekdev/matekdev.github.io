@@ -46,6 +46,8 @@ declare global {
 		interface ProjectPage {
 			slug: string;
 			title: string;
+			git?: string;
+			skills?: string;
 		}
 	}
 }

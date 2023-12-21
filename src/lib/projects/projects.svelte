@@ -12,7 +12,7 @@
 			name: `Matt's Minigolf`,
 			description: 'Multiplayer minigolf game',
 			skills: 'C#, Razor, s&box',
-			href: 'https://github.com/sboxgame/minigolf'
+			href: '/projects/minigolf'
 		},
 		{
 			name: 'Small Fish Site',

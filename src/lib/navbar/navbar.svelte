@@ -14,12 +14,12 @@
 		{
 			icon: 'material-symbols:deployed-code-outline',
 			text: 'Projects',
-			href: '/projects'
+			href: '/projects/'
 		},
 		{
 			icon: 'ic:round-newspaper',
 			text: 'Blog',
-			href: '/blog'
+			href: '/blog/'
 		}
 	];
 
@@ -32,20 +32,20 @@
 		<div>
 			<Navbutton icon="ic:round-terminal" text="matek.dev" href="/" />
 		</div>
-		<div class="flex gap-5 hidden md:flex">
+		<div class="flex hidden gap-5 md:flex">
 			{#each links as link}
 				<Navbutton icon={link.icon} text={link.text} href={link.href} />
 			{/each}
 		</div>
 		<button
-			class="flex md:hidden self-center hover:cursor-pointer"
+			class="flex self-center hover:cursor-pointer md:hidden"
 			on:click={() => (isMenuExpanded = !isMenuExpanded)}
 		>
 			<Icon
 				icon={!isMenuExpanded
 					? 'material-symbols:menu-rounded'
 					: 'material-symbols:menu-open-rounded'}
-				class="transition-all text-blue text-3xl"
+				class="text-3xl text-blue transition-all"
 			/>
 		</button>
 	</div>

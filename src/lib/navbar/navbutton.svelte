@@ -11,7 +11,7 @@
 
 <a
 	{href}
-	class="font-roboto hover:text-darkblue text-blue flex text-xl font-medium transition-all hover:opacity-100
+	class="flex font-roboto text-xl font-medium text-blue transition-all hover:text-darkblue hover:opacity-100
 	{!isActive ? 'opacity-50' : ''}"
 >
 	{#if icon}

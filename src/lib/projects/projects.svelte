@@ -24,7 +24,7 @@
 			name: 'OpenGL Model Viewer',
 			description: 'Basic OpenGL model viewer written in C++',
 			skills: 'OpenGL, C++',
-			href: 'https://smallfi.sh/'
+			href: 'https://github.com/matekdev/opengl-model-viewer'
 		},
 		{
 			name: 'Grubs',
@@ -42,7 +42,7 @@
 			name: 'Parkour Painters',
 			description: 'Retro multiplayer parkour game',
 			skills: 'C#, Razor, s&box',
-			href: 'https://github.com/apetavern/parkour-painters'
+			href: '/projects/parkour-painters'
 		},
 		{
 			name: 'Turtle Links',

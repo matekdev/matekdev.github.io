@@ -2,14 +2,16 @@
 	import { page } from '$app/stores';
 
 	export let src: string;
-	export let caption: string;
+	export let caption: string = '';
 	export let href: string = '';
 	export let alt: string = '';
 
 	function resolvePath(src: string) {
+		// Crappy code, who cares.
+		const directory = $page.route.id?.includes('projects') ? 'projects' : 'blog';
 		return src.startsWith('http://') || src.startsWith('https://')
 			? src
-			: `/markdown/${$page.params.slug}/${src}`;
+			: `/markdown/${directory}/${$page.params.slug}/${src}`;
 	}
 </script>
 

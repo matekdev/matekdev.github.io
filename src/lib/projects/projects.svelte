@@ -27,16 +27,16 @@
 			href: '/projects/minigolf'
 		},
 		{
+			name: 'OpenGL Model Viewer',
+			description: 'Basic OpenGL model viewer written in C++',
+			skills: 'C++, OpenGL, ImGui',
+			href: '/projects/opengl-model-viewer'
+		},
+		{
 			name: 'Small Fish Site',
 			description: 'Small Fish, big dreams',
 			skills: 'Svelte, Tailwind',
 			href: 'https://smallfi.sh/'
-		},
-		{
-			name: 'OpenGL Model Viewer',
-			description: 'Basic OpenGL model viewer written in C++',
-			skills: 'OpenGL, C++',
-			href: 'https://github.com/matekdev/opengl-model-viewer'
 		},
 		{
 			name: 'Retter',
@@ -55,6 +55,12 @@
 			description: 'Multiplayer mafia-esque game',
 			skills: 'C#, Razor, s&box',
 			href: 'https://github.com/matekdev/sbox-TTT'
+		},
+		{
+			name: 'Other Projects',
+			description: 'Other projects available on my personal GitHub',
+			skills: '',
+			href: 'https://github.com/matekdev'
 		}
 	];
 </script>

@@ -1,5 +1,5 @@
 ---
-title: 'Damn, I only wrote one other post in 2023'
+title: 'Damn, I only write one post per year'
 date: '2023-12-21'
 ---
 
@@ -17,7 +17,7 @@ I wrote a post about this but I [graduated university this year](http://localhos
 
 I've worked plenty of jobs during university and I honestly considered them to be regular work. A lot of the times I would ramp up extremely quickly and be treated as a regular employee instead of an intern. Well, I got my first job out of university as a back-end developer at [Kijiji](https://www.kijiji.ca/). It doesn't really feel any different from my internships other than I'm not employed for a fixed duration. The only other weird aspect is I could get fired and fail to make payments for my expensive Toronto apartment.
 
-<Heading title="Moving To Toronto" />
+<Heading title="Moving Across Canada" />
 
 I moved across Canada from Vancouver to Toronto due to my job. It's pretty interesting getting to live and experience a part of Canada I never visited before. I don't have any thoughts other than I prefer it to living in Downtown Vancouver.
 

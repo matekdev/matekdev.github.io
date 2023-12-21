@@ -6,7 +6,7 @@
 			name: 'Kijiji',
 			subheading: 'Software Developer',
 			location: 'Toronto, Canada',
-			startDate: '2023-12-18',
+			startDate: '2023-10-18',
 			href: 'https://www.kijiji.ca/'
 		},
 		{
@@ -45,7 +45,7 @@
 </script>
 
 <div class="py-4 font-roboto">
-	<p class="text-3xl pb-2 text-white">Work Experience</p>
+	<p class="pb-2 text-3xl text-white">Work Experience</p>
 	<div class="flex flex-col gap-4">
 		{#each jobs as job}
 			<Experience experience={job} />
@@ -53,7 +53,7 @@
 	</div>
 	<a
 		href="https://www.linkedin.com/in/matthewzegar/"
-		class="flex text-blue transition-all hover:text-darkblue pt-4 text-center justify-center"
+		class="flex justify-center pt-4 text-center text-blue transition-all hover:text-darkblue"
 		>Read more about my work experiences on Linkedin</a
 	>
 </div>

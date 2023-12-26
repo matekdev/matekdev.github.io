@@ -1,24 +1,29 @@
 <script lang="ts">
+	import Tooltip from '$lib/components/Tooltip.svelte';
 	import Divider from '$lib/home/divider/divider.svelte';
 	import Icon from '@iconify/svelte';
 
 	interface Link {
 		icon: string;
 		href: string;
+		tooltip: string;
 	}
 
 	const links: Link[] = [
 		{
 			icon: 'mdi:github',
-			href: 'https://github.com/matekdev'
+			href: 'https://github.com/matekdev',
+			tooltip: 'GitHub'
 		},
 		{
 			icon: 'mdi:linkedin',
-			href: 'https://www.linkedin.com/in/matthewzegar/'
+			href: 'https://www.linkedin.com/in/matthewzegar/',
+			tooltip: 'Linkedin'
 		},
 		{
 			icon: 'mdi:gmail',
-			href: 'mailto:matthewzegar@gmail.com'
+			href: 'mailto:matthewzegar@gmail.com',
+			tooltip: 'Email'
 		}
 	];
 </script>
@@ -33,9 +38,11 @@
 			</div>
 			<div class="flex gap-1 text-[25px]">
 				{#each links as link}
-					<a href={link.href} class="text-blue transition-all hover:text-darkblue"
-						><Icon icon={link.icon} /></a
-					>
+					<Tooltip text={link.tooltip}>
+						<a href={link.href} class="text-blue transition-all hover:text-darkblue"
+							><Icon icon={link.icon} /></a
+						>
+					</Tooltip>
 				{/each}
 			</div>
 		</div>

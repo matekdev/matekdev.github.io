@@ -21,16 +21,22 @@
 			href: '/projects/parkour-painters'
 		},
 		{
+			name: 'OpenGL Model Viewer',
+			description: 'Basic OpenGL model viewer written in C++',
+			skills: 'C++, OpenGL, ImGui',
+			href: '/projects/opengl-model-viewer'
+		},
+		{
 			name: `Matt's Minigolf`,
 			description: 'Multiplayer minigolf game',
 			skills: 'C#, Razor, s&box',
 			href: '/projects/minigolf'
 		},
 		{
-			name: 'OpenGL Model Viewer',
-			description: 'Basic OpenGL model viewer written in C++',
-			skills: 'C++, OpenGL, ImGui',
-			href: '/projects/opengl-model-viewer'
+			name: 'TTT',
+			description: 'Multiplayer mafia-esque game',
+			skills: 'C#, Razor, s&box',
+			href: '/projects/ttt'
 		},
 		{
 			name: 'Small Fish Site',
@@ -49,12 +55,6 @@
 			description: 'Dynamic link service provider',
 			skills: 'Svelte, Supabase, Tailwind',
 			href: 'https://github.com/chandertech/turtlelinks'
-		},
-		{
-			name: 'TTT',
-			description: 'Multiplayer mafia-esque game',
-			skills: 'C#, Razor, s&box',
-			href: '/projects/ttt'
 		},
 		{
 			name: 'Other Projects',

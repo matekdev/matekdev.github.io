@@ -15,6 +15,7 @@ export default {
 			white: '#eaeaea',
 			gray: '#babdc4',
 			jetblack: '#141416',
+			jetgray: '#404045',
 			blue: '#5292ff',
 			darkblue: '#2461c9'
 		},

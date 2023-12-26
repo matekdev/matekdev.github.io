@@ -54,7 +54,7 @@
 			name: 'TTT',
 			description: 'Multiplayer mafia-esque game',
 			skills: 'C#, Razor, s&box',
-			href: 'https://github.com/matekdev/sbox-TTT'
+			href: '/projects/ttt'
 		},
 		{
 			name: 'Other Projects',

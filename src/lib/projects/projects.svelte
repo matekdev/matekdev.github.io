@@ -39,6 +39,12 @@
 			href: '/projects/ttt'
 		},
 		{
+			name: 'Turtle Links',
+			description: 'Dynamic link service provider',
+			skills: 'Svelte, Supabase, Tailwind',
+			href: '/projects/turtle-links'
+		},
+		{
 			name: 'Small Fish Site',
 			description: 'Small Fish, big dreams',
 			skills: 'Svelte, Tailwind',
@@ -49,12 +55,6 @@
 			description: 'Reddit mobile app',
 			skills: 'Flutter, Dart',
 			href: 'https://github.com/matekdev/Retter'
-		},
-		{
-			name: 'Turtle Links',
-			description: 'Dynamic link service provider',
-			skills: 'Svelte, Supabase, Tailwind',
-			href: 'https://github.com/chandertech/turtlelinks'
 		},
 		{
 			name: 'Other Projects',

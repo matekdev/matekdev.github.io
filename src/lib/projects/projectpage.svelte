@@ -1,4 +1,5 @@
 <script lang="ts">
+	import Tooltip from '$lib/components/Tooltip.svelte';
 	import Icon from '@iconify/svelte';
 	export let page: { metadata: App.ProjectPage; content: any };
 </script>
@@ -7,9 +8,11 @@
 	<div class="flex items-center">
 		<h1 class="mr-2 text-3xl text-white">{page.metadata.title}</h1>
 		{#if page.metadata.git}
-			<a href={page.metadata.git} class="text-2xl text-blue transition-all hover:text-darkblue"
-				><Icon icon="mdi:github" /></a
-			>
+			<Tooltip text="GitHub">
+				<a href={page.metadata.git} class="text-2xl text-blue transition-all hover:text-darkblue"
+					><Icon icon="mdi:github" /></a
+				>
+			</Tooltip>
 		{/if}
 	</div>
 	<div class="flex flex-col pb-4">

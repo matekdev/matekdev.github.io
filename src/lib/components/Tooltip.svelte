@@ -8,7 +8,7 @@
 	const [floatingRef, floatingContent] = createFloatingActions({
 		strategy: 'absolute',
 		placement: 'bottom',
-		middleware: [offset(6), flip(), shift()]
+		middleware: [offset(4), flip(), shift()]
 	});
 
 	let showTooltip: boolean = false;
@@ -27,7 +27,7 @@
 {#if showTooltip}
 	<div
 		transition:fade={{ duration: 100 }}
-		class="bg-jetgray z-50 rounded-lg px-2 py-1 font-roboto text-sm font-medium text-white"
+		class="z-50 rounded-lg bg-white px-2 py-1 font-roboto text-sm font-medium text-jetblack"
 		use:floatingContent
 	>
 		{text}

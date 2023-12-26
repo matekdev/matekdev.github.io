@@ -25,15 +25,15 @@
 
 <header class="flex flex-col">
 	<div class="flex pb-4">
-		<img src="/home/lr.jpg" class="h-[100px] w-[100px] rounded-lg mr-3" alt="Low Roar Album" />
+		<img src="/home/lr.jpg" class="mr-3 h-[100px] w-[100px] rounded-lg" alt="Low Roar Album" />
 		<div class="flex flex-col justify-center">
-			<div class="text-white transition-all font-roboto">
-				<h1 class="text-2xl md:text-3xl font-bold">Matthew Zegar</h1>
-				<h2 class="text-gray text-md">Software Developer</h2>
+			<div class="font-roboto text-white transition-all">
+				<h1 class="text-2xl font-bold md:text-3xl">Matthew Zegar</h1>
+				<h2 class="text-md text-gray">Software Engineer</h2>
 			</div>
-			<div class="flex text-[25px] gap-1">
+			<div class="flex gap-1 text-[25px]">
 				{#each links as link}
-					<a href={link.href} class="text-blue hover:text-darkblue transition-all"
+					<a href={link.href} class="text-blue transition-all hover:text-darkblue"
 						><Icon icon={link.icon} /></a
 					>
 				{/each}

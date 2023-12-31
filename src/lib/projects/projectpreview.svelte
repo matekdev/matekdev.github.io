@@ -2,7 +2,7 @@
 	export let project: App.Project;
 </script>
 
-<a href={project.href} class="flex p-4 font-roboto transition-all hover:-translate-y-1">
+<a href={project.href} class="flex py-4 font-roboto transition-all hover:-translate-y-1 md:p-4">
 	<img
 		src="/projects/thumbnails/{project.name.toLowerCase().replaceAll(' ', '_')}.jpg"
 		alt={project.name}

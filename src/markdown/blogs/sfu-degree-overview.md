@@ -191,6 +191,10 @@ Another music elective I took since I was interested in music/audio. Fairly easy
 
 The most difficult programming course I took during my entire degree by far. I actually felt challenged for once since all of my internships and personal projects made me a fairly competent programmer. A barebones compiler is given to you at the start, and you continually add more complex features to it throughout the semester. This course got me really interested in compiler development and it ended up being one of my favorites during my degree.
 
+### [CMPT 473 - Software Testing, Reliability and Security](https://www.sfu.ca/students/calendar/2024/spring/courses/cmpt/473.html)
+
+CMPT 473 introduces tons of different ways to verify program correctness, presenting numerous tools that I wouldn't have known existed without being introduced to them. Additionally, it provides general guidelines on how to write meaningful tests in the first place. Another great course to consider taking.
+
 ### [EDUC 100w - Selected Questions and Issues in Education](https://www.sfu.ca/students/calendar/2024/spring/courses/educ/100w.html)
 
 Another blow-off elective that first-year education students take. It felt like a high school writing course to me; nothing else to say.

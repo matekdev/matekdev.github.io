@@ -45,6 +45,12 @@
 			href: '/projects/turtle-links'
 		},
 		{
+			name: 'Simple Ray Tracer',
+			description: 'Basic ray tracing written in C++',
+			skills: 'C++',
+			href: 'https://github.com/matekdev/simple-ray-tracer'
+		},
+		{
 			name: 'Small Fish Site',
 			description: 'Small Fish, big dreams',
 			skills: 'Svelte, Tailwind',

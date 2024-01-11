@@ -215,4 +215,4 @@ I was completely burnt out of school and needed four elective credits to graduat
 
 <Heading title="Conclusion" />
 
-As I've talked about in this [blog post](http://localhost:5173/blog/graduating-university/), I thought the knowledge I gained in university to be invaluable. There were definitely a few courses during my degree that I thought were completely pointless and could be replaced. Regardless, I would highly recommend this program to any prospective students.
+As I've talked about in this [blog post](http://matek.dev/blog/graduating-university/), I thought the knowledge I gained in university to be invaluable. There were definitely a few courses during my degree that I thought were completely pointless and could be replaced. Regardless, I would highly recommend this program to any prospective students.

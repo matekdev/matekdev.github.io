@@ -11,7 +11,7 @@ I worked on some proper full-scale multiplayer games with a few people in the [s
 
 <Heading title="Graduating University" />
 
-I wrote a post about this but I [graduated university this year](http://localhost:5173/blog/graduating-university/). I only have extremely positive things to say, so you could go read more about it over on that post. I still consider it to be one of my best decisions in life, and it gave me the skillset to become a competent developer (at least I think so).
+I wrote a post about this but I [graduated university this year](http://matek.dev/blog/graduating-university/). I only have extremely positive things to say, so you could go read more about it over on that post. I still consider it to be one of my best decisions in life, and it gave me the skillset to become a competent developer (at least I think so).
 
 <Heading title="First Full-Time Job" />
 

@@ -21,10 +21,10 @@
 			href: '/projects/parkour-painters'
 		},
 		{
-			name: 'OpenGL Model Viewer',
-			description: 'Basic OpenGL model viewer written in C++',
+			name: 'Lean Renderer',
+			description: '3D OpenGL renderer written in C++',
 			skills: 'C++, OpenGL, ImGui',
-			href: '/projects/opengl-model-viewer'
+			href: '/projects/lean-renderer'
 		},
 		{
 			name: `Matt's Minigolf`,

@@ -8,9 +8,11 @@ skills: 'C++, OpenGL, ImGui'
 
 - Import 3D textured models using [assimp](https://github.com/assimp/assimp)
 - Phong lighting
+- Multiple light sources
 - Material lighting properties
 - Transform, rotate, and scale models using an imgui [gizmo](https://github.com/CedricGuillemet/ImGuizmo)
 - Object selection/picking
 - Modify the rendering of the 3D model (i.e wireframe, material settings, etc.)
 
 <Img src="ex1.jpg" />
+<Img src="ex2.jpg" />

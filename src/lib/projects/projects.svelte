@@ -9,6 +9,18 @@
 			href: '/projects/node-rapids'
 		},
 		{
+			name: 'My Summer Cottage',
+			description: 'Finnish survival simulator',
+			skills: 'C#, Razor, s&box',
+			href: '/projects/my-summer-cottage'
+		},
+		{
+			name: 'Lean Renderer',
+			description: '3D OpenGL renderer written in C++',
+			skills: 'C++, OpenGL, ImGui',
+			href: '/projects/lean-renderer'
+		},
+		{
 			name: 'Grubs',
 			description: 'Procedurally generated multiplayer worms-like game',
 			skills: 'C#, Razor, s&box',
@@ -19,12 +31,6 @@
 			description: 'Retro multiplayer parkour game',
 			skills: 'C#, Razor, s&box',
 			href: '/projects/parkour-painters'
-		},
-		{
-			name: 'Lean Renderer',
-			description: '3D OpenGL renderer written in C++',
-			skills: 'C++, OpenGL, ImGui',
-			href: '/projects/lean-renderer'
 		},
 		{
 			name: `Matt's Minigolf`,

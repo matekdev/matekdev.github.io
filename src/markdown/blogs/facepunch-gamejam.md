@@ -12,15 +12,15 @@ as well as my team members over at [Small Fish](https://smallfi.sh/). I thought 
 
 During the game jam we were definitely behind schedule. It got increasingly more concerning when we had about a week left with no proper gameplay loop for our game. Our project was over scoped and we were going nowhere. At this point I seriously thought we were fucked.
 
-We joked internally that we functioned kind of like a shotgun blast. That towards the last few days of the game jam we'd explode and everything would come together. That happened exactly. Everything was coming together and some of my team members were putting in much longer hours than I was. It felt great to work with so many individuals willing to ruin their sleep schedule even more than I was willing to.
+We joked internally that we functioned kind of like a shotgun blast. That towards the last few days of the game jam we'd explode and everything would come together. That happened exactly. Everything was coming together and some of my team members were putting in much longer hours than I was. It felt great to work with so many individuals willing to ruin their sleep schedule even more than I was.
 
-During the final few days we got a chance to see some of the other entries we were up against. I can't say this without coming off like an asshole, but, at this point I knew we were getting first place. Our game actually felt like a game. Where as the other entries felt like they had a severe lack of polish in certain areas. I still give massive props to everyone else who submitted an entry because you can tell the amount of effort some people put in. Everyone who enters is putting their time on the line for potentially zero recognition and reward, and that takes audacity.
+During the final few days we got a chance to see some of the other entries we were up against. I can't say this without coming off like an asshole, but, at this point I knew we were getting first place. Our game actually felt like a game. Where as the other entries felt like they had a lack of polish in certain areas. I still give massive props to everyone else who submitted an entry because you can tell the amount of effort some people put in. Everyone who enters is putting their time on the line for potentially zero recognition and reward, and that takes audacity.
 
 <Img src="sauna-2.jpg" />
 
 <Heading title="My overall thoughts" />
 
-I have a feeling I'll look back at this game jam fondly. Not just because we won first place, but because of all the laughs we had working on this project together.
+I have a feeling I'll look back at this game jam fondly. Not just because we won first place, but because of all the laughs we had working on this project together. It was just a group of guys throwing out ridiculous ideas and implementing them.
 
 <Img src="sauna-3.jpg" />
 

@@ -7,9 +7,8 @@
 </script>
 
 <DiscordEmbed
-	title="Matthew Zegar's Page"
+	title="Matthew Zegar's Website"
 	description="The personal website of Matthew Zegar"
-	href="/"
 	img="/home/lr.jpg"
 />
 

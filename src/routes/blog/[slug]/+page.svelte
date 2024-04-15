@@ -7,7 +7,6 @@
 <DiscordEmbed
 	title="Matthew Zegar's Blog Post"
 	description={data.metadata.title}
-	href="/"
 	img="/home/lr.jpg"
 />
 

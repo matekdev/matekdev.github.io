@@ -10,7 +10,7 @@
 	title="Matthew Zegar's Page"
 	description="The personal website of Matthew Zegar"
 	href="/"
-	img="home/lr.jpg"
+	img="/home/lr.jpg"
 />
 
 <Header />

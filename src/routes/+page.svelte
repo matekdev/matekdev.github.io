@@ -1,16 +1,16 @@
 <script>
+	import PageTitle from '$lib/components/PageTitle.svelte';
 	import DiscordEmbed from '$lib/components/DiscordEmbed.svelte';
 	import Aboutme from '$lib/home/aboutme/aboutme.svelte';
 	import Education from '$lib/home/education/education.svelte';
 	import Header from '$lib/home/header/header.svelte';
 	import Jobs from '$lib/home/jobs/jobs.svelte';
+
+	const title = 'Matthew Zegar | Home';
 </script>
 
-<DiscordEmbed
-	title="Matthew Zegar's Website"
-	description="The personal website of Matthew Zegar"
-	img="/home/lr.jpg"
-/>
+<PageTitle {title} />
+<DiscordEmbed {title} description="The personal website of Matthew Zegar" img="/home/lr.jpg" />
 
 <Header />
 <Aboutme />

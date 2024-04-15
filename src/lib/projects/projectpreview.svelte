@@ -1,10 +1,12 @@
 <script lang="ts">
+	import { resolveProjectThumbnailPath } from '$lib/Utils';
+
 	export let project: App.Project;
 </script>
 
 <a href={project.href} class="flex py-4 font-roboto transition-all hover:-translate-y-1 md:p-4">
 	<img
-		src="/projects/thumbnails/{project.name.toLowerCase().replaceAll(' ', '_')}.jpg"
+		src={resolveProjectThumbnailPath(project.name)}
 		alt={project.name}
 		class="mr-2 aspect-square h-[100px] w-[100px] rounded-lg"
 	/>

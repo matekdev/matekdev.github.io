@@ -23,6 +23,7 @@ const fetchMarkdownPosts = async () => {
 			return {
 				slug: name,
 				title: metadata.title,
+				description: metadata.description,
 				date: metadata.date
 			};
 		})

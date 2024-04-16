@@ -1,5 +1,6 @@
 ---
 title: 'I won a really important game jam'
+description: 'My experiences during the first ever Facepunch s&box game jam'
 date: '2024-04-10'
 ---
 

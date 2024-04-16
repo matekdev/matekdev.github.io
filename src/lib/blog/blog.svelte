@@ -35,8 +35,11 @@
 					href="/blog/{post.slug}"
 					class="flex flex-col p-2 font-roboto text-white transition-all hover:-translate-y-1 hover:text-gray"
 				>
-					<h1 class="pb-2 text-xl underline">{post.title}</h1>
-					<div class="flex items-center">
+					<h1 class="text-xl underline">{post.title}</h1>
+					{#if post.description}
+						<p class="pb-1 text-gray">{post.description}</p>
+					{/if}
+					<div class="flex items-center text-gray">
 						<Icon icon="uis:calender" class="mb-1 mr-1" />
 						<p>{formatDate(post.date)}</p>
 					</div>

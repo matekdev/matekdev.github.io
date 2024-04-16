@@ -1,5 +1,5 @@
 ---
-title: 'Grubs'
+name: 'Grubs'
 git: 'https://github.com/apetavern/grubs'
 skills: 'C#, Razor, s&box'
 ---

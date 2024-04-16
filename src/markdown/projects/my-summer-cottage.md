@@ -1,5 +1,5 @@
 ---
-title: 'My Summer Cottage'
+name: 'My Summer Cottage'
 git: 'https://github.com/Small-Fish-Dev/My-Summer-Cottage'
 skills: 'C#, Razor, s&box'
 ---

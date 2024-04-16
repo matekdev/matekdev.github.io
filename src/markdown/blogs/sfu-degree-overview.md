@@ -1,5 +1,6 @@
 ---
 title: 'SFU Software Systems Degree Overview'
+description: 'An overview of all the classes I completed during my bachelors degree'
 date: '2024-01-07'
 ---
 

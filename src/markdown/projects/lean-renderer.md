@@ -1,5 +1,5 @@
 ---
-title: 'Lean Renderer'
+name: 'Lean Renderer'
 git: 'https://github.com/matekdev/lean-renderer'
 skills: 'C++, OpenGL, ImGui'
 ---

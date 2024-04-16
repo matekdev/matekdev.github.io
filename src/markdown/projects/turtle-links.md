@@ -1,5 +1,5 @@
 ---
-title: 'Turtle Links'
+name: 'Turtle Links'
 git: 'https://github.com/chandertech/turtlelinks'
 skills: 'Svelte, Supabase, Tailwind'
 ---

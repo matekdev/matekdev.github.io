@@ -6,7 +6,7 @@
 
 <article class="w-full py-4 pb-8 font-roboto">
 	<div class="flex items-center">
-		<h1 class="mr-2 text-3xl text-white">{page.metadata.title}</h1>
+		<h1 class="mr-2 text-3xl text-white">{page.metadata.name}</h1>
 		{#if page.metadata.git}
 			<Tooltip text="GitHub">
 				<a href={page.metadata.git} class="text-2xl text-blue transition-all hover:text-darkblue"

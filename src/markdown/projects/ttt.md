@@ -1,5 +1,5 @@
 ---
-title: 'TTT'
+name: 'TTT'
 git: 'https://github.com/matekdev/sbox-TTT'
 skills: 'C#, Razor, s&box'
 ---

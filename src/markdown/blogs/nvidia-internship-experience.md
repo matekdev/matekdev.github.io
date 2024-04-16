@@ -1,5 +1,6 @@
 ---
 title: 'Building Open-Source Software: NVIDIA Software Intern Experience'
+description: 'My time as a Software Intern at NVIDIA'
 date: '2022-01-27'
 ---
 

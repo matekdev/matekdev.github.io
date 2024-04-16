@@ -1,5 +1,5 @@
 ---
-title: 'Parkour Painters'
+name: 'Parkour Painters'
 git: 'https://github.com/apetavern/parkour-painters'
 skills: 'C#, Razor, s&box'
 ---

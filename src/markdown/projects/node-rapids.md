@@ -1,5 +1,5 @@
 ---
-title: 'Node RAPIDS'
+name: 'Node RAPIDS'
 git: 'https://github.com/rapidsai/node'
 skills: 'C++, TypeScript, CUDA'
 ---

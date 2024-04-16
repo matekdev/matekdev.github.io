@@ -1,5 +1,5 @@
 ---
-title: "Matt's Minigolf"
+name: "Matt's Minigolf"
 git: 'https://github.com/sboxgame/minigolf'
 skills: 'C#, Razor, s&box'
 ---

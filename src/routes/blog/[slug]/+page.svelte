@@ -4,10 +4,10 @@
 	import PageTitle from '$lib/components/PageTitle.svelte';
 	export let data;
 
-	const title = 'Matthew Zegar | Blog Post';
+	const title = `Matthew Zegar | ${data.metadata.title}`;
 </script>
 
 <PageTitle {title} />
-<DiscordEmbed {title} description={data.metadata.title} img="/home/lr.jpg" />
+<DiscordEmbed {title} description={data.metadata.description} img="/home/lr.jpg" />
 
 <Blogpost post={data} />

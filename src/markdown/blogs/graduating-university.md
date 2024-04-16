@@ -1,5 +1,6 @@
 ---
 title: 'Graduating University'
+description: 'My thoughts about my bachelors degree'
 date: '2023-09-11'
 ---
 

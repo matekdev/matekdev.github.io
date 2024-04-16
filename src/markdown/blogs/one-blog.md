@@ -1,5 +1,6 @@
 ---
 title: 'Damn, I only write one post per year'
+description: 'The realization that I never use this blog at all...'
 date: '2023-12-21'
 ---
 

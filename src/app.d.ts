@@ -30,6 +30,13 @@ declare global {
 			href: string;
 		}
 
+		interface ProjectPage {
+			slug: string;
+			name: string;
+			git?: string;
+			skills?: string;
+		}
+
 		interface MdsvexFile {
 			default: import('svelte/internal').SvelteComponent;
 			metadata: Record<string, string>;
@@ -40,14 +47,8 @@ declare global {
 		interface BlogPost {
 			slug: string;
 			title: string;
+			description: string;
 			date: string;
-		}
-
-		interface ProjectPage {
-			slug: string;
-			title: string;
-			git?: string;
-			skills?: string;
 		}
 	}
 }

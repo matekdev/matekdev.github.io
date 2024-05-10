@@ -30,10 +30,16 @@
 
 <header class="flex flex-col">
 	<div class="flex pb-4">
-		<img src="/home/lr.jpg" class="mr-3 h-[100px] w-[100px] rounded-lg" alt="Low Roar Album" />
+		<div class="relative mr-3">
+			<img src="/home/lr.jpg" class="h-[100px] w-[100px] rounded-lg" alt="Low Roar Album" />
+			<div class="absolute bottom-[-15px] flex w-full justify-center text-3xl">
+				<Icon icon="openmoji:flag-poland" />
+				<Icon icon="openmoji:flag-canada" />
+			</div>
+		</div>
 		<div class="flex flex-col justify-center">
 			<div class="font-roboto text-white transition-all">
-				<h1 class="text-2xl font-bold md:text-3xl">Matthew Zegar</h1>
+				<h1 class="text-nowrap text-2xl font-bold md:text-3xl">Matthew Zegar</h1>
 				<h2 class="text-md text-gray">Software Engineer</h2>
 			</div>
 			<div class="flex gap-1 text-[25px]">

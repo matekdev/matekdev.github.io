@@ -83,6 +83,8 @@ vec3 specular = specularStrength * spec * LightColor;
 vec3 lightResult = ambient + diffuse + specular;
 ```
 
+<Heading title="Gouraud shading" />
+
 Apparently people used to calculate all of this information inside of the vertex shader instead of the fragment shader since it was faster (but looked worse). This is because the vertex shader is done per vertex whereas the fragment shader is done per pixel. It is called [Gourand shading](https://en.wikipedia.org/wiki/Gouraud_shading) when it is done in the vertex shader.
 
 I ended up implementing this because it gives that PSX effect (it is what they used after all).

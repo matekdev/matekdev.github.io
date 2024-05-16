@@ -76,7 +76,7 @@ vec3 reflectionDirection = reflect(-lightDirection, normal);
 
 // Using the dot product we can get the strength by taking our view direction and reflection direction.
 // Again, we make sure to clamp it to at least 0.0 so it isn't negative.
-// In this case OpenGL raises it to a power of 32 so you can see the effect better.
+// In this case LearnOpenGL raises it to a power of 32 so you can see the effect better.
 float spec = pow(max(dot(viewDirection, reflectionDirection), 0.0), 32);
 vec3 specular = specularStrength * spec * LightColor;
 

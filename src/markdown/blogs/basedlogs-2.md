@@ -1,7 +1,7 @@
 ---
 title: 'Based Logs #2 - Phong Lighting'
 description: 'Initial lighting implementation'
-date: '2024-05-14'
+date: '2024-05-15'
 ---
 
 Phong lighting is composed of three different parts

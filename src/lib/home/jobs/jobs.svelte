@@ -6,21 +6,21 @@
 			name: 'Kijiji',
 			subheading: 'Software Engineer',
 			location: 'Toronto, Canada',
-			startDate: '2023-10-18',
+			startDate: '2023-10-1',
 			href: 'https://www.kijiji.ca/'
 		},
 		{
 			name: 'NVIDIA',
 			subheading: 'Software Intern',
 			location: 'Remote',
-			startDate: '2021-05-04',
+			startDate: '2021-05-01',
 			endDate: '2021-12-30',
 			href: 'https://www.nvidia.com/',
 			additionalRoles: [
 				{
 					subheading: 'Performance Lab Intern',
 					location: 'Remote',
-					startDate: '2021-01-04',
+					startDate: '2021-01-01',
 					endDate: '2021-05-14'
 				}
 			]

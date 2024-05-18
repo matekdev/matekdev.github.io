@@ -3,31 +3,31 @@
 
 	function formatDate(date: string | undefined) {
 		if (!date) return 'Present';
-		return new Date(date).toLocaleString('en-US', { month: 'long', year: 'numeric' });
+		return new Date(date + 'PST').toLocaleString('en-US', { month: 'long', year: 'numeric' });
 	}
 </script>
 
 <div class="flex flex-col">
 	<div class="flex">
 		<div class="flex flex-col">
-			<a href={experience.href} class="hover:scale-105 transition-all">
+			<a href={experience.href} class="transition-all hover:scale-105">
 				<img
 					src="/home/experiences/{experience.name.toLowerCase().replaceAll(' ', '_')}.jpg"
 					alt={experience.name}
-					class="min-h-[45px] min-w-[45px] h-[45px] w-[45px] rounded mr-2"
+					class="mr-2 h-[45px] min-h-[45px] w-[45px] min-w-[45px] rounded"
 				/>
 			</a>
 			{#if experience.additionalRoles}
-				<div class="h-full min-w-[45px] mr-2 mt-2 flex flex-col items-center opacity-70">
-					<div class="h-full w-[1px] bg-gray rounded-lg" />
-					<div class="w-[9px] h-[3px] mb-2 bg-gray rounded-lg" />
+				<div class="mr-2 mt-2 flex h-full min-w-[45px] flex-col items-center opacity-70">
+					<div class="h-full w-[1px] rounded-lg bg-gray" />
+					<div class="mb-2 h-[3px] w-[9px] rounded-lg bg-gray" />
 				</div>
 			{/if}
 		</div>
 		<div>
 			<a
 				href={experience.href}
-				class="text-xl font-medium transition-all hover:text-darkblue text-blue"
+				class="text-xl font-medium text-blue transition-all hover:text-darkblue"
 				>{experience.name}</a
 			>
 			<p class="text-white">{experience.subheading} • {experience.location}</p>
@@ -44,7 +44,7 @@
 				</div>
 			{/if}
 			{#if experience.skills}
-				<p class="text-gray pt-1"><span class="font-bold">Skills: </span>{experience.skills}</p>
+				<p class="pt-1 text-gray"><span class="font-bold">Skills: </span>{experience.skills}</p>
 			{/if}
 			{#if experience.additionalRoles}
 				{#each experience.additionalRoles as role}
@@ -64,7 +64,7 @@
 						</div>
 					{/if}
 					{#if role.skills}
-						<p class="text-white pt-1">
+						<p class="pt-1 text-white">
 							<span class="font-bold">Skills: </span>{role.skills}
 						</p>
 					{/if}

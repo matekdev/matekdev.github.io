@@ -17,7 +17,7 @@
 	}
 
 	function formatDate(date: string) {
-		return new Date(date).toLocaleString('en-US', {
+		return new Date(date + 'PST').toLocaleString('en-US', {
 			month: 'long',
 			day: 'numeric',
 			year: 'numeric'

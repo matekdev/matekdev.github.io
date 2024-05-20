@@ -12,10 +12,10 @@ export const ProjectData: App.Project[] = [
 		href: '/projects/my-summer-cottage'
 	},
 	{
-		name: 'Lean Renderer',
-		description: '3D OpenGL renderer written in C++',
-		skills: 'C++, OpenGL, ImGui',
-		href: '/projects/lean-renderer'
+		name: 'Based Engine',
+		description: '3D OpenGL engine written in C++',
+		skills: 'C++, OpenGL, ImGui, entt',
+		href: '/projects/based-engine'
 	},
 	{
 		name: 'Grubs',

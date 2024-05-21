@@ -1,6 +1,8 @@
 import { json } from '@sveltejs/kit';
 import path from 'path';
 
+export const prerender = true;
+
 export const GET = async () => {
 	const allPosts = await fetchMarkdownPosts();
 

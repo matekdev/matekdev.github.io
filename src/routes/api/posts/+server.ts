@@ -7,7 +7,10 @@ export const GET = async () => {
 	const allPosts = await fetchMarkdownPosts();
 
 	const sortedPosts = allPosts.sort((a, b) => {
-		return new Date(b.date).valueOf() - new Date(a.date).valueOf();
+		if (a.date !== b.date) return new Date(b.date).valueOf() - new Date(a.date).valueOf();
+		if (a.title > b.title) return -1;
+		if (a.title < b.title) return 1;
+		return 0;
 	});
 
 	return json(sortedPosts);

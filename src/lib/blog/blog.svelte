@@ -1,5 +1,6 @@
 <script lang="ts">
 	import Icon from '@iconify/svelte';
+	import Tooltip from '$lib/components/Tooltip.svelte';
 
 	export let posts: App.BlogPost[];
 	const groupedPosts = groupPostsByYear(posts);
@@ -26,7 +27,14 @@
 </script>
 
 <div class="py-4 font-roboto">
-	<p class="pb-4 text-3xl text-white">Blog</p>
+	<div class="flex items-center pb-4">
+		<h1 class="mr-2 text-3xl text-white">Blog</h1>
+		<Tooltip text="RSS Feed">
+			<a href="/rss.xml" class="text-2xl text-blue transition-all hover:text-darkblue"
+				><Icon icon="bi:rss" /></a
+			>
+		</Tooltip>
+	</div>
 	<div class="flex flex-col gap-3">
 		{#each groupedPosts.entries() as [year, postsInYear]}
 			<div class="rounded-lg bg-darkblue p-2 text-xl font-bold text-jetblack">{year}</div>

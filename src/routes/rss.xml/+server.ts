@@ -28,7 +28,7 @@ export async function GET({ fetch }) {
 		<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
 			<channel>
 				<title>Matthew Zegar's Blog</title>
-				<description>Random thoughts</description>
+				<description>Random thoughts written by Matthew Zegar</description>
 				<link>https://matek.dev/blog/</link>
 				<atom:link href="https://matek.dev/rss.xml" rel="self" type="application/rss+xml"/>
 				${posts

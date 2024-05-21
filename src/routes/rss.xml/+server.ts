@@ -30,7 +30,7 @@ export async function GET({ fetch }) {
 				<title>Matthew Zegar's Blog</title>
 				<description>Random thoughts</description>
 				<link>https://matek.dev/blog/</link>
-				<atom:link href="https://matek.dev/blog/rss.xml" rel="self" type="application/rss+xml"/>
+				<atom:link href="https://matek.dev/rss.xml" rel="self" type="application/rss+xml"/>
 				${posts
 					.map(
 						(post) => `

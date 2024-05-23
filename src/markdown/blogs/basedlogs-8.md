@@ -1,7 +1,7 @@
 ---
 title: 'Based Logs #8 - Stencil Buffer'
 description: 'Fun facts about the stencil buffer'
-date: '2024-05-21'
+date: '2024-05-22'
 ---
 
 We have access to the stencil buffer which is able to be updated during rendering to achieve interesting rendering effects. It's similar to the z-buffer where we have a 2D array of values for every single fragment. In the case of OpenGL we have 8 bits we can store per entry inside of this 2D array.

@@ -35,8 +35,8 @@ export async function GET({ fetch }) {
 					.map(
 						(post) => `
 						<item>
-							<title>${escapeXML(post.title)}</title>
-							<description>${escapeXML(post.title)}</description>
+							<title>${escapeXML(post.title ?? '')}</title>
+							<description>${escapeXML(post.description ?? '')}</description>
 							<link>https://matek.dev/blog/${post.slug}</link>
 							<guid isPermaLink="true">https://matek.dev/blog/${post.slug}</guid>
 							<pubDate>${new Date(post.date).toUTCString()}</pubDate>

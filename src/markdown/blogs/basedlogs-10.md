@@ -14,7 +14,7 @@ The triangle on the left is defined as clockwise (CW) and the triangle on the ri
 
 Each triangle should have a vertex ordering as if it was facing you. The winding order is calculated at the rasterization stage (after the vertex shader has ran) and so the vertices are seen as if they were from the viewer's point of view. This allows us to cull (or discard) non-visible faces.
 
-To enable it in OpenGL we just add the following in the initialization code. In my case I set my winding order to be CW since a lot of the models I use are exported from [Blender](Blender).
+To enable it in OpenGL we just add the following in the initialization code. In my case I set my winding order to be CW since a lot of the models I use are exported from [Blender](https://www.blender.org/).
 
 ```cpp
 glEnable(GL_CULL_FACE);

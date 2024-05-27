@@ -1,6 +1,6 @@
 ---
 title: 'Based Logs #3 - Model Materials & Light Properties'
-description: 'Adding model materials and light properties'
+description: 'Adding model materials and light properties to the Based Engine'
 date: '2024-05-16'
 ---
 

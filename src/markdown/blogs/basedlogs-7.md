@@ -1,6 +1,6 @@
 ---
 title: 'Based Logs #7 - RenderDoc'
-description: 'Learning to use RenderDoc'
+description: 'Jumping in and learning about the graphics debugger RenderDoc'
 date: '2024-05-20'
 ---
 

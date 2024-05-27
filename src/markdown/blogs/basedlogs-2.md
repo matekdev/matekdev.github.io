@@ -1,6 +1,6 @@
 ---
 title: 'Based Logs #2 - Phong Lighting'
-description: 'Initial lighting implementation'
+description: 'Initial lighting implementation in the Based Engine'
 date: '2024-05-15'
 ---
 

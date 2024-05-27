@@ -1,6 +1,6 @@
 ---
 title: 'Based Logs #5 - Lighting Types'
-description: 'Adding support for different types of lights'
+description: 'Adding support for different types of lights in the Based Engine'
 date: '2024-05-19'
 ---
 

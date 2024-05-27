@@ -1,6 +1,6 @@
 ---
 title: 'Based Logs #10 - Back-face culling'
-description: 'Learning about the back-face culling optimization technique'
+description: 'Learning and implementing back-face culling in the Based Engine'
 date: '2024-05-26'
 ---
 

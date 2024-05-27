@@ -1,6 +1,6 @@
 ---
 title: 'Based Logs #6 - Depth Buffer'
-description: 'Fun facts about the depth buffer'
+description: 'Interesting facts about the depth buffer and early-z'
 date: '2024-05-20'
 ---
 

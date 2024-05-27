@@ -1,6 +1,6 @@
 ---
 title: 'Based Logs #9 - Framebuffer'
-description: 'Fun facts about the framebuffer'
+description: 'Talking about the framebuffer and how it is used within the Based Engine'
 date: '2024-05-24'
 ---
 

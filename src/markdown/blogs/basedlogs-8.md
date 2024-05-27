@@ -1,6 +1,6 @@
 ---
 title: 'Based Logs #8 - Stencil Buffer'
-description: 'Fun facts about the stencil buffer'
+description: 'Fun facts about the stencil buffer and how I wasted multiple hours of my life'
 date: '2024-05-22'
 ---
 

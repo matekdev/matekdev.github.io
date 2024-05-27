@@ -1,6 +1,6 @@
 ---
 title: 'Based Logs #4 - Multiple lights'
-description: 'Adding support for multiple lights'
+description: 'Adding multiple light support in the Based Engine'
 date: '2024-05-18'
 ---
 

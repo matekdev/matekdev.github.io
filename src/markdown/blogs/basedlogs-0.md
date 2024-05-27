@@ -1,6 +1,6 @@
 ---
 title: 'Based Logs #0 - Prologue'
-description: 'Learning graphics programming'
+description: 'Figuring out how to learn graphics programming'
 date: '2024-05-12'
 ---
 

@@ -202,7 +202,9 @@ float ShadowCalculation(vec4 fragPosLightSpace)
 }
 ```
 
-If you did all this correctly you'll immediately run into an issue called "Shadow acne". This occurs because multiple fragments can sample the same value from the shadow map. We can fix this by adding a "shadow bias" which offsets the depth of the shadow map.
+If you did all this correctly you'll immediately run into an issue called "Shadow acne". This occurs because multiple fragments can sample the same value from the shadow map. We can fix this by adding a "shadow bias" which offsets the depth of the shadow map... and then we are finished!
+
+<Img src="result.jpg" />
 
 Now there are a number of other changes that improve the shadow quality but I'll stop here for now. The implementation details for the spot lights are actually quite similar. Instead of using an orthographic projection we just need a perspective projection similar to what our camera would use. Point lights are a little more complicated so we'll cover both in a future blog.
 

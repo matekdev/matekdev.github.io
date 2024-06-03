@@ -1,6 +1,6 @@
 ---
 name: 'Based Engine'
-git: 'https://github.com/matekdev/based-engine'
+git: 'https://github.com/matekdev/based-engine-opengl'
 skills: 'C++, OpenGL, ImGui, entt'
 ---
 

@@ -4,7 +4,7 @@ description: 'OpenGL object picking made easy'
 date: '2024-05-13'
 ---
 
-I'm working on an ["engine" with the primary goal of implementing various graphics features](https://github.com/matekdev/based-engine). I wanted the ability to click on objects within my scene and select them. You could normally do this with ray casting but I don't care to implement bounding boxes for a purely graphical engine.
+I'm working on an ["engine" with the primary goal of implementing various graphics features](https://github.com/matekdev/based-engine-opengl). I wanted the ability to click on objects within my scene and select them. You could normally do this with ray casting but I don't care to implement bounding boxes for a purely graphical engine.
 
 I ended up implementing the method described by this [blog post](https://www.opengl-tutorial.org/miscellaneous/clicking-on-objects/picking-with-an-opengl-hack/). It works great but I also found the blog post mentioning calls to functions that are not needed at all.
 
@@ -50,7 +50,7 @@ void main() {
 
 <Heading title="Code" h="h3" />
 
-I'm going to cover partial code implementation details but if you want to [view the repo you can check it out here](https://github.com/matekdev/based-engine/tree/b145919ebc4a1e5e08883b53e6cedeaf7a73867f).
+I'm going to cover partial code implementation details but if you want to [view the repo you can check it out here](https://github.com/matekdev/based-engine-opengl/tree/b145919ebc4a1e5e08883b53e6cedeaf7a73867f).
 
 We are going to be writing to a custom frame buffer. If you don't know anything about them then I suggest reading about them over at [LearnOpenGL](https://learnopengl.com/Advanced-OpenGL/Framebuffers). In my case I already use a custom frame buffer for my main scene because I draw my scene to an ImGui panel.
 

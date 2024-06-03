@@ -22,7 +22,7 @@ Here is a nice diagram from LearnOpenGL that shows an example of the stencil buf
 
 One interesting effect you can implement with stencil buffers is an outline. I'm going to throw out some heavily commented code to showcase how I added an outline effect to selected objects. However before I get to that... I wasted multiple hours of my life trying to figure out why I couldn't write to the stencil buffer.
 
-I haven't written about framebuffers yet but GLFW ends up creating a framebuffer automatically when creating an OpenGL window. In my project, I had to create my own framebuffer since I needed to map the texture onto an ImGui window. The problem is that I was creating a framebuffer [that didn't have a stencil attachment... only a depth attachment](https://github.com/matekdev/based-engine/commit/a92cd9362b793e76bf855555a0c1256af88bda4d). I'm glad I talked about RenderDoc during my last blog post because using that application is how I finally figured out the stencil buffer didn't exist.
+I haven't written about framebuffers yet but GLFW ends up creating a framebuffer automatically when creating an OpenGL window. In my project, I had to create my own framebuffer since I needed to map the texture onto an ImGui window. The problem is that I was creating a framebuffer [that didn't have a stencil attachment... only a depth attachment](https://github.com/matekdev/based-engine-opengl/commit/a92cd9362b793e76bf855555a0c1256af88bda4d). I'm glad I talked about RenderDoc during my last blog post because using that application is how I finally figured out the stencil buffer didn't exist.
 
 <Img src="renderdoc-stencil.jpg" />
 

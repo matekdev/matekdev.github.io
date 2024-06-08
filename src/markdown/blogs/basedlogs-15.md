@@ -19,4 +19,6 @@ At this current moment I have a basic DirectX 11 application setup with GLFW. I 
 
 I'm already getting some of the benefits of working with DirectX 11. The nice thing is that all of the packages can be directly imported into my program without having to setup any prior linking (since I'm on Windows). I've briefly touched the shading language as well and it supports features I found lacking in GLSL. For instance, you can't import any files in GLSL which started bloating my [main shader file](https://github.com/matekdev/based-engine-opengl/blob/main/shaders/model.frag).
 
-I imagine I'll write some blogs for any new concept I encounter in DirectX 11 as I work towards the progress I previously had. I'm excited and I feel up to the task so far after working with OpenGL for a bit. I've also moved the [OpenGL version of my repo here](https://github.com/matekdev/based-engine-opengl).
+I imagine I'll write some blogs for any new concept I encounter in DirectX 11 as I work towards the progress I previously had. I'm excited and I feel up to the task so far after working with OpenGL for a bit. I've also moved the [OpenGL version of my repo here](https://github.com/matekdev/based-engine-opengl) if you'd like to check out any of my work.
+
+<Spotify src="track/5531gEYI0rRLC4ko9Juu51?si=1c408490ade94296" />

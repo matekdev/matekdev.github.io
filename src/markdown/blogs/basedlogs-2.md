@@ -1,5 +1,5 @@
 ---
-title: 'Based Logs #2 - Phong Lighting'
+title: 'Based Logs #2 - Phong Lighting in OpenGL'
 description: 'Initial lighting implementation in the Based Engine'
 date: '2024-05-15'
 ---

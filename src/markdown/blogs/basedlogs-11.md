@@ -1,5 +1,5 @@
 ---
-title: 'Based Logs #11 - Transparency'
+title: 'Based Logs #11 - Transparency in OpenGL'
 description: 'Transparency and blending implementation for the Based Engine'
 date: '2024-05-26'
 ---

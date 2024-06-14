@@ -1,5 +1,5 @@
 ---
-title: 'Based Logs #13 - Blinn-Phong'
+title: 'Based Logs #13 - Blinn-Phong in OpenGL'
 description: 'Upgrading the lighting from Phong to Blinn-Phong'
 date: '2024-05-29'
 ---

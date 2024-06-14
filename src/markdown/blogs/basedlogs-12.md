@@ -1,5 +1,5 @@
 ---
-title: 'Based Logs #12 - Cubemaps'
+title: 'Based Logs #12 - Cubemaps in OpenGL'
 description: 'Adding support for cubemaps and skyboxes'
 date: '2024-05-28'
 ---

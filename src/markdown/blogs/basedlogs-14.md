@@ -1,5 +1,5 @@
 ---
-title: 'Based Logs #14 - Shadow Mapping'
+title: 'Based Logs #14 - Shadow Mapping in OpenGL'
 description: 'Adding shadows for directional lights'
 date: '2024-06-01'
 ---

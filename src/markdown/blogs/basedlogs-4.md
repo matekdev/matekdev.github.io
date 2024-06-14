@@ -1,5 +1,5 @@
 ---
-title: 'Based Logs #4 - Multiple lights'
+title: 'Based Logs #4 - Multiple lights in OpenGL'
 description: 'Adding multiple light support in the Based Engine'
 date: '2024-05-18'
 ---

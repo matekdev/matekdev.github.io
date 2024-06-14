@@ -1,5 +1,5 @@
 ---
-title: 'Based Logs #10 - Back-face culling'
+title: 'Based Logs #10 - Back-face culling in OpenGL'
 description: 'Learning about back-face culling'
 date: '2024-05-26'
 ---

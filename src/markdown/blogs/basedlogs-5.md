@@ -1,5 +1,5 @@
 ---
-title: 'Based Logs #5 - Lighting Types'
+title: 'Based Logs #5 - Lighting Types in OpenGL'
 description: 'Adding support for different types of lights in the Based Engine'
 date: '2024-05-19'
 ---

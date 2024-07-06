@@ -8,6 +8,6 @@
 </script>
 
 <PageTitle {title} />
-<DiscordEmbed {title} description={data.metadata.description} img="/home/lr.jpg" />
+<DiscordEmbed {title} description={data.metadata.description} img="/home/me.jpg" />
 
 <Blogpost post={data} />

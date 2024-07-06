@@ -31,7 +31,7 @@
 <header class="flex flex-col">
 	<div class="flex pb-4">
 		<div class="relative mr-3">
-			<img src="/home/lr.jpg" class="h-[100px] w-[100px] rounded-lg" alt="Low Roar Album" />
+			<img src="/home/me.jpg" class="h-[100px] w-[100px] rounded-lg" alt="Low Roar Album" />
 			<div class="absolute bottom-[-15px] flex w-full justify-center text-3xl">
 				<Icon icon="openmoji:flag-poland" />
 				<Icon icon="openmoji:flag-canada" />

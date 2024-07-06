@@ -10,7 +10,7 @@
 </script>
 
 <PageTitle {title} />
-<DiscordEmbed {title} description="The personal website of Matthew Zegar" img="/home/lr.jpg" />
+<DiscordEmbed {title} description="The personal website of Matthew Zegar" img="/home/me.jpg" />
 
 <Header />
 <Aboutme />

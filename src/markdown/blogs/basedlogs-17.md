@@ -1,5 +1,5 @@
 ---
-title: 'Based Logs #17 - Reverse Z Theory'
+title: 'Based Logs #17 - Reverse Z'
 description: 'Learning about reverse z'
 date: '2024-07-06'
 ---
@@ -22,6 +22,6 @@ We still achieve the precision we need at the near plane but also end up with a 
 
 This is a pretty high level overview but what interested me the most is I was suprised that graphics APIs don't behave like this by default. You essentially have a better distribution of values with the same level of performance. Maybe because it is overkill in most cases?
 
-I'll consider implementing this for my engine in the future... but at this point it is too early and there are more important things to work on.
+I'll consider implementing this for my engine in the future... but at this point there are other things I'd like to focus on.
 
 <Spotify src="track/7s2CpYr2U84BuQvs5p6ZSX?si=7f0a2d8f91ae4fef" />

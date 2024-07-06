@@ -9,6 +9,6 @@
 </script>
 
 <PageTitle {title} />
-<DiscordEmbed {title} description="Please go read my blog posts..." img="/home/lr.jpg" />
+<DiscordEmbed {title} description="Please go read my blog posts..." img="/home/me.jpg" />
 
 <Blog posts={data.posts} />

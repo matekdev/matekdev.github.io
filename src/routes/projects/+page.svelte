@@ -7,6 +7,6 @@
 </script>
 
 <PageTitle {title} />
-<DiscordEmbed {title} description="A showcase of all my personal projects..." img="/home/lr.jpg" />
+<DiscordEmbed {title} description="A showcase of all my personal projects..." img="/home/me.jpg" />
 
 <Projects />

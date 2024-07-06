@@ -4,7 +4,7 @@ description: 'My experiences during the first ever Facepunch s&box game jam'
 date: '2024-04-10'
 ---
 
-[Facepunch](https://facepunch.com/) came out of the blue and announced their first [s&box game jam](https://asset.party/c/gamejam1) with a total prize pool of **£20,000** ($34,300 CAD). This immediately reinvigorated my passion to work on s&box
+[Facepunch](https://facepunch.com/) came out of the blue and announced their first [s&box game jam](https://sbox.game/c/gamejam1) with a total prize pool of **£20,000** ($34,300 CAD). This immediately reinvigorated my passion to work on s&box
 as well as my team members over at [Small Fish](https://smallfi.sh/). I thought for sure we could get top three and at least win some money. If I had known in advance that there would be over 80+ entries, I'm not sure if I would have been that confident.
 
 <Img src="sauna-1.jpg" />

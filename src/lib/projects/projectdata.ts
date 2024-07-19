@@ -13,8 +13,8 @@ export const ProjectData: App.Project[] = [
 	},
 	{
 		name: 'Based Engine',
-		description: '3D OpenGL engine written in C++',
-		skills: 'C++, OpenGL, ImGui, entt',
+		description: '3D DirectX/OpenGL engine written in C++',
+		skills: 'C++, DirectX 11, OpenGL, ImGui, entt',
 		href: '/projects/based-engine'
 	},
 	{

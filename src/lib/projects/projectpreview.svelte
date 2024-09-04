@@ -19,7 +19,7 @@
 		<p class="text-white">{project.description}</p>
 		<p class="text-gray">{project.skills}</p>
 		{#if project.prize}
-			<div class="text-yellow flex font-medium">
+			<div class="flex font-bold text-yellow">
 				<Icon icon="material-symbols:trophy" class="self-center text-xl"></Icon>
 				<p>${project.prize} USD</p>
 			</div>

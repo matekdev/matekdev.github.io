@@ -25,7 +25,7 @@ export const ProjectData: App.Project[] = [
 	},
 	{
 		name: 'Grubs',
-		description: 'Procedurally generated multiplayer worms-like game',
+		description: 'Turn-based multiplayer artillery game',
 		skills: 'C#, Razor, s&box',
 		href: '/projects/grubs'
 	},

@@ -12,6 +12,12 @@ export const ProjectData: App.Project[] = [
 		href: '/projects/my-summer-cottage'
 	},
 	{
+		name: 'Death Card',
+		description: 'Voxel destruction rogue-like',
+		skills: 'C#, Razor, s&box',
+		href: '/projects/deathcard'
+	},
+	{
 		name: 'Based Engine',
 		description: '3D DirectX/OpenGL engine written in C++',
 		skills: 'C++, DirectX 11, OpenGL, ImGui, entt',

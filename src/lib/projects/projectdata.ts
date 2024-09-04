@@ -9,13 +9,15 @@ export const ProjectData: App.Project[] = [
 		name: 'My Summer Cottage',
 		description: 'Finnish survival simulator',
 		skills: 'C#, Razor, s&box',
-		href: '/projects/my-summer-cottage'
+		href: '/projects/my-summer-cottage',
+		prize: '13,000'
 	},
 	{
 		name: 'Death Card',
 		description: 'Procedural dungeon-crawling roguelike game',
 		skills: 'C#, Razor, s&box',
-		href: '/projects/deathcard'
+		href: '/projects/deathcard',
+		prize: '13,000'
 	},
 	{
 		name: 'Based Engine',

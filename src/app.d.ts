@@ -28,6 +28,7 @@ declare global {
 			description: string;
 			skills: string;
 			href: string;
+			prize?: string;
 		}
 
 		interface ProjectPage {

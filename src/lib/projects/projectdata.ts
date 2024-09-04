@@ -13,7 +13,7 @@ export const ProjectData: App.Project[] = [
 	},
 	{
 		name: 'Death Card',
-		description: 'Voxel destruction rogue-like',
+		description: 'Procedural dungeon-crawling roguelike game',
 		skills: 'C#, Razor, s&box',
 		href: '/projects/deathcard'
 	},

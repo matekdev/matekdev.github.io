@@ -35,7 +35,8 @@ export const ProjectData: App.Project[] = [
 		name: 'Parkour Painters',
 		description: 'Retro multiplayer parkour game',
 		skills: 'C#, Razor, s&box',
-		href: '/projects/parkour-painters'
+		href: '/projects/parkour-painters',
+		prize: '1,600'
 	},
 	{
 		name: `Matt's Minigolf`,

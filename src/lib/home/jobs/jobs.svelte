@@ -7,6 +7,7 @@
 			subheading: 'Software Engineer',
 			location: 'Toronto, Canada',
 			startDate: '2023-10-1',
+			endDate: '2024-10-1',
 			href: 'https://www.kijiji.ca/'
 		},
 		{

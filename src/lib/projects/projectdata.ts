@@ -21,7 +21,7 @@ export const ProjectData: App.Project[] = [
 	},
 	{
 		name: 'Based Engine',
-		description: '3D DirectX 11 engine written in C++',
+		description: '3D DirectX 11 engine w/ PhysX',
 		skills: 'C++, DirectX 11, PhysX, ImGui, entt',
 		href: '/projects/based-engine'
 	},

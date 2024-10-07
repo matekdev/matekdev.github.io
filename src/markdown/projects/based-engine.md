@@ -1,15 +1,13 @@
 ---
 name: 'Based Engine'
 git: 'https://github.com/matekdev/based-engine'
-skills: 'C++, DirectX 11, OpenGL, ImGui, entt'
+skills: 'C++, DirectX 11, PhysX, ImGui, entt'
 ---
 
-Based on what? Based Engine is a 3D "engine" written in modern C++. The goal is to create a playground that allows me to easily interact and implement various graphics features.
+Based on what? Based Engine is a 3D DirectX 11 "engine" written in modern C++. The primary focus is to implement various graphics features and general game engine functionality.
 
-This project originally started with OpenGL as it is one of the easiest graphics APIs to get started with. I wrote over ~15 blogs covering various graphics topics and implementation details for the engine. A few example blogs include... [Shadow Mapping](https://matek.dev/blog/basedlogs-14/), [RenderDoc](https://matek.dev/blog/basedlogs-7/), and [Blinn-Phong lighting](https://matek.dev/blog/basedlogs-13/). After feeling comfortable with OpenGL I decided to make the transition to DirectX 11.
+This project serves as a continuation of [Lean Engine](https://matek.dev/projects/lean-engine/) but instead of OpenGL it uses DirectX 11. A lot of the previous engine features will be ported to this project. There will be new graphics and engine functionality as well. For instance, I recently integrated [PhysX](https://github.com/NVIDIA-Omniverse/PhysX) to serve as the underlying physics engine.
 
-I'm slowly working through implementing all previous features in the DirectX 11 version of my engine. I plan to extend this version of this engine further and implement even more complex graphics functionality. Once I feel that I have accomplished this, I plan to use [D3D11On12](https://github.com/microsoft/D3D11On12) to transition my engine to DirectX 12.
+If you'd like to read about development details... the [Based Logs #15](http://localhost:5173/blog/basedlogs-15/) and onwards cover development progress.
 
-<Img src="ex1.jpg" />
-
-<Img src="ex2.jpg" />
+<Youtube id="lY5LsbUydl4" />

@@ -32,6 +32,12 @@ export const ProjectData: App.Project[] = [
 		href: '/projects/lean-engine'
 	},
 	{
+		name: 'Shoot and Build',
+		description: 'Voxel destruction multiplayer FPS game',
+		skills: 'C#, Razor, s&box',
+		href: '/projects/shoot-and-build'
+	},
+	{
 		name: 'Grubs',
 		description: 'Turn-based multiplayer artillery game',
 		skills: 'C#, Razor, s&box',

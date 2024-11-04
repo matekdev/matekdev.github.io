@@ -8,7 +8,7 @@ Over the weekend I decided to integrate a physics engine into Based Engine. I di
 
 ## Building PhysX
 
-The annoying part of PhysX is they don't distribute the built files anyways. You have to unfortunately clone the repo and build it yourself. I found the documentation confusing but I eventually figured it out by browsing through enough issues on the PhysX page. I decided to record a video to help out anyone in the future that needs to build it.
+The annoying part of PhysX is they don't distribute the built files anywhere. You have to unfortunately clone the repo and build it yourself. I found the documentation confusing but I eventually figured it out by browsing through enough issues on the PhysX page. I decided to record a video to help out anyone in the future that needs to build it.
 
 <Youtube id="kfay4cjYEKQ" />
 
@@ -20,7 +20,7 @@ PhysX also has the [PhysX Visual Debugger](https://developer.nvidia.com/physx-vi
 
 <Img src="debugger.jpg" />
 
-The most interesting part is getting the actual physics objects to follow the objects you render via your graphics AP (in my case DX11). Well, each object has a `getGlobalPose()` which returns a transform. All you need to do is pass this transform data to whatever abstraction you have setup that manages object position, rotation, etc.
+The most interesting part is getting the actual physics objects to follow the objects you render via your graphics API (in my case DX11). Well, each object has a `getGlobalPose()` which returns a transform. All you need to do is pass this transform data to whatever abstraction you have setup that manages object position, rotation, etc.
 
 ## Object Picking
 

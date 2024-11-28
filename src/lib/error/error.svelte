@@ -2,7 +2,7 @@
 	import Spotify from '$lib/components/Spotify.svelte';
 </script>
 
-<div class="py-4 font-roboto">
+<div class="font-roboto">
 	<p class="pb-2 text-3xl text-white">Huh?</p>
 	<p class="pb-4 text-white">
 		This page doesn't exist... <a

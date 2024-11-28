@@ -1,5 +1,6 @@
 <script lang="ts">
 	import DiscordEmbed from '$lib/components/DiscordEmbed.svelte';
+	import Fade from '$lib/components/Fade.svelte';
 	import PageTitle from '$lib/components/PageTitle.svelte';
 	import { ProjectData } from '$lib/projects/projectdata.js';
 	import Projectpage from '$lib/projects/projectpage.svelte';
@@ -24,4 +25,6 @@
 	img="/projects/thumbnails/{data.metadata.name.toLowerCase().replaceAll(' ', '_')}.jpg"
 />
 
-<Projectpage page={data} />
+<Fade>
+	<Projectpage page={data} />
+</Fade>

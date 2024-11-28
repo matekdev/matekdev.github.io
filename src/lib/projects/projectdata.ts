@@ -20,6 +20,12 @@ export const ProjectData: App.Project[] = [
 		prize: '13,000'
 	},
 	{
+		name: 'Blocks & Bullets',
+		description: 'Voxel destruction multiplayer FPS game',
+		skills: 'C#, Razor, s&box',
+		href: '/projects/blocks-and-bullets'
+	},
+	{
 		name: 'Based Engine',
 		description: '3D DirectX 11 engine w/ PhysX',
 		skills: 'C++, DirectX 11, PhysX, ImGui, entt',
@@ -30,12 +36,6 @@ export const ProjectData: App.Project[] = [
 		description: '3D OpenGL engine written in C++',
 		skills: 'C++, OpenGL, ImGui, entt',
 		href: '/projects/lean-engine'
-	},
-	{
-		name: 'Shoot and Build',
-		description: 'Voxel destruction multiplayer FPS game',
-		skills: 'C#, Razor, s&box',
-		href: '/projects/shoot-and-build'
 	},
 	{
 		name: 'Grubs',

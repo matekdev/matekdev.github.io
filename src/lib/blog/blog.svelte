@@ -26,7 +26,7 @@
 	}
 </script>
 
-<div class="py-4 font-roboto">
+<div class="font-roboto">
 	<div class="flex items-center pb-4">
 		<h1 class="mr-2 text-3xl text-white">Blog</h1>
 		<Tooltip text="RSS Feed">

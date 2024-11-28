@@ -12,7 +12,7 @@
 	}
 </script>
 
-<article class="w-full py-4 pb-8 font-roboto">
+<article class="w-full font-roboto">
 	<h1 class="pb-1 text-3xl text-white">{post.metadata.title}</h1>
 	<div class="flex items-center pb-4 text-white">
 		<Icon icon="uis:calender" class="mb-1 mr-1" />

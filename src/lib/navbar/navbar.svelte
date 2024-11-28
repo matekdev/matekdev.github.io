@@ -27,12 +27,12 @@
 	$: if ($navigating) isMenuExpanded = false;
 </script>
 
-<nav class="flex flex-col py-4">
+<nav class="flex flex-col py-3">
 	<div class="flex justify-between">
 		<div>
 			<Navbutton icon="ic:round-terminal" text="matek.dev" href="/" />
 		</div>
-		<div class="flex hidden gap-5 md:flex">
+		<div class="flex hidden gap-2 md:flex">
 			{#each links as link}
 				<Navbutton icon={link.icon} text={link.text} href={link.href} />
 			{/each}
@@ -50,9 +50,11 @@
 		</button>
 	</div>
 	{#if isMenuExpanded}
-		<div transition:slide={{ duration: 300 }}>
+		<div class="mt-3 flex flex-col gap-2" transition:slide={{ duration: 300 }}>
 			{#each links as link}
-				<Navbutton icon={link.icon} text={link.text} href={link.href} />
+				<div>
+					<Navbutton icon={link.icon} text={link.text} href={link.href} />
+				</div>
 			{/each}
 		</div>
 	{/if}

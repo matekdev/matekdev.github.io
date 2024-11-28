@@ -4,7 +4,7 @@
 	export let page: { metadata: App.ProjectPage; content: any };
 </script>
 
-<article class="w-full py-4 pb-8 font-roboto">
+<article class="w-full font-roboto">
 	<div class="flex items-center">
 		<h1 class="mr-2 text-3xl text-white">{page.metadata.name}</h1>
 		{#if page.metadata.git}

@@ -38,14 +38,14 @@
 			{/each}
 		</div>
 		<button
-			class="flex self-center hover:cursor-pointer md:hidden"
+			class="bg-jetlight flex self-center rounded-lg px-2 py-1 hover:cursor-pointer md:hidden"
 			on:click={() => (isMenuExpanded = !isMenuExpanded)}
 		>
 			<Icon
 				icon={!isMenuExpanded
 					? 'material-symbols:menu-rounded'
 					: 'material-symbols:menu-open-rounded'}
-				class="text-3xl text-blue transition-all"
+				class="text-2xl text-blue transition-all"
 			/>
 		</button>
 	</div>

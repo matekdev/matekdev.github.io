@@ -1,7 +1,7 @@
 <script lang="ts">
 	import Blogpost from '$lib/blog/blogpost.svelte';
 	import DiscordEmbed from '$lib/components/DiscordEmbed.svelte';
-	import Fade from '$lib/components/Fade.svelte';
+	import Fade from '$lib/components/Fly.svelte';
 	import PageTitle from '$lib/components/PageTitle.svelte';
 	export let data;
 

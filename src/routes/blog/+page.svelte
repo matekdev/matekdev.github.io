@@ -1,7 +1,7 @@
 <script lang="ts">
 	import Blog from '$lib/blog/blog.svelte';
 	import DiscordEmbed from '$lib/components/DiscordEmbed.svelte';
-	import Fade from '$lib/components/Fade.svelte';
+	import Fly from '$lib/components/Fly.svelte';
 	import PageTitle from '$lib/components/PageTitle.svelte';
 
 	export let data;
@@ -12,6 +12,6 @@
 <PageTitle {title} />
 <DiscordEmbed {title} description="Please go read my blog posts..." img="/home/me.jpg" />
 
-<Fade>
+<Fly>
 	<Blog posts={data.posts} />
-</Fade>
+</Fly>

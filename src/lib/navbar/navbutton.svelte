@@ -11,7 +11,7 @@
 
 <a
 	{href}
-	class="bg-jetlight flex rounded-lg px-2 py-1 font-roboto text-xl font-medium text-blue transition-all hover:text-darkblue hover:opacity-100
+	class="bg-jetlight flex rounded-lg px-2 py-1 font-roboto text-xl font-medium text-blue transition-all hover:text-darkblue hover:opacity-100 active:text-blue
 	{!isActive ? 'opacity-50' : ''}"
 >
 	{#if icon}

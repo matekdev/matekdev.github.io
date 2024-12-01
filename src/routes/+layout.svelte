@@ -8,7 +8,7 @@
 
 <div class="container mx-auto">
 	<Navbar />
-	<div class="bg-jetlight mb-4 rounded-lg p-4">
+	<div class="mb-4 rounded-lg bg-jetlight p-4">
 		<slot />
 	</div>
 </div>
@@ -17,7 +17,7 @@
 	.grid {
 		background-color: #141416;
 		opacity: 1;
-		background-image: radial-gradient(#63636b13 0.7000000000000001px, #141416 0.7000000000000001px);
+		background-image: radial-gradient(#63636b2a 0.7000000000000001px, #141416 0.7000000000000001px);
 		background-size: 14px 14px;
 	}
 </style>

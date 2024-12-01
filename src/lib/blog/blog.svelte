@@ -27,35 +27,33 @@
 	}
 </script>
 
-<Section>
-	<div class="font-roboto">
-		<div class="flex items-center pb-4">
-			<h1 class="mr-2 text-3xl text-white">Blog</h1>
-			<Tooltip text="RSS Feed">
-				<a href="/rss.xml" class="text-2xl text-blue transition-all hover:text-darkblue"
-					><Icon icon="bi:rss" /></a
-				>
-			</Tooltip>
-		</div>
-		<div class="flex flex-col gap-3">
-			{#each groupedPosts.entries() as [year, postsInYear]}
-				<div class="rounded-lg bg-darkblue p-2 text-xl font-bold text-jetblack">{year}</div>
-				{#each postsInYear as post}
-					<a
-						href="/blog/{post.slug}"
-						class="flex flex-col p-2 font-roboto text-white transition-all hover:-translate-y-1 hover:text-gray"
+{#each groupedPosts.entries() as [year, postsInYear], index}
+	<Section>
+		{#if index == 0}
+			<div class="flex items-center pb-4">
+				<h1 class="mr-2 text-3xl text-white">Blog</h1>
+				<Tooltip text="RSS Feed">
+					<a href="/rss.xml" class="text-2xl text-blue transition-all hover:text-darkblue"
+						><Icon icon="bi:rss" /></a
 					>
-						<h1 class="text-xl underline">{post.title}</h1>
-						{#if post.description}
-							<p class="pb-1 text-gray">{post.description}</p>
-						{/if}
-						<div class="flex items-center text-gray">
-							<Icon icon="uis:calender" class="mb-1 mr-1" />
-							<p>{formatDate(post.date)}</p>
-						</div>
-					</a>
-				{/each}
-			{/each}
-		</div>
-	</div>
-</Section>
+				</Tooltip>
+			</div>
+		{/if}
+		<div class="rounded-lg bg-darkblue px-4 py-2 text-xl font-bold text-jetblack">{year}</div>
+		{#each postsInYear as post}
+			<a
+				href="/blog/{post.slug}"
+				class="flex flex-col p-2 text-white transition-all hover:-translate-y-1 hover:text-gray"
+			>
+				<h1 class="text-xl underline">{post.title}</h1>
+				{#if post.description}
+					<p class="pb-1 text-gray">{post.description}</p>
+				{/if}
+				<div class="flex items-center text-gray">
+					<Icon icon="uis:calender" class="mb-1 mr-1" />
+					<p>{formatDate(post.date)}</p>
+				</div>
+			</a>
+		{/each}
+	</Section>
+{/each}

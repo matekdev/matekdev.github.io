@@ -47,9 +47,9 @@
 			>
 				<h1 class="text-xl underline">{post.title}</h1>
 				{#if post.description}
-					<p class="pb-1 text-gray">{post.description}</p>
+					<p class="text-gray">{post.description}</p>
 				{/if}
-				<div class="flex items-center text-gray">
+				<div class="flex items-center text-bluegray">
 					<Icon icon="uis:calender" class="mb-1 mr-1" />
 					<p>{formatDate(post.date)}</p>
 				</div>

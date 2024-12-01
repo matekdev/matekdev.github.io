@@ -16,7 +16,7 @@
 <Section>
 	<article class="w-full font-roboto">
 		<h1 class="pb-1 text-3xl text-white">{post.metadata.title}</h1>
-		<div class="flex items-center pb-4 text-white">
+		<div class="flex items-center pb-4 text-bluegray">
 			<Icon icon="uis:calender" class="mb-1 mr-1" />
 			<p>{formatDate(post.metadata.date)}</p>
 		</div>

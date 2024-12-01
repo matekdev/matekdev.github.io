@@ -14,6 +14,7 @@ export default {
 		colors: {
 			white: '#eaeaea',
 			gray: '#babdc4',
+			bluegray: '#878c96',
 			jetblack: '#141416',
 			jetlight: '#1c1c1f',
 			jetgray: '#404045',

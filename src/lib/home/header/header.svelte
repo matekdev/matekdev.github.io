@@ -1,6 +1,5 @@
 <script lang="ts">
 	import Tooltip from '$lib/components/Tooltip.svelte';
-	import Divider from '$lib/home/divider/divider.svelte';
 	import Icon from '@iconify/svelte';
 
 	interface Link {
@@ -29,7 +28,7 @@
 </script>
 
 <header class="flex flex-col">
-	<div class="flex pb-4">
+	<div class="flex">
 		<div class="relative mr-3">
 			<img src="/home/me.jpg" class="h-auto w-[100px] rounded-lg" alt="My face" />
 			<div class="absolute bottom-[-15px] flex w-full justify-center text-3xl">
@@ -53,5 +52,4 @@
 			</div>
 		</div>
 	</div>
-	<Divider />
 </header>

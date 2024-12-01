@@ -8,9 +8,7 @@
 
 <div class="container mx-auto">
 	<Navbar />
-	<div class="mb-4 rounded-lg bg-jetlight p-4">
-		<slot />
-	</div>
+	<slot />
 </div>
 
 <style>

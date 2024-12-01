@@ -45,7 +45,7 @@
 	];
 </script>
 
-<div class="py-4 font-roboto">
+<div class="font-roboto">
 	<p class="pb-2 text-3xl text-white">Work Experience</p>
 	<div class="flex flex-col gap-4">
 		{#each jobs as job}

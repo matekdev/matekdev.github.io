@@ -17,8 +17,8 @@
 	];
 </script>
 
-<div class="py-4 font-roboto">
-	<p class="text-3xl pb-2 text-white">Education</p>
+<div class="font-roboto">
+	<p class="pb-2 text-3xl text-white">Education</p>
 	<div class="flex flex-col gap-4">
 		{#each educations as experience}
 			<Experience {experience} />

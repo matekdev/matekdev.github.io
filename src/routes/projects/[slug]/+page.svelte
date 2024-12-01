@@ -1,6 +1,6 @@
 <script lang="ts">
 	import DiscordEmbed from '$lib/components/DiscordEmbed.svelte';
-	import Fly from '$lib/components/Fly.svelte';
+	import FlyIn from '$lib/components/FlyIn.svelte';
 	import PageTitle from '$lib/components/PageTitle.svelte';
 	import { ProjectData } from '$lib/projects/projectdata.js';
 	import Projectpage from '$lib/projects/projectpage.svelte';
@@ -25,6 +25,6 @@
 	img="/projects/thumbnails/{data.metadata.name.toLowerCase().replaceAll(' ', '_')}.jpg"
 />
 
-<Fly>
+<FlyIn>
 	<Projectpage page={data} />
-</Fly>
+</FlyIn>

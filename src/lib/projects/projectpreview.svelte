@@ -12,7 +12,7 @@
 	<img
 		src={resolveProjectThumbnailPath(project.name)}
 		alt={project.name}
-		class="mr-2 aspect-square h-[100px] w-[100px] rounded-lg"
+		class="mr-2 aspect-square h-[100px] w-[100px] rounded-lg drop-shadow-xl"
 	/>
 	<div class="flex flex-col justify-center">
 		<p class="text-xl font-medium text-white">{project.name}</p>

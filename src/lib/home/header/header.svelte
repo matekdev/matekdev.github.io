@@ -39,7 +39,7 @@
 		<div class="flex flex-col justify-center">
 			<div class="font-roboto text-white transition-all">
 				<h1 class="text-nowrap text-2xl font-bold md:text-3xl">Matthew Zegar</h1>
-				<h2 class="text-md text-gray">Software Engineer</h2>
+				<h2 class="text-md text-gray">Software Developer</h2>
 			</div>
 			<div class="flex gap-1 text-[25px]">
 				{#each links as link}

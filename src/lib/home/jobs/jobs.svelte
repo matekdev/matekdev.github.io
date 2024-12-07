@@ -3,8 +3,15 @@
 
 	const jobs: App.Experience[] = [
 		{
-			name: 'Kijiji',
+			name: 'Autodesk',
 			subheading: 'Software Engineer',
+			location: 'Vancouver, Canada',
+			startDate: '2024-1-1',
+			href: 'https://www.autodesk.com/'
+		},
+		{
+			name: 'Kijiji',
+			subheading: 'Back-end Software Engineer',
 			location: 'Toronto, Canada',
 			startDate: '2023-10-1',
 			endDate: '2024-10-1',

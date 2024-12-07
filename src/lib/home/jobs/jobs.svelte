@@ -2,13 +2,13 @@
 	import Experience from '$lib/home/experience/experience.svelte';
 
 	const jobs: App.Experience[] = [
-		{
-			name: 'Autodesk',
-			subheading: 'Software Developer',
-			location: 'Vancouver, Canada',
-			startDate: '2024-1-1',
-			href: 'https://www.autodesk.com/'
-		},
+		// {
+		// 	name: 'Autodesk',
+		// 	subheading: 'Software Developer',
+		// 	location: 'Vancouver, Canada',
+		// 	startDate: '2025-1-1',
+		// 	href: 'https://www.autodesk.com/'
+		// },
 		{
 			name: 'Kijiji',
 			subheading: 'Back-end Software Developer',

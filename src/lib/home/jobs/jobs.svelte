@@ -4,14 +4,14 @@
 	const jobs: App.Experience[] = [
 		{
 			name: 'Autodesk',
-			subheading: 'Software Engineer',
+			subheading: 'Software Developer',
 			location: 'Vancouver, Canada',
 			startDate: '2024-1-1',
 			href: 'https://www.autodesk.com/'
 		},
 		{
 			name: 'Kijiji',
-			subheading: 'Back-end Software Engineer',
+			subheading: 'Back-end Software Developer',
 			location: 'Toronto, Canada',
 			startDate: '2023-10-1',
 			endDate: '2024-10-1',
@@ -43,7 +43,7 @@
 		},
 		{
 			name: 'Kabam',
-			subheading: 'Software Engineer Intern',
+			subheading: 'Software Developer Intern',
 			location: 'Vancouver, Canada',
 			startDate: '2019-05-18',
 			endDate: '2019-12-14',

@@ -6,7 +6,7 @@ date: '2024-12-11'
 
 I wrote a [blog post at the end of 2023](https://matek.dev/blog/one-blog/). So why not continue the tradition? A major complaint I made last year was that I didn't really write any blogs. Well, this time around, I wrote over 25!
 
-## 2023 Goals
+## 2024 Goals
 
 I mentioned in 2023 that I wanted to get back to doing interviews... well. I didn't do any at all. It just doesn't really align with any personal goals. It was really awesome getting to chat with the people I interviewed. A big thanks to Élisée Maurer, Minh Le, and Phil Gurski.
 

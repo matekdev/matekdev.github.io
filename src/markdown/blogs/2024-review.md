@@ -1,6 +1,6 @@
 ---
 title: '2024 Retrospective'
-description: 'I wrote more than two blogs this year!'
+description: 'I wrote more than two blogs this year'
 date: '2024-12-11'
 ---
 

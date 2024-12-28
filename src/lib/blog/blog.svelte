@@ -19,7 +19,7 @@
 	}
 
 	function formatDate(date: string) {
-		return new Date(date + 'PST').toLocaleString('en-US', {
+		return new Date(date + 'T00:00:00').toLocaleString('en-US', {
 			month: 'long',
 			day: 'numeric',
 			year: 'numeric'

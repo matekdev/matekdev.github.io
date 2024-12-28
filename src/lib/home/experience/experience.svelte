@@ -3,7 +3,7 @@
 
 	function formatDate(date: string | undefined) {
 		if (!date) return 'Present';
-		return new Date(date + 'PST').toLocaleString('en-US', { month: 'long', year: 'numeric' });
+		return new Date(date + 'T00:00:00').toLocaleString('en-US', { month: 'long', year: 'numeric' });
 	}
 </script>
 

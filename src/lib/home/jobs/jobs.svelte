@@ -6,15 +6,15 @@
 			name: 'Autodesk',
 			subheading: 'Software Developer',
 			location: 'Vancouver, Canada',
-			startDate: '2025-1-1',
+			startDate: '2025-01-06',
 			href: 'https://www.autodesk.com/'
 		},
 		{
 			name: 'Kijiji',
 			subheading: 'Back-end Software Developer',
 			location: 'Toronto, Canada',
-			startDate: '2023-10-1',
-			endDate: '2024-10-1',
+			startDate: '2023-10-01',
+			endDate: '2024-10-01',
 			href: 'https://www.kijiji.ca/'
 		},
 		{

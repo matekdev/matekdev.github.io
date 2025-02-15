@@ -1,6 +1,6 @@
 ---
 name: 'My Summer Cottage'
-git: 'https://github.com/Small-Fish-Dev/My-Summer-Cottage'
+git: 'https://github.com/Small-Fish-Dev/My-Summer-Cottage-Jam'
 skills: 'C#, Razor, s&box'
 ---
 

@@ -7,6 +7,8 @@ Blocks & Bullets is a voxel-based FPS where players build, destroy, and fight in
 
 I contributed to a wide range of areas in this project as a programmer, primarily in systems, networking, gameplay, and UI programming.
 
+<Img src="ex1.jpg" />
+
 <Youtube id="E_lrpGD1xgI" />
 
 <Youtube id="VCm2XtM3jnY" />

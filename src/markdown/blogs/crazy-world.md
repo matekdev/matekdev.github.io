@@ -15,3 +15,5 @@ The reason I'm bringing this up is that we've had a sharp incline in crazy thing
 I think the general point I'm trying to make is that I believed a lot of the craziness that occurred in the world was in the past—that events like World War II would serve as a reminder and a deterrent for future generations. Now, we aren't at any level similar to World War II, but the direction the world is heading isn't a positive one.
 
 This blog post makes me sound like an extreme doomer, but it's worth mentioning that although things got crazy in just a few years, they can also correct themselves in a few years as well.
+
+<Spotify src="track/0c8AN9nmeaFN0zPZKMTfgM?si=59edb681a8e446c1" />

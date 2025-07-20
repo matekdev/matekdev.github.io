@@ -25,4 +25,4 @@ void main()
 
 That's it, not much else to say. I skipped out on the details of setting up a framebuffer but it isn't too hard to check out my source code or check out the examples provided by [LearnOpenGL](https://learnopengl.com/Advanced-OpenGL/Framebuffers).
 
-<Spotify src="track/7mykoq6R3BArsSpNDjFQTm?si=952caa3ddf974c4e" />
+<YoutubeMusic src="KvMY1uzSC1E" />

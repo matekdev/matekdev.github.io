@@ -28,4 +28,4 @@ One thing I want to do in 2024 is get back to doing my interviews. There is a su
 
 I just checked the date on my last interview, and it's [February 2021...](https://www.youtube.com/watch?v=8KOm3jJEXy4) maybe I'll actually do some in 2024...
 
-<Spotify src="/track/29HX60fuKaseu7cJopYBzQ?si=4538f2aea3424133" />
+<YoutubeMusic src="u24e43iW9KE" />

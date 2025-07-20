@@ -113,4 +113,4 @@ void main() {
 
 The result looks great for how simple the implementation is.
 
-<Spotify src="track/2mwQngo1HlX5mftxYcM48a?si=fdf7896e67714ca5" />
+<YoutubeMusic src="p3TYriU2-jo" />

@@ -31,4 +31,4 @@ vec3 specular = light.Specular * (spec * MaterialData.Specular);
 
 This blog was pretty quick but the next one will be a big one since I'll be covering directional shadow mapping.
 
-<Spotify src="track/4X6q8SE00pQH8r5HawfUQq?si=9225f2bef40b402a" />
+<YoutubeMusic src="zg5GN6jPNiA" />

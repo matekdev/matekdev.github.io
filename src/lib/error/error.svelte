@@ -1,5 +1,5 @@
 <script>
-	import Spotify from '$lib/components/Spotify.svelte';
+	import YoutubeMusic from '$lib/components/YoutubeMusic.svelte';
 </script>
 
 <div class="font-roboto">
@@ -10,5 +10,5 @@
 			class="text-blue transition-all hover:text-darkblue">go back...</a
 		>
 	</p>
-	<Spotify src="track/5Pf5HwjqLAbYDVBQU7H7Oz?si=4d281eb524bc4106" />
+	<YoutubeMusic src="KnrGMHhnqrw" />
 </div>

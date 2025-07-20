@@ -93,4 +93,4 @@ There isn't much else to add... I basically ported over the GLSL implementation.
 
 I still don't understand the difference between skybox, cube map, and environment mapping. I guess skybox is the concept of having some far distant texture? Environment mapping is sampling that texture onto the model. And lastly... cube maps are just the six textures that are used? Whatever...
 
-<Spotify src="track/0xwpK0H2aL5YxREvcNw4Pe?si=5a734e1ee6e0494f" />
+<YoutubeMusic src="S7sN-cFhwuk" />

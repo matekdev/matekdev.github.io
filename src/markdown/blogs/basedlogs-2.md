@@ -164,4 +164,4 @@ void main() {
 
 <Img src="gouraud_example.jpg" caption="Gouraud shading in Based Engine" />
 
-<Spotify src="track/0ISjLKLt7b9iiY0qEVR2ho?si=6ad5607cfda2491e" />
+<YoutubeMusic src="7zJa6FB5crk" />

@@ -128,4 +128,4 @@ int FrameBuffer::DecodePixel(float x, float y)
 
 The original blog posts mentions this but there is obviously a fixed number of colours you can encode. This is a hobby "engine" so we don't really care about that limitation. It is also worth while to mention that we only want to perform this whenever the user left clicks. Since we are re-rendering our entire scene a second time this could cause performance problems.
 
-<Spotify src="track/1b5H59SJ7SF8dC0qguiWRR?si=cd675f03b30c433c" />
+<YoutubeMusic src="IltA2_lG57o" />

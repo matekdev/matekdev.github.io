@@ -28,4 +28,4 @@ There are significant performance gains to using this technique but I don't real
 
 <Img src="after.jpg" caption="Inside view of the cube" />
 
-<Spotify src="track/4Ne7JhJsOPHVfEySsOhBU2?si=ae07a6144f074ff9" />
+<YoutubeMusic src="3_aDQnA0qTw" />

@@ -38,4 +38,4 @@ If we had just another week to bring together our beautifully crafted systems an
 
 It is hard not to be content with the results. I'm grateful every day for the Lord's blessing of good health for myself and those around me. There is so much meaningless violence (and war) out there in the world and to have the ability to dedicate an entire month making a video game is a blessing itself. I'm sure there are plenty of other people who participated in this jam that are crushed by the results... but it's worthwhile to zoom out and realize how nice you have it. There is also no value at getting upset or disappointed for not coming in first. The best thing is to treat this as a learning experience and work towards improving in the future. Excited for the future and blessed to have been apart of producing this great game.
 
-<Spotify src="track/4Nk10X45JIH1xrIWOCbA3I?si=230f22225eb54d3e" />
+<YoutubeMusic src="A4EU_0vFzuU" />

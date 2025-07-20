@@ -14,4 +14,4 @@ I am pretty impressed that I managed to achieve this with only 3,779 hours logge
 
 In a different world I can imagine myself taking the spot of [Nisha](https://liquipedia.net/dota2/Nisha)... but this isn't one of those lifetimes. I'll continue playing casually and I hope I don't get to a point where I start caring about how high my number is.
 
-<Spotify src="track/2PTvik6EqPAIYOclAB3SU8?si=5a7d1a14dea64b8d" />
+<YoutubeMusic src="F-CwAE1TCyA" />

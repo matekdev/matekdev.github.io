@@ -208,4 +208,4 @@ If you did all this correctly you'll immediately run into an issue called "Shado
 
 Now there are a number of other changes that improve the shadow quality but I'll stop here for now. The implementation details for the spot lights are actually quite similar. Instead of using an orthographic projection we just need a perspective projection similar to what our camera would use. Point lights are a little more complicated so we'll cover both in a future blog.
 
-<Spotify src="track/3ozivYJGJGq6TSzdy8m64X?si=7a53a43dc07d4ee0" />
+<YoutubeMusic src="xti_6Bzpa8A" />

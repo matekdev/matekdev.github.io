@@ -20,4 +20,4 @@ Z-Fighting occurs when the fragments don't know which one should be rendered on 
 
 I'm going to need a good understanding of the depth buffer for when I go on and implement shadow mapping. Again, thanks to [LearnOpenGL](https://learnopengl.com/Advanced-OpenGL/Depth-testing) for the article as I have basically restated and summarized their information.
 
-<Spotify src="track/7vQ8hT2jlA6RhxI4ZxISVd?si=9c1d7b94d5be477c" />
+<YoutubeMusic src="tMgkt9jdjTU" />

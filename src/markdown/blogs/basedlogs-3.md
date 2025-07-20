@@ -44,4 +44,4 @@ Here is an example of a gray cube with a light that has a blue specular applied.
 
 I don't have anything else to add... these were pretty minimal changes but you can create some pretty interesting lighting scenes already.
 
-<Spotify src="track/4qYvofDGF6vKShVJkZBYjW?si=ea3ae802954648c3" />
+<YoutubeMusic src="eU5PVFjsQG8" />

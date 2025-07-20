@@ -24,4 +24,4 @@ Well somehow after a few months I ended up hitting Immortal rank which is probab
 
 Dota 2 somehow has managed to retain a large player base over these last 12 years. It is honestly shocking to me because it is one of the most inaccessible games I have ever played. You have to learn so much before it even starts to make sense. I was one of the rare players that decided to stick through it and I'm glad I did.
 
-<Spotify src="track/5uxYTDNKEOxcrlWyuMNjaM?si=dd1eee186f604b37" />
+<YoutubeMusic src="qTsaS1Tm-Ic" />

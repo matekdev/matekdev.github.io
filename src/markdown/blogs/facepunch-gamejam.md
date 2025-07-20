@@ -29,4 +29,4 @@ It's weird but I don't really care about the money we won. The most rewarding pa
 
 I'm going to continue working on game development related projects in my free time. I mentioned in my [2023 reflection blog](https://matek.dev/blog/one-blog/) that I wanted to release a game on Steam, and think this project is the perfect candidate.
 
-<Spotify src="track/1xHbeaBnk5tV1BEInmVKlw?si=e734aaca1d054726" />
+<YoutubeMusic src="KC2yqAUU1ks" />

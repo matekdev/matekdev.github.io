@@ -10,4 +10,4 @@ So what did I realize with all of this trial and error? [LearnOpenGL](https://le
 
 I'm going to be writing blogs about features I find interested and concepts I want to commit to memory. A lot of times I will be repeating exactly what I learned within [LearnOpenGL](https://learnopengl.com/) but in a form where I can understand it. The first goal of the project will be to cover and implement every single important concept taught in [LearnOpenGL](https://learnopengl.com/). I think afterwards rewriting the project using a modern graphics API makes sense.
 
-<Spotify src="track/7EcMhx3yUDkDm1E8mYdKKW?si=a88b64bd47aa4dd4" />
+<YoutubeMusic src="8gYim4jHRuE" />

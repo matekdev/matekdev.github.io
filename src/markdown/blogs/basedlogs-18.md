@@ -31,4 +31,4 @@ One area where my code base started to deteriorate last time around is when I ad
 
 <Img src="progress.jpg" caption="Classic hamster model loaded..." />
 
-<Spotify src="track/0DXi34kEIXj6YPxrEfsFa7?si=b9f13819b8d645a7" />
+<YoutubeMusic src="8YKAHgwLEMg" />

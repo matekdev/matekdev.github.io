@@ -11,7 +11,7 @@
 		},
 		{
 			name: 'Small Fish',
-			subheading: 'Programming Lead',
+			subheading: 'Programming Lead (Part-time)',
 			location: 'Remote',
 			startDate: '2023-08-01',
 			href: 'https://smallfi.sh/'

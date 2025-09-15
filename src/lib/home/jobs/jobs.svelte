@@ -10,6 +10,13 @@
 			href: 'https://www.autodesk.com/'
 		},
 		{
+			name: 'Small Fish',
+			subheading: 'Programming Lead',
+			location: 'Remote',
+			startDate: '2023-08-01',
+			href: 'https://smallfi.sh/'
+		},
+		{
 			name: 'Kijiji',
 			subheading: 'Back-end Software Developer',
 			location: 'Toronto, Canada',

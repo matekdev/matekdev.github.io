@@ -12,6 +12,6 @@ There's something about the idea of obsession that resonates with me. I think pr
 
 I'm not going to paint myself as someone who did anything remotely close to these examples. I don't feel like I've achieved anything close to the level of obsession that these characters and real-life figures have. It makes me wonder what if I did? What if for instance, I really sat down and pushed myself in [Dota 2](http://matek.dev/blog/dota-top-5000/). Or what if I really dedicated myself to mastering an area of software development? I have had interviews previously where I would have received an offer if I had just pushed myself more in certain areas.
 
-I think my level of risk tolerance is lower than what is needed. I took the straight and narrow path of getting good grades, going to college, and getting a stable job. But, maybe my time just hasn't come yet. You have examples of incredible musicians such as [Ryo Fukui](https://en.wikipedia.org/wiki/Ryo_Fukui) who didn't start their obsession until their early 20s. Maybe I'm just waiting for my time and place to come.
+I think my level of risk tolerance is lower than what is needed. I took the straight and narrow path of getting good grades, going to college, and getting a stable job. But, maybe my time just hasn't come yet. You have examples of incredible musicians such as [Ryo Fukui](https://en.wikipedia.org/wiki/Ryo_Fukui) who didn't start their obsession until their early 20s. Maybe I'm just waiting for my time and place to begin.
 
 <YoutubeMusic src="F5EFsUU7RRA" />

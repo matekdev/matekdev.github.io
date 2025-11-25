@@ -50,7 +50,7 @@
 		},
 		{
 			name: 'Kabam',
-			subheading: 'Software Developer Intern',
+			subheading: 'Software Engineer Intern',
 			location: 'Vancouver, Canada',
 			startDate: '2019-05-18',
 			endDate: '2019-12-14',

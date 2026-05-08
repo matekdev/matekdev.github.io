@@ -40,12 +40,12 @@
 			Software developer focused on performance, graphics, and games.
 		</h2>
 
-		<div class="flex gap-3 pt-6 text-[25px]">
+		<div class="flex gap-3 pt-6 text-2xl">
 			{#each links as link}
 				<Tooltip text={link.tooltip}>
 					<a
 						href={link.href}
-						class="inline-flex text-blue transition-all hover:-translate-y-0.5 hover:scale-110 hover:text-white"
+						class="inline-flex h-10 w-10 items-center justify-center rounded-md border border-white/10 bg-white/[0.06] text-blue transition-all hover:-translate-y-0.5 hover:border-blue/50 hover:text-white"
 						><Icon icon={link.icon} /></a
 					>
 				</Tooltip>

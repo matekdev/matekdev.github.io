@@ -3,9 +3,9 @@ name: 'Blocks & Bullets'
 skills: 'C#, Razor, s&box'
 ---
 
-Blocks & Bullets is a voxel-based FPS where players build, destroy, and fight in fully destructible environments. The game includes multiple maps and game modes, including Free-for-All, Team Deathmatch, Capture the Flag, Infection, etc. It consistently ranks as the top game on the s&box platform.
+Blocks & Bullets is a voxel-based FPS where players build, destroy, and fight in destructible maps. It includes several game modes, including Free-for-All, Team Deathmatch, Capture the Flag, and Infection, and has been featured in multiple Facepunch trailers promoting s&box.
 
-I contributed to a wide range of areas in this project as a programmer, primarily in systems, networking, gameplay, and UI programming.
+I worked on the project as a programmer across systems, networking, gameplay, and UI. My contributions were mostly in the parts that make the game feel solid moment to moment: multiplayer gameplay features, game mode functionality, responsive viewmodel work, bug fixes, and full UI implementation.
 
 <Img src="ex1.jpg" />
 

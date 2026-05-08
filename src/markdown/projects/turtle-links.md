@@ -4,8 +4,8 @@ git: 'https://github.com/chandertech/turtlelinks'
 skills: 'Svelte, Supabase, Tailwind'
 ---
 
-I was contracted to build Turtle Links, which serves as a replacement for Google's deprecated [Dynamic Links](https://firebase.google.com/docs/dynamic-links) feature. The entire front-end for this service was built using [Svelte](https://kit.svelte.dev/) and [Tailwind](https://tailwindcss.com/). The back-end was hosted via [Supabase](https://supabase.com/).
+I was contracted to build Turtle Links, a replacement for Google's deprecated [Dynamic Links](https://firebase.google.com/docs/dynamic-links) feature. I built the front end with [Svelte](https://kit.svelte.dev/) and [Tailwind](https://tailwindcss.com/), and wired it into a [Supabase](https://supabase.com/) backend.
 
-The application allows for the creation of accounts, organizations, and dynamic links within those organizations. It uses [Vercel's Domains API](https://vercel.com/templates/next.js/domains-api) to handle the creation and deletion of the dynamic links.
+I implemented the main product flows: accounts, organizations, organization-scoped dynamic links, and domain setup/cleanup through [Vercel's Domains API](https://vercel.com/templates/next.js/domains-api).
 
-One interesting design aspect is that the client front-end is able to make direct calls to the Supabase database. This is possible because each database table had custom [row level security policies](https://supabase.com/docs/guides/auth/row-level-security) to ensure end-to-end verification from the browser to the database.
+One interesting part of the project was letting the client call Supabase directly. That worked because the database tables were protected with custom [row level security policies](https://supabase.com/docs/guides/auth/row-level-security), so authorization was enforced from the browser all the way down to the database.

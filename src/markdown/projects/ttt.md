@@ -4,12 +4,14 @@ git: 'https://github.com/matekdev/sbox-TTT'
 skills: 'C#, Razor, s&box'
 ---
 
-TTT is a recreation of the classic experience found in [Garry's Mod](https://store.steampowered.com/app/4000/Garrys_Mod/). It was my first dive into working on a large-scale multiplayer game in the s&box engine. I led the development of this project and received assistance from one other programmer and community contributors. It accumulated a total player count in the thousands, and the publicly available source code enabled spin-off copies to be created.
+TTT is a recreation of the classic [Garry's Mod](https://store.steampowered.com/app/4000/Garrys_Mod/) game mode for s&box. It was my first larger multiplayer project in the engine, and I led most of the development with help from another programmer and community contributors.
+
+I worked on the core game loop, traitor/detective systems, round flow, networking, UI, and a lot of the small rules that make TTT feel like TTT. The game reached thousands of players, and the open source code later helped other people build their own versions.
 
 <Img src="ex1.jpg" />
 
 <Img src="ex2.jpg" />
 
-The development process was documented on my YouTube channel, and the totality of the devblogs accumulated tens of thousands of video views and interactions from players. Ultimately, due to s&box being a work-in-progress game engine, development was ceased due to constant changes to the engine that would break the game.
+I documented development on YouTube, and the devlogs ended up getting tens of thousands of views and a lot of player feedback. Development eventually stopped because s&box was changing quickly at the time, and engine updates kept breaking major parts of the game.
 
 <Youtube id="MJjhXwFmqfg" />

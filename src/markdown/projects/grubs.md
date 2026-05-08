@@ -4,9 +4,9 @@ git: 'https://github.com/apetavern/grubs'
 skills: 'C#, Razor, s&box'
 ---
 
-Grubs is a procedurally generated multiplayer worms-like experience. You spawn in with multiple "grubs" in a randomly generated map and fight against other players. Our large collection of weapons creates hilarious moments as you blow up the map and other grubs until victory.
+Grubs is a procedurally generated multiplayer game inspired by Worms. Each player controls a small team of grubs on a randomly generated map, then uses a mix of weapons to destroy terrain and knock out the other teams.
 
-I was one of the main programmers on Grubs, writing many aspects of the game (round system, weapon component system, etc.) and the entirety of the user interface. The game has accumulated a total player count in the tens of thousands. We even had [YouTubers with subscriber counts close to a million feature our game](https://youtu.be/flcAvTeu1sw).
+I was one of the main programmers on the project. I worked on core pieces like the round flow, weapon component system, and the full user interface, then kept iterating on smaller gameplay and usability fixes as people played it. The game reached tens of thousands of players, and it was later featured by [YouTubers with millions of subscribers](https://youtu.be/flcAvTeu1sw).
 
 <Img src="ex1.jpg" />
 

@@ -4,7 +4,7 @@ git: 'https://github.com/sboxgame/minigolf'
 skills: 'C#, Razor, s&box'
 ---
 
-Matt's Minigolf is the premier multiplayer minigolf experience available on older versions of [s&box](https://sbox.facepunch.com/news). I assisted [Facepunch](https://facepunch.com/) developers with rewriting the entire user interface in the new s&box UI system, [Razor](https://learn.microsoft.com/en-us/aspnet/core/mvc/views/razor?view=aspnetcore-8.0). In addition to this, I contributed to codebase refactors, introduced new gameplay features, and addressed various bugs for an improved gameplay experience.
+Matt's Minigolf was the main multiplayer minigolf game on older versions of [s&box](https://sbox.facepunch.com/news). I helped [Facepunch](https://facepunch.com/) developers rewrite the full UI in the newer s&box [Razor](https://learn.microsoft.com/en-us/aspnet/core/mvc/views/razor?view=aspnetcore-8.0) system, including the in-game HUD and several menu flows. I also contributed codebase refactors, gameplay additions, and bug fixes across the project.
 
 <Img src="ex1.jpg" />
 

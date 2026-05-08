@@ -4,11 +4,13 @@ git: 'https://github.com/rapidsai/node'
 skills: 'C++, TypeScript, CUDA'
 ---
 
-During my internship at NVIDIA, I had the chance to work on [Node RAPIDS](https://github.com/rapidsai/node). It is a collection of Node.js native addons that provide access to GPU-accelerated data science libraries. Essentially, it allows data scientists to skip learning CUDA and instead use the JavaScript interface to accelerate data science operations on the GPU. A significant portion of my contributions involved writing bindings to the [cuDF](https://github.com/rapidsai/cudf) library. This process included writing the TypeScript interface, translating the call into the C++ layer, and finally invoking the cuDF and CUDA layers.
+During my internship at NVIDIA, I worked on [Node RAPIDS](https://github.com/rapidsai/node), a set of Node.js native addons for GPU-accelerated data science libraries. The goal was to expose RAPIDS functionality through JavaScript, so users could work with GPU-backed data without writing CUDA directly.
+
+Most of my work involved adding bindings for [cuDF](https://github.com/rapidsai/cudf). That meant defining the TypeScript API, wiring calls through the C++ addon layer, and then invoking the underlying cuDF/CUDA implementation. I was usually working across the full binding path, so changes had to line up cleanly between TypeScript, C++, and the native GPU library.
 
 <Heading title="Blazing SQL" />
 
-Towards the latter half of my internship, I was tasked with setting up bindings for Blazing SQL. I have a blog post discussing the implementation details of the [Blazing SQL library here](https://matek.dev/blog/node-rapids-blazing-sql/). Essentially, we integrated a GPU-accelerated SQL engine with Node.js.
+In the second half of the internship, I worked on bindings for Blazing SQL, which brought a GPU-accelerated SQL engine into the Node RAPIDS stack. This included shaping the JavaScript-facing API and connecting it to the native execution layer. I wrote more about the implementation details in a [Blazing SQL blog post](https://matek.dev/blog/node-rapids-blazing-sql/).
 
 <Youtube id="-llIzlx7a-U" />
 

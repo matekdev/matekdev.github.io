@@ -37,7 +37,7 @@
 			</div>
 		</div>
 		<h2 class="pt-4 text-xl text-gray md:max-w-xl md:text-2xl">
-			Software developer focused on performance, graphics, and games.
+			Software engineer specializing in software, graphics, performance, and games.
 		</h2>
 
 		<div class="flex gap-3 pt-6 text-2xl">

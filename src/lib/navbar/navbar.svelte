@@ -34,20 +34,20 @@
 		<div>
 			<Navbutton icon="ic:round-terminal" text="matek.dev" href="/" />
 		</div>
-		<div class="flex hidden gap-2 md:flex">
+		<div class="hidden gap-2 md:flex">
 			{#each links as link}
 				<Navbutton icon={link.icon} text={link.text} href={link.href} />
 			{/each}
 		</div>
 		<button
-			class="flex self-center rounded-md border border-white/10 bg-white/[0.04] px-2 py-1 hover:cursor-pointer md:hidden"
+			class="group flex self-center rounded-md border border-white/10 bg-white/[0.04] px-2 py-1 text-gray transition-all hover:-translate-y-0.5 hover:border-blue/50 hover:cursor-pointer md:hidden"
 			onclick={() => (isMenuExpanded = !isMenuExpanded)}
 		>
 			<Icon
 				icon={!isMenuExpanded
 					? 'material-symbols:menu-rounded'
 					: 'material-symbols:menu-open-rounded'}
-				class="text-2xl text-blue transition-all"
+				class="text-2xl transition-all group-hover:text-blue {isMenuExpanded ? 'text-blue' : 'text-gray'}"
 			/>
 		</button>
 	</div>

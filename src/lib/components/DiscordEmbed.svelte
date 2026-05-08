@@ -1,7 +1,5 @@
 <script lang="ts">
-	export let title: string;
-	export let description: string = '';
-	export let img: string = '';
+	let { title, description = '', img = '' }: { title: string; description?: string; img?: string } = $props();
 </script>
 
 <svelte:head>

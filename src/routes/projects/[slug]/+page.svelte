@@ -5,7 +5,7 @@
 	import { ProjectData } from '$lib/projects/projectdata.js';
 	import Projectpage from '$lib/projects/projectpage.svelte';
 
-	export let data;
+	let { data } = $props();
 
 	function pageTitle() {
 		return `Matthew Zegar | ${data.metadata.name}`;

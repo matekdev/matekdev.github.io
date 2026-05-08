@@ -2,13 +2,15 @@
 	import Navbar from '$lib/navbar/navbar.svelte';
 	import '../app.css';
 	import '../syntax-highlight.css'; // https://github.com/PrismJS/prism-themes
+
+	let { children } = $props();
 </script>
 
-<div class="fixed grid h-screen w-screen bg-jetblack" style="z-index: -5;" />
+<div class="fixed grid h-screen w-screen bg-jetblack" style="z-index: -5;"></div>
 
 <div class="container mx-auto">
 	<Navbar />
-	<slot />
+	{@render children()}
 </div>
 
 <style>

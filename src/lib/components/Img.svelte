@@ -1,10 +1,7 @@
 <script lang="ts">
 	import { page } from '$app/stores';
 
-	export let src: string;
-	export let caption: string = '';
-	export let href: string = '';
-	export let alt: string = '';
+	let { src, caption = '', href = '', alt = '' }: { src: string; caption?: string; href?: string; alt?: string } = $props();
 
 	function resolvePath(src: string) {
 		// Crappy code, who cares.

@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { page } from '$app/stores';
 
-	export let src: string;
+	let { src }: { src: string } = $props();
 
 	function resolvePath(src: string) {
 		// Crappy code, who cares.

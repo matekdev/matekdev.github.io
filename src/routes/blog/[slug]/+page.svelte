@@ -3,9 +3,9 @@
 	import DiscordEmbed from '$lib/components/DiscordEmbed.svelte';
 	import FlyIn from '$lib/components/FlyIn.svelte';
 	import PageTitle from '$lib/components/PageTitle.svelte';
-	export let data;
+	let { data } = $props();
 
-	const title = `Matthew Zegar | ${data.metadata.title}`;
+	const title = $derived(`Matthew Zegar | ${data.metadata.title}`);
 </script>
 
 <PageTitle {title} />

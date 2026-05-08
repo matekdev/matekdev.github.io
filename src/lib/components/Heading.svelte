@@ -1,7 +1,5 @@
 <script lang="ts">
-	export let h: string = 'h2';
-	export let title: string;
-	export let caption: string = '';
+	let { h = 'h2', title, caption = '' }: { h?: string; title: string; caption?: string } = $props();
 </script>
 
 <div>

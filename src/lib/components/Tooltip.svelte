@@ -3,7 +3,7 @@
 	import { createFloatingActions } from 'svelte-floating-ui';
 	import { fade } from 'svelte/transition';
 
-	export let text: string;
+	let { text, children }: { text: string; children: import('svelte').Snippet } = $props();
 
 	const [floatingRef, floatingContent] = createFloatingActions({
 		strategy: 'absolute',
@@ -11,17 +11,17 @@
 		middleware: [offset(4), flip(), shift()]
 	});
 
-	let showTooltip: boolean = false;
+	let showTooltip: boolean = $state(false);
 </script>
 
-<!-- svelte-ignore a11y-mouse-events-have-key-events -->
-<!-- svelte-ignore a11y-no-static-element-interactions -->
+<!-- svelte-ignore a11y_mouse_events_have_key_events -->
+<!-- svelte-ignore a11y_no_static_element_interactions -->
 <div
-	on:mouseenter={() => (showTooltip = true)}
-	on:mouseleave={() => (showTooltip = false)}
+	onmouseenter={() => (showTooltip = true)}
+	onmouseleave={() => (showTooltip = false)}
 	use:floatingRef
 >
-	<slot />
+	{@render children()}
 </div>
 
 {#if showTooltip}

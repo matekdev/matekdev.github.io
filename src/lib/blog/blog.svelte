@@ -3,8 +3,8 @@
 	import Tooltip from '$lib/components/Tooltip.svelte';
 	import Section from '$lib/components/Section.svelte';
 
-	export let posts: App.BlogPost[];
-	const groupedPosts = groupPostsByYear(posts);
+	let { posts }: { posts: App.BlogPost[] } = $props();
+	const groupedPosts = $derived(groupPostsByYear(posts));
 
 	function groupPostsByYear(posts: App.BlogPost[]) {
 		const groupedPosts = new Map<string, App.BlogPost[]>();

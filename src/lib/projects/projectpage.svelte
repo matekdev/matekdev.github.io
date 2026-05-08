@@ -2,7 +2,8 @@
 	import Section from '$lib/components/Section.svelte';
 	import Tooltip from '$lib/components/Tooltip.svelte';
 	import Icon from '@iconify/svelte';
-	export let page: { metadata: App.ProjectPage; content: any };
+	let { page }: { page: { metadata: App.ProjectPage; content: any } } = $props();
+	let Content = $derived(page.content);
 </script>
 
 <Section>
@@ -26,7 +27,7 @@
 			<div
 				class="prose prose-invert prose-headings:font-normal prose-a:text-blue prose-a:no-underline hover:prose-a:text-darkblue hover:prose-a:transition-all"
 			>
-				<svelte:component this={page.content} />
+				<Content />
 			</div>
 		</div>
 	</article>

@@ -1,5 +1,5 @@
 <script lang="ts">
-	export let experience: App.Experience;
+	let { experience }: { experience: App.Experience } = $props();
 
 	function formatDate(date: string | undefined) {
 		if (!date) return 'Present';
@@ -19,8 +19,8 @@
 			</a>
 			{#if experience.additionalRoles}
 				<div class="mr-2 mt-2 flex h-full min-w-[45px] flex-col items-center opacity-70">
-					<div class="h-full w-[1px] rounded-lg bg-gray" />
-					<div class="mb-2 h-[3px] w-[9px] rounded-lg bg-gray" />
+					<div class="h-full w-[1px] rounded-lg bg-gray"></div>
+					<div class="mb-2 h-[3px] w-[9px] rounded-lg bg-gray"></div>
 				</div>
 			{/if}
 		</div>

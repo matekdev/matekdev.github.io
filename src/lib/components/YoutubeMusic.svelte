@@ -1,12 +1,14 @@
 <script lang="ts">
-	export let src: string = '';
-	export let width: string = '100%';
-	export let height: string = '152px';
-	export let iframe_styles: string = `
+	let {
+		src = '',
+		width = '100%',
+		height = '152px',
+		iframe_styles = `
 		border-radius: 0.8rem;
 		height: ${height};
 		width: ${width};
-	`;
+	`
+	}: { src?: string; width?: string; height?: string; iframe_styles?: string } = $props();
 </script>
 
 <div class="ytmusic-embed-wrapper">
@@ -19,7 +21,7 @@
 		allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 		allowfullscreen
 		style={iframe_styles}
-	/>
+	></iframe>
 </div>
 
 <noscript>

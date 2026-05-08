@@ -1,5 +1,5 @@
 <script lang="ts">
-	export let id: String;
+	let { id }: { id: string } = $props();
 </script>
 
 <div class="video-container mb-4 overflow-hidden rounded-lg">

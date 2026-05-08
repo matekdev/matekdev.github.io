@@ -23,8 +23,8 @@
 		}
 	];
 
-	let isMenuExpanded: boolean = false;
-	$: if ($navigating) isMenuExpanded = false;
+	let isMenuExpanded: boolean = $state(false);
+	$effect(() => { if ($navigating) isMenuExpanded = false; });
 </script>
 
 <nav class="flex flex-col py-2 pt-4">
@@ -39,7 +39,7 @@
 		</div>
 		<button
 			class="flex self-center rounded-lg bg-jetlight px-2 py-1 hover:cursor-pointer md:hidden"
-			on:click={() => (isMenuExpanded = !isMenuExpanded)}
+			onclick={() => (isMenuExpanded = !isMenuExpanded)}
 		>
 			<Icon
 				icon={!isMenuExpanded

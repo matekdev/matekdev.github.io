@@ -2,7 +2,7 @@
 	import { resolveProjectThumbnailPath } from '$lib/Utils';
 	import Icon from '@iconify/svelte';
 
-	export let project: App.Project;
+	let { project }: { project: App.Project } = $props();
 </script>
 
 <a

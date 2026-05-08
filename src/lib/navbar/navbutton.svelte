@@ -2,11 +2,9 @@
 	import { page } from '$app/stores';
 	import Icon from '@iconify/svelte';
 
-	export let icon: string = '';
-	export let text: string;
-	export let href: string;
+	let { icon = '', text, href }: { icon?: string; text: string; href: string } = $props();
 
-	$: isActive = $page.url.pathname == href;
+	let isActive = $derived($page.url.pathname == href);
 </script>
 
 <a

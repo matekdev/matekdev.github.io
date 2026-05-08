@@ -1,7 +1,12 @@
 <script lang="ts">
 	import { page } from '$app/stores';
 
-	let { src, caption = '', href = '', alt = '' }: { src: string; caption?: string; href?: string; alt?: string } = $props();
+	let {
+		src,
+		caption = '',
+		href = '',
+		alt = ''
+	}: { src: string; caption?: string; href?: string; alt?: string } = $props();
 
 	function resolvePath(src: string) {
 		// Crappy code, who cares.
@@ -12,21 +17,25 @@
 	}
 </script>
 
-<div class="text-center">
+<figure class="not-prose my-6 text-center">
 	<img
-		class="mx-auto mb-0 flex justify-center rounded-lg"
+		class="mx-auto block max-w-full rounded-md border border-white/10 bg-[#111113] shadow-[0_18px_55px_rgba(0,0,0,0.22)]"
 		class:caption-img={caption}
 		src={resolvePath(src)}
 		alt={alt ? alt : src}
 	/>
 	{#if caption}
 		{#if href}
-			<a {href} style="margin-top: 0px;">{caption}</a>
+			<figcaption>
+				<a {href} class="mt-2 block text-sm leading-5 text-blue transition-all hover:text-white"
+					>{caption}</a
+				>
+			</figcaption>
 		{:else}
-			<p style="margin-top: 0px;">{caption}</p>
+			<figcaption class="mt-2 text-sm leading-5 text-gray">{caption}</figcaption>
 		{/if}
 	{/if}
-</div>
+</figure>
 
 <style>
 	.caption-img {

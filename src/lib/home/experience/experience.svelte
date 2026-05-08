@@ -7,32 +7,32 @@
 	}
 </script>
 
-<div class="flex flex-col">
+<article
+	class="group flex flex-col rounded-md border border-white/10 bg-[#171719]/80 p-4 shadow-[0_18px_55px_rgba(0,0,0,0.22)] transition-all hover:-translate-y-0.5 hover:border-blue/40 hover:bg-[#1d1d21]/85"
+>
 	<div class="flex">
 		<div class="flex flex-col">
 			<a href={experience.href} class="transition-all hover:scale-105">
 				<img
 					src="/home/experiences/{experience.name.toLowerCase().replaceAll(' ', '_')}.jpg"
 					alt={experience.name}
-					class="mr-2 h-[45px] min-h-[45px] w-[45px] min-w-[45px] rounded"
+					class="mr-3 h-[48px] min-h-[48px] w-[48px] min-w-[48px] rounded-md border border-white/10 object-cover"
 				/>
 			</a>
 			{#if experience.additionalRoles}
-				<div class="mr-2 mt-2 flex h-full min-w-[45px] flex-col items-center opacity-70">
+				<div class="mr-3 mt-2 flex h-full min-w-[48px] flex-col items-center opacity-50">
 					<div class="h-full w-[1px] rounded-lg bg-gray"></div>
 					<div class="mb-2 h-[3px] w-[9px] rounded-lg bg-gray"></div>
 				</div>
 			{/if}
 		</div>
 		<div>
-			<a
-				href={experience.href}
-				class="text-xl font-medium text-blue transition-all hover:text-darkblue"
+			<a href={experience.href} class="text-xl font-bold text-white transition-all hover:text-blue"
 				>{experience.name}</a
 			>
-			<p class="text-white">{experience.subheading} • {experience.location}</p>
+			<p class="text-gray">{experience.subheading} • {experience.location}</p>
 			{#if experience.startDate}
-				<p class="text-gray">
+				<p class="pt-1 text-sm font-medium uppercase tracking-[0.08em] text-bluegray">
 					{formatDate(experience.startDate)} - {formatDate(experience.endDate)}
 				</p>
 			{/if}
@@ -50,8 +50,8 @@
 				{#each experience.additionalRoles as role}
 					<div class="flex pt-1">
 						<div class="pt-2">
-							<p class="text-white">{role.subheading} • {role.location}</p>
-							<p class="text-gray">
+							<p class="text-gray">{role.subheading} • {role.location}</p>
+							<p class="pt-1 text-sm font-medium uppercase tracking-[0.08em] text-bluegray">
 								{formatDate(role.startDate)} - {formatDate(role.endDate)}
 							</p>
 						</div>
@@ -72,4 +72,4 @@
 			{/if}
 		</div>
 	</div>
-</div>
+</article>

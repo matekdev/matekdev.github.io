@@ -24,10 +24,12 @@
 	];
 
 	let isMenuExpanded: boolean = $state(false);
-	$effect(() => { if ($navigating) isMenuExpanded = false; });
+	$effect(() => {
+		if ($navigating) isMenuExpanded = false;
+	});
 </script>
 
-<nav class="flex flex-col py-2 pt-4">
+<nav class="flex flex-col py-3">
 	<div class="flex justify-between">
 		<div>
 			<Navbutton icon="ic:round-terminal" text="matek.dev" href="/" />
@@ -38,7 +40,7 @@
 			{/each}
 		</div>
 		<button
-			class="flex self-center rounded-lg bg-jetlight px-2 py-1 hover:cursor-pointer md:hidden"
+			class="flex self-center rounded-md border border-white/10 bg-white/[0.04] px-2 py-1 hover:cursor-pointer md:hidden"
 			onclick={() => (isMenuExpanded = !isMenuExpanded)}
 		>
 			<Icon

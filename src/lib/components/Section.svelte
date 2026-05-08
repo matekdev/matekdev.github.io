@@ -2,6 +2,6 @@
 	let { children } = $props();
 </script>
 
-<div class="mb-2 rounded-lg bg-jetlight p-4 font-roboto">
+<section class="mb-6 font-roboto">
 	{@render children()}
-</div>
+</section>

@@ -9,8 +9,8 @@
 
 <a
 	{href}
-	class="flex rounded-lg bg-jetlight px-2 py-1 font-roboto text-xl font-medium text-blue transition-all hover:scale-105 hover:opacity-100 active:text-blue
-	{!isActive ? 'text-darkblue' : ''}"
+	class="flex rounded-md border border-white/10 bg-white/[0.04] px-3 py-2 font-roboto text-base font-medium text-white transition-all hover:-translate-y-0.5 hover:border-blue/50 hover:text-blue active:text-blue
+	{!isActive ? 'text-gray' : ''}"
 >
 	{#if icon}
 		<Icon {icon} class="mr-1 self-center"></Icon>

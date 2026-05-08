@@ -27,29 +27,29 @@
 	];
 </script>
 
-<header class="flex flex-col">
-	<div class="flex">
-		<div class="relative mr-3">
-			<enhanced:img src="../../../../static/home/me.jpg" class="h-auto w-[100px] rounded-lg" alt="My face" />
-			<div class="absolute bottom-[-15px] flex w-full justify-center text-3xl">
+<header class="relative pb-6 pt-0 md:pb-8">
+	<div class="max-w-3xl">
+		<div class="flex flex-wrap items-end gap-x-4 gap-y-2">
+			<h1 class="text-5xl font-bold leading-[0.95] text-white md:text-7xl">Matthew Zegar</h1>
+			<div class="flex pb-1 text-3xl md:text-4xl" aria-label="Polish and Canadian flags">
 				<Icon icon="openmoji:flag-poland" />
 				<Icon icon="openmoji:flag-canada" />
 			</div>
 		</div>
-		<div class="flex flex-col justify-center">
-			<div class="font-roboto text-white transition-all">
-				<h1 class="text-nowrap text-2xl font-bold md:text-3xl">Matthew Zegar</h1>
-				<h2 class="text-md text-gray">Software Developer</h2>
-			</div>
-			<div class="flex gap-1 text-[25px]">
-				{#each links as link}
-					<Tooltip text={link.tooltip}>
-						<a href={link.href} class="text-blue transition-all hover:text-darkblue"
-							><Icon icon={link.icon} /></a
-						>
-					</Tooltip>
-				{/each}
-			</div>
+		<h2 class="pt-4 text-xl text-gray md:max-w-xl md:text-2xl">
+			Software developer focused on performance, graphics, and games.
+		</h2>
+
+		<div class="flex gap-3 pt-6 text-[25px]">
+			{#each links as link}
+				<Tooltip text={link.tooltip}>
+					<a
+						href={link.href}
+						class="inline-flex text-blue transition-all hover:-translate-y-0.5 hover:scale-110 hover:text-white"
+						><Icon icon={link.icon} /></a
+					>
+				</Tooltip>
+			{/each}
 		</div>
 	</div>
 </header>

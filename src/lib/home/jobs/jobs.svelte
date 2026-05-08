@@ -60,15 +60,15 @@
 </script>
 
 <div class="font-roboto">
-	<p class="pb-2 text-3xl text-white">Work Experience</p>
-	<div class="flex flex-col gap-4">
+	<p class="pb-4 text-3xl font-bold text-white">Work Experience</p>
+	<div class="flex flex-col gap-3">
 		{#each jobs as job}
 			<Experience experience={job} />
 		{/each}
 	</div>
 	<a
 		href="https://www.linkedin.com/in/matthewzegar/"
-		class="flex justify-center pt-4 text-center text-blue transition-all hover:text-darkblue"
-		>Read more about my work experiences on Linkedin</a
+		class="flex justify-center pt-5 text-center font-medium text-blue transition-all hover:text-white"
+		>Read more about my work experience on Linkedin</a
 	>
 </div>

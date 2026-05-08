@@ -2,7 +2,9 @@
 	let { id }: { id: string } = $props();
 </script>
 
-<div class="video-container mb-4 overflow-hidden rounded-lg">
+<div
+	class="video-container not-prose my-6 overflow-hidden rounded-md border border-white/10 bg-[#111113] shadow-[0_18px_55px_rgba(0,0,0,0.22)]"
+>
 	<iframe
 		title="Youtube video"
 		src={`https://www.youtube.com/embed/${id}`}

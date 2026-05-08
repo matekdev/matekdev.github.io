@@ -2,6 +2,7 @@
 	import DiscordEmbed from '$lib/components/DiscordEmbed.svelte';
 	import FlyIn from '$lib/components/FlyIn.svelte';
 	import PageTitle from '$lib/components/PageTitle.svelte';
+	import { resolveProjectThumbnailPath } from '$lib/Utils';
 	import { ProjectData } from '$lib/projects/projectdata.js';
 	import Projectpage from '$lib/projects/projectpage.svelte';
 
@@ -22,7 +23,7 @@
 <DiscordEmbed
 	title={pageTitle()}
 	description={projectDescription()}
-	img="/projects/thumbnails/{data.metadata.name.toLowerCase().replaceAll(' ', '_')}.jpg"
+	img={resolveProjectThumbnailPath(data.metadata.name)}
 />
 
 <FlyIn>

@@ -7,7 +7,7 @@ skills: 'C#, Razor, s&box'
 
 The game is a procedurally generated dungeon crawler with the world being made up of destructible voxels. You begin the game as one of the many starting classes and work through the dungeon fighting various enemies and gearing your player.
 
-The role I played was extremely [similar to the previous game jam](https://matek.dev/projects/my-summer-cottage/). I was one of the main programmers with a focus in systems, network, gameplay, and UI programming.
+The role I played was extremely [similar to the previous game jam](/projects/my-summer-cottage-jam). I was one of the main programmers with a focus in systems, network, gameplay, and UI programming.
 
 <Youtube id="bMYlgKduhLo" />
 

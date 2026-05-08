@@ -6,10 +6,10 @@ export const ProjectData: App.Project[] = [
 		href: '/projects/node-rapids'
 	},
 	{
-		name: 'My Summer Cottage',
+		name: 'My Summer Cottage: Jam',
 		description: 'Finnish survival simulator',
 		skills: 'C#, Razor, s&box',
-		href: '/projects/my-summer-cottage',
+		href: '/projects/my-summer-cottage-jam',
 		prize: '13,000'
 	},
 	{

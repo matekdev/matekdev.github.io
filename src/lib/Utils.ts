@@ -1,3 +1,8 @@
 export function resolveProjectThumbnailPath(projectName: string): string {
-	return `/projects/thumbnails/${projectName.toLowerCase().replaceAll(' ', '_')}.jpg`;
+	const thumbnailName = projectName
+		.toLowerCase()
+		.replaceAll(':', '')
+		.replaceAll(' ', '_');
+
+	return `/projects/thumbnails/${thumbnailName}.jpg`;
 }

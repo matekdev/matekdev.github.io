@@ -1,10 +1,10 @@
 ---
-name: 'My Summer Cottage'
+name: 'My Summer Cottage: Jam'
 git: 'https://github.com/Small-Fish-Dev/My-Summer-Cottage-Jam'
 skills: 'C#, Razor, s&box'
 ---
 
-"My Summer Cottage" is an entry for the [first Facepunch hosted s&box game jam](https://sbox.game/c/gamejam1/results). We placed 1st and won the grand price of **$13,000 USD**.
+"My Summer Cottage: Jam" is an entry for the [first Facepunch hosted s&box game jam](https://sbox.game/c/gamejam1/results). We placed 1st and won the grand price of **$13,000 USD**.
 
 The gameplay is quite unique... you are dropped into an "interesting" Finnish world where you do tasks to satisfy your nagging wife. These usually involve hunting, fishing, and gambling while encountering random events throughout the day.
 

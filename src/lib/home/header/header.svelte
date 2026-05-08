@@ -30,7 +30,7 @@
 <header class="flex flex-col">
 	<div class="flex">
 		<div class="relative mr-3">
-			<img src="/home/me.jpg" class="h-auto w-[100px] rounded-lg" alt="My face" />
+			<enhanced:img src="../../../../static/home/me.jpg" class="h-auto w-[100px] rounded-lg" alt="My face" />
 			<div class="absolute bottom-[-15px] flex w-full justify-center text-3xl">
 				<Icon icon="openmoji:flag-poland" />
 				<Icon icon="openmoji:flag-canada" />

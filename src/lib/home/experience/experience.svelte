@@ -5,6 +5,10 @@
 		if (!date) return 'Present';
 		return new Date(date + 'T00:00:00').toLocaleString('en-US', { month: 'long', year: 'numeric' });
 	}
+
+	function getSkills(skills: string | undefined) {
+		return skills ? skills.split(',').map((skill) => skill.trim()) : [];
+	}
 </script>
 
 <article
@@ -44,7 +48,14 @@
 				</div>
 			{/if}
 			{#if experience.skills}
-				<p class="pt-1 text-gray"><span class="font-bold">Skills: </span>{experience.skills}</p>
+				<div class="flex flex-wrap gap-2 pt-3">
+					{#each getSkills(experience.skills) as skill}
+						<span
+							class="rounded-md border border-white/10 bg-white/[0.06] px-3 py-1 text-sm font-medium text-bluegray"
+							>{skill}</span
+						>
+					{/each}
+				</div>
 			{/if}
 			{#if experience.additionalRoles}
 				{#each experience.additionalRoles as role}
@@ -64,9 +75,14 @@
 						</div>
 					{/if}
 					{#if role.skills}
-						<p class="pt-1 text-white">
-							<span class="font-bold">Skills: </span>{role.skills}
-						</p>
+						<div class="flex flex-wrap gap-2 pt-3">
+							{#each getSkills(role.skills) as skill}
+								<span
+									class="rounded-md border border-white/10 bg-white/[0.06] px-3 py-1 text-sm font-medium text-bluegray"
+									>{skill}</span
+								>
+							{/each}
+						</div>
 					{/if}
 				{/each}
 			{/if}

@@ -46,7 +46,7 @@
 						{/each}
 						{#if project?.prize}
 							<span
-								class="inline-flex items-center gap-1 rounded-full border border-yellow/30 bg-yellow/10 px-3 py-1 text-sm font-bold text-yellow"
+								class="inline-flex items-center gap-1 rounded-md border border-yellow/30 bg-yellow/10 px-3 py-1 text-sm font-bold text-yellow"
 							>
 								<Icon icon="material-symbols:trophy" class="text-lg" />
 								${project.prize} USD

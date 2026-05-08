@@ -7,14 +7,16 @@
 			subheading: 'Software Developer II',
 			location: 'Vancouver, Canada',
 			startDate: '2025-01-06',
-			href: 'https://www.autodesk.com/'
+			href: 'https://www.autodesk.com/',
+			skills: 'C++, C#'
 		},
 		{
 			name: 'Small Fish',
 			subheading: 'Programming Lead (Part-time)',
 			location: 'Remote',
 			startDate: '2023-08-01',
-			href: 'https://smallfi.sh/'
+			href: 'https://smallfi.sh/',
+			skills: 'C#, s&box'
 		},
 		{
 			name: 'Kijiji',
@@ -22,7 +24,8 @@
 			location: 'Toronto, Canada',
 			startDate: '2023-10-01',
 			endDate: '2024-10-01',
-			href: 'https://www.kijiji.ca/'
+			href: 'https://www.kijiji.ca/',
+			skills: 'Java, Google Cloud Platform'
 		},
 		{
 			name: 'NVIDIA',
@@ -31,12 +34,14 @@
 			startDate: '2021-05-01',
 			endDate: '2021-12-30',
 			href: 'https://www.nvidia.com/',
+			skills: 'C++, TypeScript, React, Node.js',
 			additionalRoles: [
 				{
 					subheading: 'Performance Lab Intern',
 					location: 'Remote',
 					startDate: '2021-01-01',
-					endDate: '2021-05-14'
+					endDate: '2021-05-14',
+					skills: 'Game Testing, Benchmarking, C#, Python'
 				}
 			]
 		},
@@ -46,7 +51,8 @@
 			location: 'Remote',
 			startDate: '2020-05-18',
 			endDate: '2020-12-14',
-			href: 'https://homex.com/'
+			href: 'https://homex.com/',
+			skills: 'Flutter, Dart'
 		},
 		{
 			name: 'Kabam',
@@ -54,7 +60,8 @@
 			location: 'Vancouver, Canada',
 			startDate: '2019-05-18',
 			endDate: '2019-12-14',
-			href: 'https://kabam.com/'
+			href: 'https://kabam.com/',
+			skills: 'C#, JavaScript, Unity'
 		}
 	];
 </script>

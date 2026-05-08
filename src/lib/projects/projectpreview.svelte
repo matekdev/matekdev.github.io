@@ -1,6 +1,5 @@
 <script lang="ts">
 	import { resolveProjectThumbnailPath } from '$lib/Utils';
-	import Icon from '@iconify/svelte';
 
 	let { project }: { project: App.Project } = $props();
 
@@ -11,7 +10,7 @@
 
 <a
 	href={project.href}
-	class="group flex gap-4 rounded-md border border-white/10 bg-[#171719]/80 p-4 font-roboto shadow-[0_18px_55px_rgba(0,0,0,0.22)] transition-all hover:-translate-y-1 hover:border-blue/50 hover:bg-[#1d1d21]/85"
+	class="group flex h-full gap-4 rounded-md border border-white/10 bg-[#171719]/80 p-4 font-roboto shadow-[0_18px_55px_rgba(0,0,0,0.22)] transition-all hover:-translate-y-1 hover:border-blue/50 hover:bg-[#1d1d21]/85"
 >
 	<div
 		class="relative flex h-24 w-24 min-w-24 overflow-hidden rounded-md border border-white/10 bg-[#111113] shadow-lg md:h-28 md:w-28 md:min-w-28"
@@ -21,14 +20,6 @@
 			alt={project.name}
 			class="h-full w-full object-cover"
 		/>
-		{#if project.prize}
-			<div
-				class="absolute inset-x-1.5 bottom-1.5 z-10 flex items-center justify-center rounded bg-[#111113]/85 px-1.5 py-1 text-xs font-bold text-yellow backdrop-blur-sm"
-			>
-				<Icon icon="material-symbols:trophy" class="mr-0.5 text-sm"></Icon>
-				${project.prize}
-			</div>
-		{/if}
 	</div>
 	<div class="flex min-w-0 flex-1 flex-col">
 		<p class="text-2xl font-bold leading-tight text-white">{project.name}</p>

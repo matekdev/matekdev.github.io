@@ -1,5 +1,11 @@
 export const ProjectData: App.Project[] = [
 	{
+		name: 'My Summer Cottage: Standalone',
+		description: 'Standalone Steam release of My Summer Cottage',
+		skills: 'C#, Razor, s&box',
+		href: '/projects/my-summer-cottage-standalone'
+	},
+	{
 		name: 'Node RAPIDS',
 		description: 'GPU-accelerated data-science libraries on Node.js',
 		skills: 'C++, TypeScript, CUDA',

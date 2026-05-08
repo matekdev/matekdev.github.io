@@ -9,7 +9,7 @@
 		<div class="flex flex-col gap-2 pb-6">
 			<p class="text-4xl font-bold text-white">Projects & Contributions</p>
 		</div>
-		<div class="grid grid-cols-1 items-start gap-4 md:grid-cols-2">
+		<div class="grid grid-cols-1 gap-4 md:grid-cols-2">
 			{#each ProjectData as project}
 				<Project {project} />
 			{/each}

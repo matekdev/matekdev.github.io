@@ -4,5 +4,5 @@ export function resolveProjectThumbnailPath(projectName: string): string {
 		.replaceAll(':', '')
 		.replaceAll(' ', '_');
 
-	return `/projects/thumbnails/${thumbnailName}.jpg`;
+	return `/projects/thumbnails/${thumbnailName}.webp`;
 }

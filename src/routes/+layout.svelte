@@ -8,7 +8,7 @@
 
 <div class="fixed grid h-screen w-screen bg-jetblack" style="z-index: -5;"></div>
 <img
-	src="/generic/msc1.jpg"
+	src="/generic/msc1.webp"
 	alt=""
 	class="pointer-events-none fixed inset-x-0 top-0 h-[34rem] w-screen object-cover opacity-35 blur-sm saturate-[0.8] [mask-image:linear-gradient(to_bottom,black_0%,black_52%,rgba(0,0,0,0.6)_70%,transparent_100%)]"
 	style="z-index: -4;"

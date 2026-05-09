@@ -18,7 +18,7 @@ I am shocked at how easy it is to integrate PhysX. I assumed that it'd be some c
 
 PhysX also has the [PhysX Visual Debugger](https://developer.nvidia.com/physx-visual-debugger) which is an amazing tool. It allows you to visualize the physics simulations and step through them as well. The setup for the debugger is also only a few lines as well.
 
-<Img src="debugger.jpg" />
+<Img src="debugger.webp"  />
 
 The most interesting part is getting the actual physics objects to follow the objects you render via your graphics API (in my case DX11). Well, each object has a `getGlobalPose()` which returns a transform. All you need to do is pass this transform data to whatever abstraction you have setup that manages object position, rotation, etc.
 
@@ -55,9 +55,9 @@ void TransformComponent::SetBBox(const glm::vec3 &min, const glm::vec3 &max)
 }
 ```
 
-<Img src="ex1.jpg" />
+<Img src="ex1.webp"  />
 
-<Img src="ex2.jpg" />
+<Img src="ex2.webp"  />
 
 Since I use the transform provided by the rigid body, my engine already renders the physics objects perfectly. The last thing we need to consider is scaling the model.
 

@@ -136,9 +136,9 @@ void Scene::NormalRenderPass()
 
 Before moving on it's a good idea to view your shadow map and make sure everything is setup correctly. I've seen a lot of tutorials recommend drawing the shadow map onto a quad that maps onto your screen. You don't need to do that. Instead, start getting familiar with [RenderDoc](https://matek.dev/blog/basedlogs-7/) and view the texture there.
 
-<Img src="regular.jpg" />
+<Img src="regular.webp"  />
 
-<Img src="shadowmap.jpg" />
+<Img src="shadowmap.webp"  />
 
 Notice that the perspective of the shadow map is different since the light isn't in the same position as the camera. We can use this shadow map to figure out what parts of the scene should be in the shadow. Before we do that we need to pass some additional data to our model shaders.
 
@@ -204,7 +204,7 @@ float ShadowCalculation(vec4 fragPosLightSpace)
 
 If you did all this correctly you'll immediately run into an issue called "Shadow acne". This occurs because multiple fragments can sample the same value from the shadow map. We can fix this by adding a "shadow bias" which offsets the depth of the shadow map... and then we are finished!
 
-<Img src="result.jpg" />
+<Img src="result.webp"  />
 
 Now there are a number of other changes that improve the shadow quality but I'll stop here for now. The implementation details for the spot lights are actually quite similar. Instead of using an orthographic projection we just need a perspective projection similar to what our camera would use. Point lights are a little more complicated so we'll cover both in a future blog.
 

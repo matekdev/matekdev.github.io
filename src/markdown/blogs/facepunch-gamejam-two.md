@@ -26,11 +26,11 @@ The list goes on... and we should have cut some of these to refine the core game
 
 The technicality and art style of our game surpasses any entry by a long shot. I mean... just look at our game.
 
-<Img src="ex1.jpg" />
+<Img src="ex1.webp"  />
 
-<Img src="ex2.jpg" />
+<Img src="ex2.webp"  />
 
-<Img src="ex3.jpg" />
+<Img src="ex3.webp"  />
 
 These are just a few screenshots but you can check out [some more here](https://matek.dev/projects/deathcard/).
 

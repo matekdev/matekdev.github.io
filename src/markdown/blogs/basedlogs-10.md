@@ -8,7 +8,7 @@ We can discard polygons that are not visible from the camera using the process o
 
 We use "winding order" as a way to determine whether or not the side of a polygon we are looking at is the front or the back.
 
-<Img src="winding-order.jpg" caption="LearnOpenGL" href="https://learnopengl.com/Advanced-OpenGL/Face-culling" />
+<Img src="winding-order.webp" caption="LearnOpenGL" href="https://learnopengl.com/Advanced-OpenGL/Face-culling"  />
 
 The triangle on the left is defined as clockwise (CW) and the triangle on the right is counter-clockwise (CCW). OpenGL uses this information to determine whether or not your triangle is front-facing or back-facing. OpenGL by default considers CCW vertices as front-facing triangles. It's important to note that if you are importing models the winding order is defined in the model data.
 
@@ -24,8 +24,8 @@ glFrontFace(GL_CW);
 
 There are significant performance gains to using this technique but I don't really have a way to measure them since none of the scenes in my engine are very complex. However, I can show you the result on a model when back-face culling is enabled.
 
-<Img src="before.jpg" caption="Outside view of the cube" />
+<Img src="before.webp" caption="Outside view of the cube"  />
 
-<Img src="after.jpg" caption="Inside view of the cube" />
+<Img src="after.webp" caption="Inside view of the cube"  />
 
 <YoutubeMusic src="3_aDQnA0qTw" />

@@ -67,7 +67,7 @@ glm::vec3 TransformComponent::GetDirection()
 }
 ```
 
-<Img src="directional-lights.jpg" />
+<Img src="directional-lights.webp"  />
 
 The lighting still looks pretty off because we aren't actually casting any shadows. The important part is to consider that we have a light source that is giving off light to each object to our scene like the sun.
 
@@ -105,13 +105,13 @@ vec4 CalculatePointLight(PointLight light) {
 }
 ```
 
-<Img src="point-lights.jpg" />
+<Img src="point-lights.webp"  />
 
 <Heading title="Spot Lights" />
 
 The last type of light we will be adding is a spot light. We can think of these as basically a flash light. I'm going to steal another diagram from [LearnOpenGL](https://learnopengl.com/Lighting/Light-casters) to explain them.
 
-<Img src="spot-light-diagram.jpg" />
+<Img src="spot-light-diagram.webp"  />
 
 - `SpotDir` we can think of the direction method we added in directional lighting
 - `LightDir` is a vector pointing from the fragment to the position of the light source
@@ -180,7 +180,7 @@ vec4 CalcualteSpotLight(SpotLight light) {
 }
 ```
 
-<Img src="spot-lights.jpg" caption="Notice the circular pattern the light gives off" />
+<Img src="spot-lights.webp" caption="Notice the circular pattern the light gives off"  />
 
 Here is the [complete fragment shader file](https://github.com/matekdev/lean-engine/blob/64465af0f89fbe377aa07d2d0fbd612b40a659de/shaders/model.frag) if anyone is interested in checking it out.
 

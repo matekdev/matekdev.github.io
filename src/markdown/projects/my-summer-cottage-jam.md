@@ -12,5 +12,5 @@ I helped across a lot of the project: systems, networking, gameplay, shaders, UI
 
 <Youtube id="sDQB1yv6tOE" />
 
-<Img src="ex1.jpg" />
-<Img src="ex2.jpg" />
+<Img src="ex1.webp"  />
+<Img src="ex2.webp"  />

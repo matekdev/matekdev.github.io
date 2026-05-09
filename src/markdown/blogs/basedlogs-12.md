@@ -73,13 +73,13 @@ void main() {
 }
 ```
 
-<Img src="skybox.jpg" />
+<Img src="skybox.webp"  />
 
 <Heading title="Reflection mapping" />
 
 Now let's use the cubemap in order to implement reflection mapping. The idea is actually really similar [specular lighting](https://matek.dev/blog/basedlogs-2/#Specular) which we covered a bit ago.
 
-<Img src="reflection.jpg" caption="LearnOpenGL" href="https://learnopengl.com/Advanced-OpenGL/Cubemaps" />
+<Img src="reflection.webp" caption="LearnOpenGL" href="https://learnopengl.com/Advanced-OpenGL/Cubemaps"  />
 
 - `I` is the view direction which we can calculate using the `CameraPosition` and `FragPosition`
 - `N` is the normal
@@ -109,7 +109,7 @@ void main() {
 }
 ```
 
-<Img src="result.jpg" />
+<Img src="result.webp"  />
 
 The result looks great for how simple the implementation is.
 

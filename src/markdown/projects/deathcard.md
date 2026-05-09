@@ -11,8 +11,8 @@ My role was [similar to the previous game jam](/projects/my-summer-cottage-jam).
 
 <Youtube id="bMYlgKduhLo" />
 
-<Img src="ex1.jpg" />
-<Img src="ex2.jpg" />
-<Img src="ex3.jpg" />
-<Img src="ex4.jpg" />
-<Img src="ex5.jpg" />
+<Img src="ex1.webp"  />
+<Img src="ex2.webp"  />
+<Img src="ex3.webp"  />
+<Img src="ex4.webp"  />
+<Img src="ex5.webp"  />

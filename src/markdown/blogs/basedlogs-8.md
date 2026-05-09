@@ -14,7 +14,7 @@ The stencil test is executed after the fragment shader and has the ability to di
 
 Regardless, we know it's fragment -> stencil -> depth without early-z.
 
-<Img src="stencil-buffer-ex.jpg" caption="Taken from LearnOpenGL" href="https://learnopengl.com/Advanced-OpenGL/Stencil-testing" />
+<Img src="stencil-buffer-ex.webp" caption="Taken from LearnOpenGL" href="https://learnopengl.com/Advanced-OpenGL/Stencil-testing"  />
 
 Here is a nice diagram from LearnOpenGL that shows an example of the stencil buffer being filled with 1's and then discarding the fragments everywhere the stencil value is 0.
 
@@ -24,7 +24,7 @@ One interesting effect you can implement with stencil buffers is an outline. I'm
 
 I haven't written about framebuffers yet but GLFW ends up creating a framebuffer automatically when creating an OpenGL window. In my project, I had to create my own framebuffer since I needed to map the texture onto an ImGui window. The problem is that I was creating a framebuffer [that didn't have a stencil attachment... only a depth attachment](https://github.com/matekdev/lean-engine/commit/a92cd9362b793e76bf855555a0c1256af88bda4d). I'm glad I talked about RenderDoc during my last blog post because using that application is how I finally figured out the stencil buffer didn't exist.
 
-<Img src="renderdoc-stencil.jpg" />
+<Img src="renderdoc-stencil.webp"  />
 
 After realizing this I fixed up my framebuffer implementation and checked RenderDoc again. In RenderDoc you can view the stencil texture to easily see that I'm finally successfully writing to the stencil buffer (the white cube in the middle!).
 
@@ -88,7 +88,7 @@ glStencilFunc(GL_ALWAYS, 0, 0xFF);
 glEnable(GL_DEPTH_TEST);
 ```
 
-<Img src="based-outline.jpg" />
+<Img src="based-outline.webp"  />
 
 This is the final result of the outlining effect.
 

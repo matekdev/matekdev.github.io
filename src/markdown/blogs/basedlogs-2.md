@@ -60,7 +60,7 @@ vec3 lightResult = ambient + diffuse;
 
 Specular lighting is the lighting produced based on the reflective properties of the surface. We actually uses a lot of the same pieces of information as diffuse but we also consider the direction the camera is looking at the object.
 
-<Img src="specular_diagram.jpg" caption="Diagram from LearnOpenGL" href="https://learnopengl.com/Lighting/Basic-Lighting" />
+<Img src="specular_diagram.webp" caption="Diagram from LearnOpenGL" href="https://learnopengl.com/Lighting/Basic-Lighting"  />
 
 1. We have the light direction which we calculated by taking the position of the light and subtracting the fragment position
 2. The normal vector is given to us via importing the model
@@ -162,6 +162,6 @@ void main() {
 
 ```
 
-<Img src="gouraud_example.jpg" caption="Gouraud shading in Based Engine" />
+<Img src="gouraud_example.webp" caption="Gouraud shading in Based Engine"  />
 
 <YoutubeMusic src="7zJa6FB5crk" />

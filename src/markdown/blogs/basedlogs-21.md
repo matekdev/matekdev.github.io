@@ -89,7 +89,7 @@ PSOutput Main(PSInput input)
 
 There isn't much else to add... I basically ported over the GLSL implementation. It all basically behaves the same as it did back in my OpenGL engine.
 
-<Img src="cubemap.jpg" />
+<Img src="cubemap.webp"  />
 
 I still don't understand the difference between skybox, cube map, and environment mapping. I guess skybox is the concept of having some far distant texture? Environment mapping is sampling that texture onto the model. And lastly... cube maps are just the six textures that are used? Whatever...
 

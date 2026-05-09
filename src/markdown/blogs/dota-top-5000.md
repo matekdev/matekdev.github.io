@@ -6,7 +6,7 @@ date: '2024-09-04'
 
 I wrote a blog a few months ago detailing how I [hit the highest rank in Dota 2](https://matek.dev/blog/dota-immortal/). Well, I somehow managed to hit [top 5000 in North America today](https://web.archive.org/web/20240905022154/https://www.dota2.com/leaderboards/#americas).
 
-<Img src="top5000.jpg" />
+<Img src="top5000.webp"  />
 
 The funny part is that I am nowhere even close to even becoming remotely professional at this game. I would have probably needed to hit this milestone five years ago and drop out of university so I could play ten hours a day to even have a chance.
 

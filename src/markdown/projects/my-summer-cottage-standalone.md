@@ -11,10 +11,10 @@ I am the lead programmer and project lead. My contributions cover the overall te
 
 <Youtube id="rnotAcNaCbk" />
 
-<Img src="msc1.jpg" />
+<Img src="msc1.webp"  />
 
-<Img src="msc2.jpg" />
+<Img src="msc2.webp"  />
 
-<Img src="msc3.jpg" />
+<Img src="msc3.webp"  />
 
-<Img src="msc4.jpg" />
+<Img src="msc4.webp"  />

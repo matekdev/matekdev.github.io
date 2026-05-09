@@ -29,6 +29,6 @@ void Application::Run() const
 
 One area where my code base started to deteriorate last time around is when I added shadow mapping. I found that my `_scene->Render();` method began to explode in size because of having to render the scene objects multiple times. I'm wondering if implementing deferred rendering could potentially help with that abstraction.
 
-<Img src="progress.jpg" caption="Classic hamster model loaded..." />
+<Img src="progress.webp" caption="Classic hamster model loaded..."  />
 
 <YoutubeMusic src="8YKAHgwLEMg" />

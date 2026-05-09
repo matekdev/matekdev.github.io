@@ -18,7 +18,7 @@
 		<div class="mr-3 flex flex-col items-center">
 			<a href={experience.href} class="transition-all hover:scale-105">
 				<img
-					src="/home/experiences/{experience.name.toLowerCase().replaceAll(' ', '_')}.jpg"
+					src="/home/experiences/{experience.name.toLowerCase().replaceAll(' ', '_')}.webp"
 					alt={experience.name}
 					class="h-[48px] min-h-[48px] w-[48px] min-w-[48px] rounded-md border border-white/10 object-cover"
 				/>

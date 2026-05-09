@@ -8,8 +8,8 @@ Grubs is a procedurally generated multiplayer game inspired by Worms. Each playe
 
 I was one of the main programmers on the project. I worked on core pieces like the round flow, weapon component system, and the full user interface, then kept iterating on smaller gameplay and usability fixes as people played it. The game reached tens of thousands of players, and it was later featured by [YouTubers with millions of subscribers](https://youtu.be/flcAvTeu1sw).
 
-<Img src="ex1.jpg" />
+<Img src="ex1.webp"  />
 
-<Img src="ex2.jpg" />
+<Img src="ex2.webp"  />
 
-<Img src="ex3.jpg" />
+<Img src="ex3.webp"  />

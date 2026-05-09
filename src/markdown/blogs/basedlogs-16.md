@@ -119,7 +119,7 @@ I found the number of DirectX 11 resources a bit more scattered. I seriously thi
 
 <Heading title="Current Progress" />
 
-<Img src="dx11.jpg" />
+<Img src="dx11.webp"  />
 
 Here is the current progress I've made so far in DirectX 11.
 

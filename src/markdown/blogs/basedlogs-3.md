@@ -40,7 +40,7 @@ vec3 ambient = LightData.Ambient * MaterialData.Ambient;
 
 Here is an example of a gray cube with a light that has a blue specular applied.
 
-<Img src="lighting-materials.jpg" />
+<Img src="lighting-materials.webp"  />
 
 I don't have anything else to add... these were pretty minimal changes but you can create some pretty interesting lighting scenes already.
 

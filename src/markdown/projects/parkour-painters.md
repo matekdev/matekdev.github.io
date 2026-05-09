@@ -10,6 +10,6 @@ I built the parkour movement system, including wall jumps, ledge grabs, and grin
 
 <Youtube id="4AsBBwhmxHE" />
 
-<Img src="ex1.jpg" />
+<Img src="ex1.webp"  />
 
-<Img src="ex2.jpg" />
+<Img src="ex2.webp"  />

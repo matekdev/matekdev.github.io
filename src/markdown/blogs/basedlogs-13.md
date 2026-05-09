@@ -10,11 +10,11 @@ One issue that occurs with Phong lighting is that the specular light component c
 max(dot(viewDirection, reflectionDirection), 0.0)
 ```
 
-<Img src="phong-fail.jpg" caption="LearnOpenGL" href="https://learnopengl.com/Advanced-Lighting/Advanced-Lighting" />
+<Img src="phong-fail.webp" caption="LearnOpenGL" href="https://learnopengl.com/Advanced-Lighting/Advanced-Lighting"  />
 
 Notice that the image on the right showcases a situation where that angle could possibly exceed 90 degrees. To fix this we can use Blinn-Phong lighting which introduces the concept of a halfway vector. It's called the halfway vector because it is exactly halfway between the view direction and the light direction.
 
-<Img src="halfway.jpg" caption="LearnOpenGL" href="https://learnopengl.com/Advanced-Lighting/Advanced-Lighting" />
+<Img src="halfway.webp" caption="LearnOpenGL" href="https://learnopengl.com/Advanced-Lighting/Advanced-Lighting"  />
 
 The halfway vector will never go past 90 degrees in any realistic situation. To calculate it we add the light direction and the view direction and then normalize the result.
 
@@ -27,7 +27,7 @@ float spec = pow(max(dot(normal, halfWayDirection), 0.0), MaterialData.Shininess
 vec3 specular = light.Specular * (spec * MaterialData.Specular);
 ```
 
-<Img src="result.jpg" />
+<Img src="result.webp"  />
 
 This blog was pretty quick but the next one will be a big one since I'll be covering directional shadow mapping.
 

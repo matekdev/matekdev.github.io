@@ -1,0 +1,3 @@
+src/routes/+layout.svelte:11:	src="/generic/msc1.jpg"
+src/routes/+page.svelte:14:<DiscordEmbed {title} description="The personal website of Matthew Zegar" img="/home/me.jpg" />
+src/lib/Utils.ts:7:	return `/projects/thumbnails/${thumbnailName}.jpg`;

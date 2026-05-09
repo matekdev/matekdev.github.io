@@ -32,7 +32,7 @@ One of the major complaints we had with the original prototype is players didn't
 
 You'll be given a cottage at the start of the game, and you'll be able to customize and expand it as you progress through the game. We've implemented a building system that allows players to place furniture, decorations, and other items in their cottage.
 
-<Img src="building.jpg" />
+<Img src="building.webp"  />
 
 <Heading title="Vehicles" />
 
@@ -46,7 +46,7 @@ Now, we obviously kept tweaking it to fit our needs, [yart](https://smallfi.sh/t
 
 All we needed was our initial vehicle model, which ended up being created by [PUKES](https://smallfi.sh/team/pukes). The choice of car was obvious, as we are a game based in the fictional land of Finland during the early 2000s.
 
-<Img src="lada.jpg" />
+<Img src="lada.webp"  />
 
 <Heading title="Game Resources" />
 
@@ -92,7 +92,7 @@ We had an initial interaction system during the game jam, but there was some lim
 
 An `Interactable` component can have many `interactions`. Below, you can see an example of how an interaction can be defined.
 
-<Img src="interactions.jpg" />
+<Img src="interactions.webp"  />
 
 The biggest takeaway here is that an interaction has an extremely extensible interface that allows us to define custom behaviour for each interaction.
 
@@ -102,13 +102,13 @@ The newest additions this time around is the ability to define in what "realm" t
 
 A couple years ago I worked on a [minigolf game for s&box](https://github.com/sboxgame/minigolf) mostly developed by some folks over at Facepunch. I decided to write a minigolf implementation for My Summer Cottage as one of the side activities. You'll be able to play through a course with your friends! Here's a quick debug screenshot...
 
-<Img src="minigolf.jpg" />
+<Img src="minigolf.webp"  />
 
 <Heading title="Jobs" />
 
 The questing system for My Summer Cottage is referred to as "Jobs". These are tasks that the player can complete to earn money, experience, or to progress through the story. The system is now more robust and allows us to create more complex jobs with ease.
 
-<Img src="jobs.jpg" />
+<Img src="jobs.webp"  />
 
 Here is a quick debug screenshot of the job system in action. Essentially, you can define multiple sub-tasks for each job. Each sub-task can have its own set of conditions that need to be met before it can be completed. These conditions range from a simple boolean check, meeting a specific number value, or even a signal that can be invoked from anywhere in the codebase.
 
@@ -116,7 +116,7 @@ Here is a quick debug screenshot of the job system in action. Essentially, you c
 
 In the original game jam prototype, we had the concept of a "Fish Log" where players could track the fish they caught. This time around, we have expanded upon that idea and created a "Collection Log" which tracks specific categories of items. For example, we obviously have a fish category, but we also have a bug category, etc. We hope to have some nice rewards for completing the collection log.
 
-<Img src="collectionlog.jpg" />
+<Img src="collectionlog.webp"  />
 
 <Heading title="Events" />
 
@@ -175,7 +175,7 @@ Now there's a lot more to the event system (such as being fully networked and sa
 
 We have added a skill system to the game. Players can level up various skills such as fishing, drinking, hunting, and more. As players level up their skills, they unlock new perks and abilities that make them more efficient at their chosen activities. There won't be any elaborate skill trees, but rather a simple progression system that rewards players for investing time into specific activities.
 
-<Img src="skills.jpg" />
+<Img src="skills.webp"  />
 
 <Heading title="Pawns" />
 
@@ -187,7 +187,7 @@ The phone is making a return and hopefully it'll actually have some functionalit
 
 We've also integrated text chat into the phone, so players can communicate with each other through it. We don't expect many players to use it for communication (since most will be on voice chat), but it's a fun feature to have nonetheless.
 
-<Img src="phone.jpg" />
+<Img src="phone.webp"  />
 
 <Heading title="Crops" />
 
@@ -199,12 +199,12 @@ We really suck at guiding our players through the game. It could be the case tha
 
 I've implemented tutorials that show up in-game and also within the user interface.
 
-<Img src="ingametut.jpg" />
+<Img src="ingametut.webp"  />
 
-<Img src="uitut.jpg" />
+<Img src="uitut.webp"  />
 
 There's even a location to view the tutorials afterwards in the tab menu.
 
-<Img src="tut.jpg" />
+<Img src="tut.webp"  />
 
 If we fail to explain the game this time around it's on us.

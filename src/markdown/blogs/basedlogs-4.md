@@ -121,7 +121,7 @@ static inline std::string Format(const std::string &name, const std::string &mem
 }
 ```
 
-<Img src="two-lights.jpg" caption="Two different lights!!" />
+<Img src="two-lights.webp" caption="Two different lights!!"  />
 
 Here are the next few things that we are going to look into now that we have multiple light support.
 

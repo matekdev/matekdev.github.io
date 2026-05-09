@@ -24,7 +24,7 @@ if(outputColor.a < 0.1)
     discard;
 ```
 
-<Img src="trans.jpg" />
+<Img src="trans.webp"  />
 
 <Heading title="Blending" />
 
@@ -38,7 +38,7 @@ glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
 
 One issue that occurs however is when we have multiple transparent textures blending together. The problem is that the depth buffer doesn't care if the fragment has transparency or not. Which results in the depth test discarding the fragments.
 
-<Img src="issue.jpg" />
+<Img src="issue.webp"  />
 
 The way we can solve this is using the [painter's algorithm](https://en.wikipedia.org/wiki/Painter%27s_algorithm). What we want to do is sort all of the models with transparency by their distance to the camera and render the furthest first.
 
@@ -46,7 +46,7 @@ The way we can solve this is using the [painter's algorithm](https://en.wikipedi
 2. Sort the transparent objects based on their distance to the camera
 3. Draw the transparent objects in the sorted order
 
-<Img src="final.jpg" />
+<Img src="final.webp"  />
 
 We ideally don't want to sort objects since it'll cost us some performance (and it is being done on the CPU). It's something we can consider for the future but for now we have transparency and blending working.
 

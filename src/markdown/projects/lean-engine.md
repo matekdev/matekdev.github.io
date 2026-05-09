@@ -10,6 +10,6 @@ Most of the work was around graphics programming and engine structure: shader ma
 
 I wrote a series of posts covering the engine work and the graphics topics behind it. A few examples are [Shadow Mapping](https://matek.dev/blog/basedlogs-14/), [RenderDoc](https://matek.dev/blog/basedlogs-7/), and [Blinn-Phong lighting](https://matek.dev/blog/basedlogs-13/).
 
-<Img src="ex1.jpg" />
+<Img src="ex1.webp"  />
 
-<Img src="ex2.jpg" />
+<Img src="ex2.webp"  />

@@ -80,9 +80,9 @@ A per-object uniform is data that changes per draw, usually things like the tran
 
 <Heading title="WebGPU Shading Language" />
 
-We use WGSL (WebGPU Shading Language) for our shaders, which is a modern shading language designed specifically for WebGPU. It has a syntax similar to Rust and is designed to be safe and efficient. Here's a simple vertex and fragment shader that transforms vertex positions and passes through vertex colors:
+We use WGSL (WebGPU Shading Language) for our shaders, which is a modern shading language designed specifically for WebGPU. Here's a simple vertex and fragment shader that transforms vertex positions and passes through vertex colors:
 
-```wgsl
+```rust
 struct VertexInput {
   @location(0) position: vec2f,
   @location(1) color: vec3f,
@@ -118,3 +118,5 @@ It's pretty clean and straightforward. You can see how much more typed and struc
 <Heading title="Conclusion" />
 
 I've setup the basic structure of the renderer and have a simple triangle being rendered to the screen. You'll notice I skipped over a lot of the details, but, that's because I've covered a lot of the basics in previous blogs. The next steps will be to load some models instead of hardcoding a triangle.
+
+<YoutubeMusic src="sITGRWF1F5o" />

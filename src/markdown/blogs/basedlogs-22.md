@@ -77,3 +77,44 @@ I've abstracted some of the logic but the general idea is that you create a comm
 <Heading title="Per-object Uniforms" />
 
 A per-object uniform is data that changes per draw, usually things like the transform matrix. In BasedGPU, every mesh instance writes its own model-view-projection matrix into a shared uniform buffer, and dynamic offsets let the renderer select the correct slice for each draw call. This way, we can efficiently manage per-object data without needing a separate buffer for each instance, which is crucial for performance when rendering many objects.
+
+<Heading title="WebGPU Shading Language" />
+
+We use WGSL (WebGPU Shading Language) for our shaders, which is a modern shading language designed specifically for WebGPU. It has a syntax similar to Rust and is designed to be safe and efficient. Here's a simple vertex and fragment shader that transforms vertex positions and passes through vertex colors:
+
+```wgsl
+struct VertexInput {
+  @location(0) position: vec2f,
+  @location(1) color: vec3f,
+};
+
+struct VertexOutput {
+  @builtin(position) position: vec4f,
+  @location(0) color: vec3f,
+};
+
+struct ObjectUniform {
+  modelViewProjection: mat4x4f,
+};
+
+@group(0) @binding(0) var<uniform> objectUniform: ObjectUniform;
+
+@vertex
+fn vertexMain(input: VertexInput) -> VertexOutput {
+  var output: VertexOutput;
+  output.position = objectUniform.modelViewProjection * vec4f(input.position, 0.0, 1.0);
+  output.color = input.color;
+  return output;
+}
+
+@fragment
+fn fragmentMain(input: VertexOutput) -> @location(0) vec4f {
+  return vec4f(input.color, 1.0);
+}
+```
+
+It's pretty clean and straightforward. You can see how much more typed and structured it is compared to older shading languages, which is a big improvement for readability and maintainability.
+
+<Heading title="Conclusion" />
+
+I've setup the basic structure of the renderer and have a simple triangle being rendered to the screen. You'll notice I skipped over a lot of the details, but, that's because I've covered a lot of the basics in previous blogs. The next steps will be to load some models instead of hardcoding a triangle.

@@ -33,6 +33,20 @@ const bindGroupLayout = device.createBindGroupLayout({
 
 GPU buffer usage flags are WebGPU’s way of making buffer intent explicit. When a buffer is created, you must declare how it will be used, such as for vertex data, index data, uniforms, or copy operations. That gives the API enough information to validate commands and treat the buffer as the right kind of GPU resource.
 
+```ts
+static vertex(device: GPUDevice, data: Float32Array): GpuBuffer {
+  const gpuBuffer = new GpuBuffer(
+    device,
+    device.createBuffer({
+      size: data.byteLength,
+      usage: GPUBufferUsage.VERTEX | GPUBufferUsage.COPY_DST, // Declare that this buffer will be used for vertex data and can be written to by the CPU
+    }),
+  );
+  gpuBuffer.write(data);
+  return gpuBuffer;
+}
+```
+
 <Heading title="Uniform Alignment Rules" />
 
 GPUs expect predictable memory boundaries, this means that when you create uniform buffers, you need to ensure that the data is aligned.

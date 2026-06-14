@@ -51,13 +51,9 @@ static vertex(device: GPUDevice, data: Float32Array): GpuBuffer {
 
 GPUs expect predictable memory boundaries, this means that when you create uniform buffers, you need to ensure that the data is aligned.
 
-<Heading title="Explicit Resource States" />
-
-Before you push any data to the GPU, you need to explicitly declare the state of the resource. This is a bit different from older APIs where the driver would implicitly handle resource states for you. In WebGPU, you need to be explicit about when a resource is being read from or written to, and this helps the GPU optimize access to those resources.
-
 <Heading title="Command Encoders" />
 
-Both Vulkan and WebGPU use command buffers to record rendering commands. These are basically a way to batch up rendering commands and then submit them to the GPU for execution.
+Both Vulkan and WebGPU use command encoders (command buffers) to record rendering commands. These are basically a way to batch up rendering commands and then submit them to the GPU for execution.
 
 ```ts
 beginFrame(): { encoder: GPUCommandEncoder; view: GPUTextureView; depthView: GPUTextureView } {

@@ -2,6 +2,7 @@
 title: 'Based Logs #22 - Prologue Redux'
 description: 'Another attempt at learning graphics programming'
 date: '2026-06-12'
+hidden: true
 ---
 
 I'm back at it again writing my own little renderer. Last time I was messing around with DX11 and ended up writing a basic renderer with some basic game engine functionality (such as integrating NVIDIA's PhysX). That was great but I found that two things held me back. Firstly, the thing about graphics programming is that the API you use doesn't really matter very much. It's the ability to understand and implement the graphics programming concepts. Secondly, I was distracted by implementing various game engine features and I found that I didn't spend enough time on the graphics programming concepts.

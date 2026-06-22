@@ -50,6 +50,7 @@ declare global {
 			title: string;
 			description: string;
 			date: string;
+			hidden: boolean;
 		}
 	}
 }

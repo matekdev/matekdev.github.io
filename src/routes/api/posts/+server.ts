@@ -29,10 +29,11 @@ const fetchMarkdownPosts = async () => {
 				slug: name,
 				title: metadata.title,
 				description: metadata.description,
-				date: metadata.date
+				date: metadata.date,
+				hidden: metadata.hidden ?? false
 			};
 		})
 	);
 
-	return allPosts;
+	return allPosts.filter((post) => !post.hidden);
 };

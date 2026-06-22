@@ -2,6 +2,7 @@
 title: 'Based Logs #23 - Models'
 description: 'Loading and rendering some models'
 date: '2026-06-13'
+hidden: true
 ---
 
 Let's get some models and base color textures loaded and rendered. For this, I'm going to be using the glTF 2.0 format since it's a modern and widely supported format for 3D models. I could use `.fbx` since the company I work for owns the format... but let's give glTF a try.

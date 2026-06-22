@@ -1,4 +1,11 @@
-import type { PageLoad } from './$types';
+import type { EntryGenerator, PageLoad } from './$types';
+
+const postFiles = import.meta.glob('/src/markdown/blogs/*.md');
+
+export const entries: EntryGenerator = () =>
+	Object.keys(postFiles).map((filePath) => ({
+		slug: filePath.split('/').pop()?.replace(/\.md$/, '') ?? ''
+	}));
 
 export const load: PageLoad = async ({ params }) => {
 	const post = await import(`../../../markdown/blogs/${params.slug}.md`);

@@ -7,7 +7,7 @@ My Summer Cottage: Standalone is the full Steam version of the [game jam project
 
 The game is [coming to Steam](https://store.steampowered.com/app/3115420/My_Summer_Cottage/) and is being published by Facepunch. It is still built on s&box, which means a lot of the work involves building production game systems on top of an engine that is still moving quickly.
 
-I am the lead programmer and project lead. My contributions cover the overall technical direction of the game, core gameplay systems, multiplayer/co-op functionality, progression, jobs, player interaction, UI implementation, tooling, bug fixing, and keeping the project moving across design, programming, and production decisions.
+I am the lead programmer and project lead. My contributions cover the overall technical direction of the game, core gameplay systems, multiplayer/co-op functionality, UI implementation, tooling, bug fixing, and keeping the project moving across design, programming, and production decisions.
 
 <Youtube id="rnotAcNaCbk" />
 

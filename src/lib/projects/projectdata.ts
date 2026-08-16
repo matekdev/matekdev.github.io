@@ -75,18 +75,6 @@ export const ProjectData: App.Project[] = [
 		href: '/projects/turtle-links'
 	},
 	{
-		name: 'Small Fish Site',
-		description: 'Small Fish, big dreams',
-		skills: 'Svelte, Tailwind',
-		href: 'https://smallfi.sh/'
-	},
-	{
-		name: 'Retter',
-		description: 'Reddit mobile app',
-		skills: 'Flutter, Dart',
-		href: 'https://github.com/matekdev/Retter'
-	},
-	{
 		name: 'Other Projects',
 		description: 'Other projects available on my personal GitHub',
 		skills: '',

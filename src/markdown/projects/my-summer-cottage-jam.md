@@ -6,9 +6,9 @@ skills: 'C#, Razor, s&box'
 
 "My Summer Cottage: Jam" was our entry for the [first Facepunch hosted s&box game jam](https://sbox.game/c/gamejam1/results). We placed 1st and won **$13,000 USD**.
 
-The game drops you into a strange Finnish cottage trip where you spend the day doing errands, hunting, fishing, gambling, and dealing with random events.
+The game drops you into a "unique" world where you spend the day doing errands, hunting, fishing, gambling, and dealing with random events.
 
-I helped across a lot of the project: systems, networking, gameplay, shaders, UI, and some sound design. It was a small jam team, so I ended up filling whatever programming gap needed attention, from getting features working in multiplayer to building gameplay glue and bits of UI.
+I helped across a lot of the project: systems, networking, gameplay, shaders, UI, and some sound design. It was a small jam team, so I ended up filling whatever programming gap needed attention, from getting features working in multiplayer to building end-to-end gameplay mechanics.
 
 <Youtube id="sDQB1yv6tOE" />
 

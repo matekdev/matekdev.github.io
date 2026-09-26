@@ -16,7 +16,7 @@ by interfacing directly with the RAPIDS C++ libraries, such as libcudf.
 
 <Heading title="SQL Module" />
 
-On that foundation, we built the [SQL module in Node RAPIDS](https://github.com/rapidsai/node/tree/main/modules/sql). We took the open source BlazingSQL code, stripped away the Python,
+On that foundation, we built the [SQL module in Node RAPIDS](https://github.com/rapidsai/node/tree/7fb887c59dd5ff4b7dc023630ed0d8ea7efe5509/modules/sql). We took the open source BlazingSQL code, stripped away the Python,
 then interfaced with the C++ layer using TypeScript and Node.js. This allowed us to provide a JavaScript centric interface for the module.
 Here’s a snippet using the [SQLContext](https://rapidsai.github.io/node/classes/sql_src.SQLContext.html) class we built…
 
@@ -60,7 +60,7 @@ await sqlCluster.sql("SELECT a FROM test_table WHERE a LIKE '%foo%'"); // ['foo'
 <Heading title="Querying English Wikipedia" />
 
 To showcase this module in action we needed a large dataset to query. We downloaded the entirety of English Wikipedia and loaded it up into our SQL module.
-[The exact instructions on how we generated this dataset can be found here](https://github.com/rapidsai/node/tree/main/modules/demo/sql/sql-cluster-server#dataset).
+[The exact instructions on how we generated this dataset can be found here](https://github.com/rapidsai/node/tree/7fb887c59dd5ff4b7dc023630ed0d8ea7efe5509/modules/demo/sql/sql-cluster-server#dataset).
 This dataset ends up being around ~16 GBs in total size.
 
 <Heading title="Workarounds" />
@@ -89,5 +89,7 @@ we created a quick demo that allows for building queries easily down below...
 <Heading title="Conclusion" />
 
 Hopefully this demo and blog showcases the performance of GPUs as well as ease of use from Node.js.
-If you are interested in the [SQL module](https://github.com/rapidsai/node/tree/main/modules/sql) feel free to check out the [Node RAPIDS](https://github.com/rapidsai/node) project.
+If you are interested in the [SQL module](https://github.com/rapidsai/node/tree/7fb887c59dd5ff4b7dc023630ed0d8ea7efe5509/modules/sql) feel free to check out the [Node RAPIDS](https://github.com/rapidsai/node) project.
 It was a pleasure to intern at NVIDIA and have the opportunity to build out such complicated projects with talented teammates.
+
+**Update (2026):** BlazingSQL was abandoned upstream not long after this project, and the SQL module was eventually removed from Node RAPIDS. The links in this post now point to the last version of the repo that still includes it.

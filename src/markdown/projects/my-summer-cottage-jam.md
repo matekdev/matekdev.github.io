@@ -4,11 +4,11 @@ git: 'https://github.com/Small-Fish-Dev/My-Summer-Cottage-Jam'
 skills: 'C#, Razor, s&box'
 ---
 
-"My Summer Cottage: Jam" was our entry for the [first Facepunch hosted s&box game jam](https://sbox.game/c/gamejam1/results). We placed 1st and won **$13,000 USD**.
+My Summer Cottage was our entry for the [first Facepunch s&box game jam](https://sbox.game/c/gamejam1/results). We placed 1st out of 80+ entries and won **$13,000 USD**.
 
-The game drops you into a "unique" world where you spend the day doing errands, hunting, fishing, gambling, and dealing with random events.
+You spend your days in a "unique" Finnish world running errands, hunting, fishing, gambling, and dealing with whatever random event shows up.
 
-I helped across a lot of the project: systems, networking, gameplay, shaders, UI, and some sound design. It was a small jam team, so I ended up filling whatever programming gap needed attention, from getting features working in multiplayer to building end-to-end gameplay mechanics.
+I worked on systems, networking, gameplay, and shaders. With a small team and a month-long deadline, I filled whatever gap needed filling. I wrote [a post about the jam](/blog/facepunch-gamejam/) if you want the full story.
 
 <Youtube id="sDQB1yv6tOE" />
 

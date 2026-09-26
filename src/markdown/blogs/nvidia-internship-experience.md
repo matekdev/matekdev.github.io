@@ -28,7 +28,7 @@ I ended up finding a Data Visualization role which worked on the open-source NVI
 
 <Heading title="SQL Module" />
 
-One of the larger projects I owned was developing a separate [SQL (Structured Query Language) module](https://github.com/rapidsai/node/tree/main/modules/sql) we’ve included inside of [node-RAPIDS](https://github.com/rapidsai/node). We were able to hook up Node.js bindings to the open-source GPU accelerated SQL library [BlazingSQL](https://github.com/BlazingDB/blazingsql). You can think of BlazingSQL as essentially just SQL queries sped up massively by utilizing NVIDIA GPUs. This resulted in the ability to call into our SQL module from Node.js and process queries on multiple NVIDIA GPUs.
+One of the larger projects I owned was developing a separate [SQL (Structured Query Language) module](https://github.com/rapidsai/node/tree/7fb887c59dd5ff4b7dc023630ed0d8ea7efe5509/modules/sql) we’ve included inside of [node-RAPIDS](https://github.com/rapidsai/node). We were able to hook up Node.js bindings to the open-source GPU accelerated SQL library [BlazingSQL](https://github.com/BlazingDB/blazingsql). You can think of BlazingSQL as essentially just SQL queries sped up massively by utilizing NVIDIA GPUs. This resulted in the ability to call into our SQL module from Node.js and process queries on multiple NVIDIA GPUs.
 
 To showcase the full potential of this tech a simple demo was built. I downloaded the entirety of English Wikipedia and loaded it up into our SQL module. We were now able to search through English Wikipedia blazing fast. To give an example of usage, we could scan every English Wikipedia page for the word "Shakespeare" and see how many pages mention the playwright (in only ~40 seconds using only two NVIDIA GPUs!).
 

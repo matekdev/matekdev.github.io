@@ -4,10 +4,10 @@ git: 'https://github.com/matekdev/based-engine'
 skills: 'C++, DirectX 11, PhysX, ImGui, entt'
 ---
 
-Based Engine is a small 3D DirectX 11 engine built in modern C++. It is mostly a place for me to work on rendering features, engine systems, and C++ architecture without the constraints of a full game project.
+Based Engine is a 3D DirectX 11 engine written in modern C++. It's my playground for graphics programming.
 
-It is a follow-up to [Lean Engine](https://matek.dev/projects/lean-engine/), but this time using DirectX 11 instead of OpenGL. So far I have been focusing on the renderer, editor tooling, entity/component structure, and wiring [PhysX](https://github.com/NVIDIA-Omniverse/PhysX) into the engine for physics.
+It picks up where [Lean Engine](/projects/lean-engine/) left off. After getting shadow maps working in OpenGL, I switched to DirectX 11 and rebuilt the renderer and engine from scratch, then integrated [PhysX](https://github.com/NVIDIA-Omniverse/PhysX) for physics. The long-term plan is to move to DirectX 12.
 
-I write about development progress in the [Based Logs](https://matek.dev/blog/basedlogs-15/) series.
+I wrote about the switch and what came after in the [Based Logs](/blog/basedlogs-15/) series.
 
 <Youtube id="lY5LsbUydl4" />

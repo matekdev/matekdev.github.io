@@ -3,11 +3,11 @@ name: 'Death Card'
 skills: 'C#, Razor, s&box'
 ---
 
-"Death Card" was our entry for the [second Facepunch hosted s&box game jam](https://sbox.game/c/gamejam2/results). It placed 2nd out of 100+ entries and won **$13,000 USD**.
+Death Card was our entry for the [second Facepunch s&box game jam](https://sbox.game/c/gamejam2/results). It placed 2nd out of 100+ entries and won **$13,000 USD**.
 
-The game is a procedurally generated dungeon crawler built around destructible voxels. You pick a starting class, move through the dungeon, fight enemies, and build up your character as you go.
+It's a procedurally generated dungeon crawler with voxel destruction. You pick a class, fight your way through the dungeon, and build up your character with cards, armour, and weapons.
 
-My role was [similar to the previous game jam](/projects/my-summer-cottage-jam). I was one of the main programmers, mostly working on systems, networking, gameplay, and UI. During the jam I helped turn a lot of rough ideas into shippable features, including networked gameplay pieces, general game flow, and player-facing UI.
+Like [the previous jam](/projects/my-summer-cottage-jam/), I was one of the main programmers, working on systems, networking, and gameplay.
 
 <Youtube id="bMYlgKduhLo" />
 

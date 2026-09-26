@@ -78,12 +78,6 @@ export const ProjectData: App.Project[] = [
 		href: '/projects/ttt'
 	},
 	{
-		name: 'Turtle Links',
-		description: 'Dynamic link service provider',
-		skills: 'Svelte, Supabase, Tailwind',
-		href: '/projects/turtle-links'
-	},
-	{
 		name: 'Other Projects',
 		description: 'Other projects available on my personal GitHub',
 		skills: '',

@@ -4,11 +4,11 @@ git: 'https://github.com/matekdev/lean-engine'
 skills: 'C++, OpenGL, ImGui, entt'
 ---
 
-Lean Engine is a small 3D OpenGL engine I built in modern C++. I started it while working through [LearnOpenGL](https://learnopengl.com/) and used it to implement rendering features one step at a time.
+Lean Engine is a 3D OpenGL engine written in modern C++. It was my first real attempt at graphics programming. I worked through [LearnOpenGL](https://learnopengl.com/) and implemented each feature in the engine as I went.
 
-Most of the work was around graphics programming and engine structure: shader management, lighting, materials, cameras, model loading, render passes, and debugging tools.
+It covers lighting, framebuffers, cubemaps, and shadow mapping. Once shadows were done, I moved the project to DirectX 11 as [Based Engine](/projects/based-engine/).
 
-I wrote a series of posts covering the engine work and the graphics topics behind it. A few examples are [Shadow Mapping](https://matek.dev/blog/basedlogs-14/), [RenderDoc](https://matek.dev/blog/basedlogs-7/), and [Blinn-Phong lighting](https://matek.dev/blog/basedlogs-13/).
+I blogged the whole way through in the [Based Logs](/blog/basedlogs-0/) series. Some highlights are [Shadow Mapping](/blog/basedlogs-14/), [RenderDoc](/blog/basedlogs-7/), and [Blinn-Phong](/blog/basedlogs-13/).
 
 <Img src="ex1.webp"  />
 

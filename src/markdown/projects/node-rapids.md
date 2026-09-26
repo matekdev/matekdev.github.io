@@ -4,14 +4,19 @@ git: 'https://github.com/rapidsai/node'
 skills: 'C++, TypeScript, CUDA'
 ---
 
-During my internship at NVIDIA, I worked on [Node RAPIDS](https://github.com/rapidsai/node), a set of Node.js native addons for GPU-accelerated data science libraries. The goal was to expose RAPIDS functionality through JavaScript, so users could work with GPU-backed data without writing CUDA directly.
+During my internship on NVIDIA's RAPIDS data visualization team, I worked on [Node RAPIDS](https://github.com/rapidsai/node). It's a set of Node.js native addons that bring the RAPIDS GPU-accelerated data science libraries to JavaScript. Until then, RAPIDS was mostly only usable from Python.
 
-Most of my work involved adding bindings for [cuDF](https://github.com/rapidsai/cudf). That meant defining the TypeScript API, wiring calls through the C++ addon layer, and then invoking the underlying cuDF/CUDA implementation. I was usually working across the full binding path, so changes had to line up cleanly between TypeScript, C++, and the native GPU library.
+What I worked on:
 
-<Heading title="Blazing SQL" />
+- Bindings for [cuDF](https://github.com/rapidsai/cudf), from the TypeScript API down through the C++ native layer
+- The [SQL module](https://github.com/rapidsai/node/tree/7fb887c59dd5ff4b7dc023630ed0d8ea7efe5509/modules/sql), which binds the [BlazingSQL](https://github.com/BlazingDB/blazingsql) GPU SQL engine to Node.js
+- Multi-GPU queries, with one worker process per GPU communicating over UCX
+- GPUDirect Storage support, loading data from disk straight into GPU memory
 
-In the second half of the internship, I worked on bindings for Blazing SQL, which brought a GPU-accelerated SQL engine into the Node RAPIDS stack. This included shaping the JavaScript-facing API and connecting it to the native execution layer. I wrote more about the implementation details in a [Blazing SQL blog post](https://matek.dev/blog/node-rapids-blazing-sql/).
+<Heading title="Querying Wikipedia" />
 
-<Youtube id="-llIzlx7a-U" />
+As a demo for the SQL module, we loaded all of English Wikipedia (~16 GB) and ran SQL queries over it from Node.js. A full scan took ~40 seconds on two GPUs, and ~14 seconds once GPUDirect Storage was in. I wrote about how it all works [in this post](/blog/node-rapids-blazing-sql/).
 
 <Youtube id="rH7Wxn5Yr_A" />
+
+<Youtube id="-llIzlx7a-U" />

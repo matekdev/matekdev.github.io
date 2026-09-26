@@ -3,7 +3,11 @@ export const ProjectData: App.Project[] = [
 		name: 'My Summer Cottage: Standalone',
 		description: 'Standalone Steam release of My Summer Cottage',
 		skills: 'C#, Razor, s&box',
-		href: '/projects/my-summer-cottage-standalone'
+		href: '/projects/my-summer-cottage-standalone',
+		covers: [
+			'/projects/covers/my_summer_cottage_standalone_1.webp',
+			'/projects/covers/my_summer_cottage_standalone_2.webp'
+		]
 	},
 	{
 		name: 'Node RAPIDS',
@@ -16,6 +20,10 @@ export const ProjectData: App.Project[] = [
 		description: 'Finnish survival simulator',
 		skills: 'C#, Razor, s&box',
 		href: '/projects/my-summer-cottage-jam',
+		covers: [
+			'/projects/covers/my_summer_cottage_jam_1.webp',
+			'/projects/covers/my_summer_cottage_jam_2.webp'
+		],
 		prize: '13,000'
 	},
 	{
@@ -23,6 +31,7 @@ export const ProjectData: App.Project[] = [
 		description: 'Procedural dungeon-crawling roguelike game',
 		skills: 'C#, Razor, s&box',
 		href: '/projects/deathcard',
+		covers: ['/projects/covers/death_card_1.webp', '/projects/covers/death_card_2.webp'],
 		prize: '13,000'
 	},
 	{

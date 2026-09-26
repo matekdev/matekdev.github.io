@@ -29,6 +29,7 @@ declare global {
 			skills: string;
 			href: string;
 			prize?: string;
+			covers?: string[];
 		}
 
 		interface ProjectPage {
@@ -51,6 +52,8 @@ declare global {
 			description: string;
 			date: string;
 			hidden: boolean;
+			readingTime?: number;
+			cover?: string;
 		}
 	}
 }

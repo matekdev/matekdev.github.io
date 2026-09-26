@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { resolveProjectThumbnailPath } from '$lib/Utils';
+	import PrizeBadge from './PrizeBadge.svelte';
 
 	let { project }: { project: App.Project } = $props();
 
@@ -22,7 +23,16 @@
 		/>
 	</div>
 	<div class="flex min-w-0 flex-1 flex-col">
-		<p class="text-2xl font-bold leading-tight text-white">{project.name}</p>
+		<div class="flex flex-wrap items-center gap-x-3 gap-y-2">
+			<p
+				class="text-2xl font-bold leading-tight text-white transition-colors group-hover:text-blue"
+			>
+				{project.name}
+			</p>
+			{#if project.prize}
+				<PrizeBadge prize={project.prize} />
+			{/if}
+		</div>
 		<p class="pt-2 leading-6 text-gray">{project.description}</p>
 		{#if skillList.length}
 			<div class="flex flex-wrap gap-2 pt-4">

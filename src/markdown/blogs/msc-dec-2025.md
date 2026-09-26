@@ -2,6 +2,7 @@
 title: 'My Summer Cottage 2025 Update'
 description: 'An update to the game I am working on'
 date: '2025-12-30'
+cover: 'lada.webp'
 ---
 
 This is an excerpt from the blog post we wrote on the Small Fish website, I've decided to post my parts here but if you'd like to read the full text, [you can find it here](https://smallfi.sh/blog/msc_dec_2025).

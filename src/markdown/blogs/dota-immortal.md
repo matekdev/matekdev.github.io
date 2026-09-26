@@ -2,6 +2,7 @@
 title: 'Dota Immortal'
 description: 'I achieved the highest rank in Dota today'
 date: '2024-05-17'
+cover: 'dota-stats.webp'
 ---
 
 I'm writing a bunch of blogs so I thought it'd be worthwhile to document this. I was given access to the Dota 2 beta 12 years ago.

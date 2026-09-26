@@ -6,7 +6,7 @@
 
 <a
 	href="/blog/{post.slug}"
-	class="group relative flex min-h-[18rem] overflow-hidden rounded-md border border-white/10 bg-[#171719]/80 shadow-[0_18px_55px_rgba(0,0,0,0.3)] transition-all duration-300 hover:-translate-y-1 hover:border-blue/50 hover:shadow-[0_24px_70px_rgba(82,146,255,0.18)] md:min-h-[22rem]"
+	class="group relative flex min-h-[18rem] overflow-hidden rounded-md border border-white/10 bg-[#171719]/95 shadow-[0_18px_55px_rgba(0,0,0,0.3)] transition-all duration-300 hover:-translate-y-1 hover:border-blue/50 hover:shadow-[0_24px_70px_rgba(82,146,255,0.18)] md:min-h-[22rem]"
 >
 	{#if post.cover}
 		<img

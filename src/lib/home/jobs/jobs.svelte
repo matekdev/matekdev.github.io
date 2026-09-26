@@ -8,7 +8,7 @@
 			location: 'Vancouver, Canada',
 			startDate: '2025-01-06',
 			href: 'https://www.autodesk.com/',
-			skills: 'C++, C#'
+			skills: 'C++, C#, Graphics Programming'
 		},
 		{
 			name: 'Small Fish',

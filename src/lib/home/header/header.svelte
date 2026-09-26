@@ -28,7 +28,7 @@
 </script>
 
 <header class="relative pb-6 pt-0 md:pb-8">
-	<div class="max-w-3xl">
+	<div>
 		<div class="flex flex-wrap items-end gap-x-4 gap-y-2">
 			<h1 class="text-5xl font-bold leading-[0.95] text-white md:text-7xl">Matthew Zegar</h1>
 			<div class="flex pb-1 text-3xl md:text-4xl" aria-label="Polish and Canadian flags">
@@ -36,7 +36,7 @@
 				<Icon icon="openmoji:flag-canada" />
 			</div>
 		</div>
-		<h2 class="pt-4 text-xl text-gray md:max-w-xl md:text-2xl">
+		<h2 class="pt-4 text-xl text-gray md:text-2xl">
 			Software engineer specializing in software, graphics, performance, and games.
 		</h2>
 

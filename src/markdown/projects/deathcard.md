@@ -7,7 +7,7 @@ Death Card was our entry for the [second Facepunch s&box game jam](https://sbox.
 
 It's a procedurally generated dungeon crawler with voxel destruction. You pick a class, fight your way through the dungeon, and build up your character with cards, armour, and weapons.
 
-Like [the previous jam](/projects/my-summer-cottage-jam/), I was one of the main programmers, working on systems, networking, and gameplay.
+Like [the previous jam](/projects/my-summer-cottage-jam/), I was one of the main programmers, working on systems, networking, gameplay, and UI.
 
 <Youtube id="bMYlgKduhLo" />
 

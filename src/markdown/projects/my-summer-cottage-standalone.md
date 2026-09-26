@@ -7,7 +7,7 @@ My Summer Cottage is the full version of our [game jam winner](/projects/my-summ
 
 The jam version was built in a hurry and couldn't grow, so in early 2025 we rewrote it from scratch. It's still built on s&box, which is still changing quickly underneath us.
 
-I'm the lead programmer and project lead. On the lead side, I plan and scope milestones, coordinate the team, and keep us on track toward release. On the programming side, I set the technical direction and work on core systems, networking, and tooling.
+I'm the lead programmer and project lead. On the lead side, I plan and scope milestones, coordinate the team, and keep us on track toward release. On the programming side, I set the technical direction and work on core systems, networking, tooling, and UI.
 
 <Youtube id="rnotAcNaCbk" />
 

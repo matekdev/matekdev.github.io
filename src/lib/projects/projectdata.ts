@@ -35,6 +35,12 @@ export const ProjectData: App.Project[] = [
 		prize: '13,000'
 	},
 	{
+		name: 'Goblins Fortune',
+		description: 'Spelunky-inspired 2D platformer',
+		skills: 'C#, Razor, s&box',
+		href: '/projects/goblins-fortune'
+	},
+	{
 		name: 'Blocks & Bullets',
 		description: 'Voxel destruction multiplayer FPS game',
 		skills: 'C#, Razor, s&box',

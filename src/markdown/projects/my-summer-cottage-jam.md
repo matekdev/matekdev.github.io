@@ -8,7 +8,7 @@ My Summer Cottage was our entry for the [first Facepunch s&box game jam](https:/
 
 You spend your days in a "unique" Finnish world running errands, hunting, fishing, gambling, and dealing with whatever random event shows up.
 
-I worked on systems, networking, gameplay, and shaders. With a small team and a month-long deadline, I filled whatever gap needed filling. I wrote [a post about the jam](/blog/facepunch-gamejam/) if you want the full story.
+I worked on systems, networking, gameplay, shaders, and UI. With a small team and a month-long deadline, I filled whatever gap needed filling. I wrote [a post about the jam](/blog/facepunch-gamejam/) if you want the full story.
 
 <Youtube id="sDQB1yv6tOE" />
 

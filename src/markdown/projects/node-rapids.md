@@ -13,7 +13,7 @@ What I worked on:
 - Multi-GPU queries, with one worker process per GPU communicating over UCX
 - GPUDirect Storage support, loading data from disk straight into GPU memory
 
-<Heading title="Querying Wikipedia" />
+# Querying Wikipedia
 
 As a demo for the SQL module, we loaded all of English Wikipedia (~16 GB) and ran SQL queries over it from Node.js. A full scan took ~40 seconds on two GPUs, and ~14 seconds once GPUDirect Storage was in. I wrote about how it all works [in this post](/blog/node-rapids-blazing-sql/).
 

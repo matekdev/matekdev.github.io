@@ -8,15 +8,15 @@ I'm working on an ["engine" with the primary goal of implementing various graphi
 
 I ended up implementing the method described by this [blog post](https://www.opengl-tutorial.org/miscellaneous/clicking-on-objects/picking-with-an-opengl-hack/). It works great but I also found the blog post mentioning calls to functions that are not needed at all.
 
-<Heading title="How it works" />
+# How it works
 
 1. Give each object within the scene a unique colour based on an identifier of your choice.
 2. We can then use [glReadPixels](https://registry.khronos.org/OpenGL-Refpages/gl4/html/glReadPixels.xhtml) to see which colour our mouse is over.
 3. Then we convert the colour back to the identifier and we know which object is being clicked on.
 
-<Heading title="Implementation" />
+# Implementation
 
-<Heading title="Shaders" h="h3" />
+## Shaders
 
 We will need to write some custom shaders for this process. The vertex shader should mimic your regular camera perspective.
 
@@ -48,7 +48,7 @@ void main() {
 }
 ```
 
-<Heading title="Code" h="h3" />
+## Code
 
 I'm going to cover partial code implementation details but if you want to [view the repo you can check it out here](https://github.com/matekdev/lean-engine/tree/b145919ebc4a1e5e08883b53e6cedeaf7a73867f).
 

@@ -6,7 +6,7 @@ date: '2024-05-28'
 
 A cubemap is a cube... with six different textures. We can sample parts of the texture using a direction vector to implement effects like reflection mapping (environment mapping). The physical representation of a cubemap is a skybox. That large environmental background you might see in some games that you can never reach.
 
-<Heading title="Skybox" />
+# Skybox
 
 A skybox is just a cube with textures mapped to the inside parts. You can check out my repo for any details relating to setting that part up. The unique part is that we need to render the skybox in such a way that it is always centered around the camera. We will need some new shaders for this.
 
@@ -75,7 +75,7 @@ void main() {
 
 <Img src="skybox.webp"  />
 
-<Heading title="Reflection mapping" />
+# Reflection mapping
 
 Now let's use the cubemap in order to implement reflection mapping. The idea is actually really similar [specular lighting](https://matek.dev/blog/basedlogs-2/#Specular) which we covered a bit ago.
 

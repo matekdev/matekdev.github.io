@@ -7,17 +7,17 @@ cover: 'lada.webp'
 
 This is an excerpt from the blog post we wrote on the Small Fish website, I've decided to post my parts here but if you'd like to read the full text, [you can find it here](https://smallfi.sh/blog/msc_dec_2025).
 
-<Heading title="My Summer Cottage" />
+# My Summer Cottage
 
 If you're not already aware we have been hard at work on [My Summer Cottage](https://smallfi.sh/msc), our cozy cottage life simulator. As we approach the end of 2025, we wanted to share some exciting updates and insights into what we've been working on and what you can expect in the coming months.
 
-<Heading title="Demo?" />
+# Demo?
 
 We are hard at work putting together a demo for My Summer Cottage. Our current goal is to have a playable demo ready by early 2026. We will initially release the demo on s&box. This will allow us to gain player feedback and make the necessary adjustments before we put the demo on [Steam](https://store.steampowered.com/app/3115420/My_Summer_Cottage/). We are awful with deadlines, but our goal is to have it ready by Q1 2026.
 
 We haven't been posting as much on social media as we are focusing on development, but we will be ramping up our social media presence as we get closer to the demo release.
 
-<Heading title="Rewrite" />
+# Rewrite
 
 The concept for My Summer Cottage was developed by [ceitine](https://smallfi.sh/team/ceitine) in [early 2023](https://www.youtube.com/watch?v=oDzY8SXsxGk). It was planned to be a horror game originally. The idea was put on hold until the first [s&box Facepunch gamejam in early 2024](https://sbox.game/c/gamejam1).
 
@@ -27,7 +27,7 @@ We took a bit of a break after the jam and worked on other projects. By early 20
 
 Other members joined in and we have surpassed the original prototype in terms of features and content. We have a solid vision for the game and have built a strong foundation to bring that vision to life. Here's a sneak peek of some of the things we have been working on.
 
-<Heading title="Building" />
+# Building
 
 One of the major complaints we had with the original prototype is players didn't even know where their cottage was. This is a bit hilarious considering the name of the game is My Summer Cottage. We wanted to make sure that players could easily identify their cottage and have a sense of ownership over it.
 
@@ -35,7 +35,7 @@ You'll be given a cottage at the start of the game, and you'll be able to custom
 
 <Img src="building.webp"  />
 
-<Heading title="Vehicles" />
+# Vehicles
 
 Vehicles were something that we needed to get right for My Summer Cottage. We have plans for multiple types of vehicles in the game so we needed a solid system that could handle different vehicle types and behaviors.
 
@@ -49,7 +49,7 @@ All we needed was our initial vehicle model, which ended up being created by [PU
 
 <Img src="lada.webp"  />
 
-<Heading title="Game Resources" />
+# Game Resources
 
 During the game jam, we decided against using [Game Resources](https://sbox.game/dev/doc/systems/assetsresources/custom-assets/) for items because we could just define the data inside the component itself. However, this time around I took an approach of using resources for almost every data-driven aspect in the game, and it has worked out really well. Here's some examples of how `Items` benefit from using resources:
 
@@ -67,7 +67,7 @@ There are probably other benefits that I haven't mentioned, but, it all stems fr
 
 (Technically, you now can also fetch data from components without instantiating them, but it's not as straightforward as using resources)
 
-<Heading title="Save System" />
+# Save System
 
 We really didn't have a save system during our game jam prototype. The most we ever did was having each component handle saving and loading itself. This worked fine for the game jam, but scales poorly as the game gets more complex.
 
@@ -87,7 +87,7 @@ The component just simply needs to implement this interface and that's it. We ha
 
 The save system uses binary serialization (reduces file size) but also supports delta saving. This means we only write data that has changed since the last save. Hopefully this will help reduce save times as the game gets more complex.
 
-<Heading title="Interactions" />
+# Interactions
 
 We had an initial interaction system during the game jam, but there was some limitations I wanted to address this time around. Essentially, you can think of an interaction as any action that a player can perform on an object in the world. This can be anything from picking up an item, opening a door, drinking a beverage, or even dropping an item from your inventory.
 
@@ -99,13 +99,13 @@ The biggest takeaway here is that an interaction has an extremely extensible int
 
 The newest additions this time around is the ability to define in what "realm" the interaction occurs. This means that we can execute an interaction on the host, local client, or all clients. Another addition (not shown in the screenshot) is the ability to define an interaction as a "charge". This is great for things like drinking a beverage, where you want the player to hold down the interaction key to drink, and release it when they want to stop drinking.
 
-<Heading title="Minigolf" />
+# Minigolf
 
 A couple years ago I worked on a [minigolf game for s&box](https://github.com/sboxgame/minigolf) mostly developed by some folks over at Facepunch. I decided to write a minigolf implementation for My Summer Cottage as one of the side activities. You'll be able to play through a course with your friends! Here's a quick debug screenshot...
 
 <Img src="minigolf.webp"  />
 
-<Heading title="Jobs" />
+# Jobs
 
 The questing system for My Summer Cottage is referred to as "Jobs". These are tasks that the player can complete to earn money, experience, or to progress through the story. The system is now more robust and allows us to create more complex jobs with ease.
 
@@ -113,13 +113,13 @@ The questing system for My Summer Cottage is referred to as "Jobs". These are ta
 
 Here is a quick debug screenshot of the job system in action. Essentially, you can define multiple sub-tasks for each job. Each sub-task can have its own set of conditions that need to be met before it can be completed. These conditions range from a simple boolean check, meeting a specific number value, or even a signal that can be invoked from anywhere in the codebase.
 
-<Heading title="Collection Log" />
+# Collection Log
 
 In the original game jam prototype, we had the concept of a "Fish Log" where players could track the fish they caught. This time around, we have expanded upon that idea and created a "Collection Log" which tracks specific categories of items. For example, we obviously have a fish category, but we also have a bug category, etc. We hope to have some nice rewards for completing the collection log.
 
 <Img src="collectionlog.webp"  />
 
-<Heading title="Events" />
+# Events
 
 One of the features that didn't really pan out in our game jam prototype was the event system. The way it worked is we created a bunch of potential events that could occur in the world (i.e RC car invasion, UFO sightings, etc). We would select which events would occur at the start of the day. This ended up being a bit lackluster as players would often miss out on events because they were not in the right place at the right time.
 
@@ -172,17 +172,17 @@ public class TimeTrigger : Trigger
 
 Now there's a lot more to the event system (such as being fully networked and saved), but this gives you a good idea of how it works. I hope this allows us to create some more interesting and engaging events for players to experience. We have the ideas, now it's just a matter of implementing them.
 
-<Heading title="Skills" />
+# Skills
 
 We have added a skill system to the game. Players can level up various skills such as fishing, drinking, hunting, and more. As players level up their skills, they unlock new perks and abilities that make them more efficient at their chosen activities. There won't be any elaborate skill trees, but rather a simple progression system that rewards players for investing time into specific activities.
 
 <Img src="skills.webp"  />
 
-<Heading title="Pawns" />
+# Pawns
 
 We decided to use the [pawn library I wrote](https://github.com/Small-Fish-Dev/shrimple-pawns) for handling the player possessing different entities in the game. This allows us to easily switch between controlling the player character and other entities such as golf balls, cameras, and more. I don't have much else to say other than it's a feature complete library and we've used it in Death Card and Blocks & Bullets.
 
-<Heading title="Phone" />
+# Phone
 
 The phone is making a return and hopefully it'll actually have some functionality this time around. The phone really serves as a method for NPCs to contact the player. It'll be the primary method NPCs use to give the player jobs, tips, and other information.
 
@@ -190,11 +190,11 @@ We've also integrated text chat into the phone, so players can communicate with 
 
 <Img src="phone.webp"  />
 
-<Heading title="Crops" />
+# Crops
 
 I've implemented a basic crop system for My Summer Cottage. Players will be able to plant, water, and harvest crops in their garden. Different crops will have different growth times and yield different rewards. We don't know how deep we want to go with the farming aspect of the game, but it's a nice little side activity for players to engage in.
 
-<Heading title="Tutorials" />
+# Tutorials
 
 We really suck at guiding our players through the game. It could be the case that we just deprioritize tutorials during game jams, but I really wanted to make sure that players knew what the fuck was going on this time around.
 

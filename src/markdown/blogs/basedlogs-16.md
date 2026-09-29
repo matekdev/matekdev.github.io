@@ -6,11 +6,11 @@ date: '2024-06-15'
 
 I've been slowly trying to get caught up with my OpenGL iteration of the Based Engine. I wanted to go over some of the differences I encountered so far as I've converted from OpenGL to DirectX 11.
 
-<Heading title="Setup" />
+# Setup
 
 Since I'm on windows I'm able to reference all of the DirectX 11 libraries automatically. I just need to simply import the libraries I need within my `.cpp` files. Setting up projects in C++ sucks... and anything to decrease the time it takes to get up and running is a massive positive.
 
-<Heading title="Structure" />
+# Structure
 
 I have only positive things to say about how DirectX 11 is initialized. Almost everything makes use of Microsoft's custom smart shared pointer `Microsoft::WRL::ComPtr`. You wrap almost everything within these objects and then pass them into initialization functions. Since they mimic a smart pointer everything will automatically get cleaned up for you when it goes out of scope.
 
@@ -39,7 +39,7 @@ Whereas DirectX 11 requires the explicit initialization of aspects such as the s
 
 There are other parts that are just simply more verbose. Such as the DirectX 11 uniform equivalent which is constant buffers.
 
-<Heading title="Constant Buffers" />
+# Constant Buffers
 
 Constant buffers are the equivalent to OpenGL's uniforms. It's data that remains the same across all shading stages. Here are some segments of commented code that show how they are used.
 
@@ -113,11 +113,11 @@ VSOutput Main(VSInput input)
 }
 ```
 
-<Heading title="Resources" />
+# Resources
 
 I found the number of DirectX 11 resources a bit more scattered. I seriously think that [LearnOpenGL](https://learnopengl.com/) is probably one of the best resources I've read and nothing really compares to it. It's definitely a great place to start as an introduction into computer graphics. I found myself jumping between a lot of resources and not having too many issues since I have a good understanding of the concepts I want to implement.
 
-<Heading title="Current Progress" />
+# Current Progress
 
 <Img src="dx11.webp"  />
 

@@ -6,7 +6,7 @@ date: '2024-05-26'
 
 There are two ways that transparent objects can exist in our scene. The first way is we could have a texture that has a portion that is completely transparent. The second way is we have a partially transparent texture that will mix its colours with what is behind it. The former can be considered transparency and the latter is blending (since we have to blend together multiple colours 🤯).
 
-<Heading title="Transparency" />
+# Transparency
 
 This is pretty easy to implement since I use libraries to import models and textures for me. We need to make sure that when we detect a texture that has an alpha component that we use an alpha channel in OpenGL texture generation process.
 
@@ -26,7 +26,7 @@ if(outputColor.a < 0.1)
 
 <Img src="trans.webp"  />
 
-<Heading title="Blending" />
+# Blending
 
 Blending occurs when a partially transparent texture needs to be combined with what is behind it. For instance, consider a red tinted glass window. The objects behind the red tinted glass window would have a red hue applied to them. OpenGL handles a lot of this for us by simply adding the following code during initialization.
 

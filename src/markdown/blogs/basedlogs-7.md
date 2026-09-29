@@ -37,7 +37,7 @@ VTX or the vertex input stage is extremely impressive as you can view all of the
 
 You can see above a wireframe view of the cube that was drawn on the current event id. You can even individually click on each vertex that was sent and it highlights it in the 3D view.
 
-<Heading title="Conclusion" />
+# Conclusion
 
 The application seems pretty easy to use and I imagine it'll become quite useful as I dive into more complicated graphics features. The other big application people use is NVIDIA Nsight... but I no longer work there so my heart is broken so I won't be looking at it for now.
 

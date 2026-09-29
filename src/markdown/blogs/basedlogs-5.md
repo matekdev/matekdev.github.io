@@ -6,7 +6,7 @@ date: '2024-05-19'
 
 In the last blog I setup the lighting system in a way where we could support different types of lights. Our current implementation of a light is a basic point light. I'll be adding support for directional lights, "advanced" point lights, and spot lights.
 
-<Heading title="Directional Lights" />
+# Directional Lights
 
 A directional light can be basically described as the sun. It gives an equal amount of light to each object from the same direction. It also doesn't really matter how far away an object is from the sun, it has the same amount of light applied.
 
@@ -71,7 +71,7 @@ glm::vec3 TransformComponent::GetDirection()
 
 The lighting still looks pretty off because we aren't actually casting any shadows. The important part is to consider that we have a light source that is giving off light to each object to our scene like the sun.
 
-<Heading title="Point Lights" />
+# Point Lights
 
 As mentioned the initial implementation of our light was a basic point light. One way we can make the point light feel more natural is by adding `attenuation`. The main idea is that lights don't diminish linearly over a distance. We factor this into our calculation and the lights will appear to be more realistic. I don't care to explain the formula details but I'll give a snippet to my implementation.
 
@@ -107,7 +107,7 @@ vec4 CalculatePointLight(PointLight light) {
 
 <Img src="point-lights.webp"  />
 
-<Heading title="Spot Lights" />
+# Spot Lights
 
 The last type of light we will be adding is a spot light. We can think of these as basically a flash light. I'm going to steal another diagram from [LearnOpenGL](https://learnopengl.com/Lighting/Light-casters) to explain them.
 

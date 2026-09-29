@@ -13,7 +13,7 @@ The previous blogs were actually extremely helpful for me to learn and understan
 
 I won't be covering the basics of graphics programming since I covered that in previous blogs. Instead, it'll mostly be about how the WebGPU API differs and from there on out more advanced graphics programming concepts.
 
-<Heading title="Bind Groups" />
+# Bind Groups
 
 Bind groups are a way to group together resources such as textures, buffers, and samplers that can be used in shaders. They are similar to descriptor sets in Vulkan and root signatures in DirectX 12.
 
@@ -30,7 +30,7 @@ const bindGroupLayout = device.createBindGroupLayout({
 });
 ```
 
-<Heading title="GPU Buffer Usage Flags" />
+# GPU Buffer Usage Flags
 
 GPU buffer usage flags are WebGPU’s way of making buffer intent explicit. When a buffer is created, you must declare how it will be used, such as for vertex data, index data, uniforms, or copy operations. That gives the API enough information to validate commands and treat the buffer as the right kind of GPU resource.
 
@@ -48,11 +48,11 @@ static vertex(device: GPUDevice, data: Float32Array): GpuBuffer {
 }
 ```
 
-<Heading title="Uniform Alignment Rules" />
+# Uniform Alignment Rules
 
 GPUs expect predictable memory boundaries, this means that when you create uniform buffers, you need to ensure that the data is aligned.
 
-<Heading title="Command Encoders" />
+# Command Encoders
 
 Both Vulkan and WebGPU use command encoders (command buffers) to record rendering commands. These are basically a way to batch up rendering commands and then submit them to the GPU for execution.
 
@@ -85,11 +85,11 @@ endFrame(encoder: GPUCommandEncoder): void {
 
 I've abstracted some of the logic but the general idea is that you create a command encoder at the beginning of each frame, record your rendering commands, and then submit the command buffer at the end of the frame. This is a pretty standard way to do things in modern graphics APIs.
 
-<Heading title="Per-object Uniforms" />
+# Per-object Uniforms
 
 A per-object uniform is data that changes per draw, usually things like the transform matrix. In BasedGPU, every mesh instance writes its own model-view-projection matrix into a shared uniform buffer, and dynamic offsets let the renderer select the correct slice for each draw call. This way, we can efficiently manage per-object data without needing a separate buffer for each instance, which is crucial for performance when rendering many objects.
 
-<Heading title="WebGPU Shading Language" />
+# WebGPU Shading Language
 
 We use WGSL (WebGPU Shading Language) for our shaders, which is a modern shading language designed specifically for WebGPU. Here's a simple vertex and fragment shader that transforms vertex positions and passes through vertex colors:
 
@@ -126,7 +126,7 @@ fn fragmentMain(input: VertexOutput) -> @location(0) vec4f {
 
 It's pretty clean and straightforward. You can see how much more typed and structured it is compared to older shading languages, which is a big improvement for readability and maintainability.
 
-<Heading title="Conclusion" />
+# Conclusion
 
 I've setup the basic structure of the renderer and have a simple triangle being rendered to the screen. You'll notice I skipped over a lot of the details, but, that's because I've covered a lot of the basics in previous blogs. The next steps will be to load some models instead of hardcoding a triangle.
 

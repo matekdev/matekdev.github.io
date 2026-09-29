@@ -9,7 +9,7 @@ as well as my team members over at [Small Fish](https://smallfi.sh/). I thought 
 
 <Img src="sauna-1.webp"  />
 
-<Heading title="It is so over...?" />
+# It is so over...?
 
 During the game jam we were definitely behind schedule. It got increasingly more concerning when we had about a week left with no proper gameplay loop for our game. Our project was over scoped and we were going nowhere. At this point I seriously thought we were fucked.
 
@@ -19,7 +19,7 @@ During the final few days we got a chance to see some of the other entries we we
 
 <Img src="sauna-2.webp"  />
 
-<Heading title="My overall thoughts" />
+# My overall thoughts
 
 I have a feeling I'll look back at this game jam fondly. Not just because we won first place, but because of all the laughs we had working on this project together. It was just a group of guys throwing out ridiculous ideas and implementing them.
 

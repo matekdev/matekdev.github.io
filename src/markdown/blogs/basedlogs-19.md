@@ -6,13 +6,13 @@ date: '2024-10-06'
 
 Over the weekend I decided to integrate a physics engine into Based Engine. I didn't want to go overboard and integrate some crazy complicated physics engine. I saw a thread where everyone was saying [PhysX](https://github.com/NVIDIA-Omniverse/PhysX) was extremely easy to use... and I love NVIDIA...
 
-## Building PhysX
+# Building PhysX
 
 The annoying part of PhysX is they don't distribute the built files anywhere. You have to unfortunately clone the repo and build it yourself. I found the documentation confusing but I eventually figured it out by browsing through enough issues on the PhysX page. I decided to record a video to help out anyone in the future that needs to build it.
 
 <Youtube id="kfay4cjYEKQ" />
 
-## Integrating PhysX
+# Integrating PhysX
 
 I am shocked at how easy it is to integrate PhysX. I assumed that it'd be some complicated process but I was up and running in about 100 lines of code. NVIDIA also provides a bunch of helpful examples... [the only one I ever referenced was this one](https://github.com/NVIDIA-Omniverse/PhysX/tree/main/physx/snippets/snippethelloworld).
 
@@ -22,7 +22,7 @@ PhysX also has the [PhysX Visual Debugger](https://developer.nvidia.com/physx-vi
 
 The most interesting part is getting the actual physics objects to follow the objects you render via your graphics API (in my case DX11). Well, each object has a `getGlobalPose()` which returns a transform. All you need to do is pass this transform data to whatever abstraction you have setup that manages object position, rotation, etc.
 
-## Object Picking
+# Object Picking
 
 [Back in the OpenGL days I used this "hack" for object picking](https://matek.dev/blog/basedlogs-1/). However, we don't need anything like that anymore. We are now able to define bounds for each object within our scene and ray cast for the object we are attempting to pick.
 

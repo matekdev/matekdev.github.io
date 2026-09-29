@@ -67,7 +67,7 @@
 		</div>
 		<div class="flex w-full flex-col justify-center">
 			<div
-				class="prose prose-lg prose-invert prose-headings:font-bold prose-headings:text-white prose-p:leading-8 prose-a:text-blue prose-a:no-underline hover:prose-a:text-white hover:prose-a:transition-all prose-img:mx-auto prose-img:my-6 prose-img:rounded-md prose-img:border prose-img:border-white/10 prose-img:bg-[#111113] prose-img:shadow-[0_18px_55px_rgba(0,0,0,0.22)]"
+				class="prose prose-lg prose-invert prose-headings:font-bold prose-headings:text-white prose-h2:border-b prose-h2:border-white/10 prose-h2:pb-2 prose-h3:font-semibold prose-h3:text-gray prose-p:leading-8 prose-a:text-blue prose-a:no-underline hover:prose-a:text-white hover:prose-a:transition-all prose-img:mx-auto prose-img:my-6 prose-img:rounded-md prose-img:border prose-img:border-white/10 prose-img:bg-[#111113] prose-img:shadow-[0_18px_55px_rgba(0,0,0,0.22)]"
 			>
 				<Content />
 			</div>

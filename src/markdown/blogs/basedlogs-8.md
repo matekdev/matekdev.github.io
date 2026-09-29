@@ -18,7 +18,7 @@ Regardless, we know it's fragment -> stencil -> depth without early-z.
 
 Here is a nice diagram from LearnOpenGL that shows an example of the stencil buffer being filled with 1's and then discarding the fragments everywhere the stencil value is 0.
 
-<Heading title="Outline Effect" />
+# Outline Effect
 
 One interesting effect you can implement with stencil buffers is an outline. I'm going to throw out some heavily commented code to showcase how I added an outline effect to selected objects. However before I get to that... I wasted multiple hours of my life trying to figure out why I couldn't write to the stencil buffer.
 

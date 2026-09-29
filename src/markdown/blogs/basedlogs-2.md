@@ -10,7 +10,7 @@ Phong lighting is composed of three different parts
 2. Diffuse
 3. Specular
 
-<Heading title="Ambient" />
+# Ambient
 
 Ambient light is a distant light that is applied to every single object in the world equally. We can give our light source a colour and multiple it by the colour of our object.
 
@@ -29,7 +29,7 @@ void main()
 }
 ```
 
-<Heading title="Diffuse" />
+# Diffuse
 
 Diffuse lighting is the directional impact a light has on an object. The further away the light, the less of an impact it has on the object. There are three pieces of information we will need to calculate this lighting.
 
@@ -56,7 +56,7 @@ vec3 diffuse = diff * LightColor;
 vec3 lightResult = ambient + diffuse;
 ```
 
-<Heading title="Specular" />
+# Specular
 
 Specular lighting is the lighting produced based on the reflective properties of the surface. We actually uses a lot of the same pieces of information as diffuse but we also consider the direction the camera is looking at the object.
 
@@ -83,7 +83,7 @@ vec3 specular = specularStrength * spec * LightColor;
 vec3 lightResult = ambient + diffuse + specular;
 ```
 
-<Heading title="Gouraud shading" />
+# Gouraud shading
 
 Apparently people used to calculate all of this information inside of the vertex shader instead of the fragment shader since it was faster (but looked worse). This is because the vertex shader is done per vertex whereas the fragment shader is done per pixel. It is called [Gourand shading](https://en.wikipedia.org/wiki/Gouraud_shading) when it is done in the vertex shader.
 

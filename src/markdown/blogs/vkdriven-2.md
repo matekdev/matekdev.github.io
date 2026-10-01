@@ -106,10 +106,6 @@ Back in `app.cpp`, each loop does the following...
     - **Submits** it. The GPU waits for the "image acquired" semaphore before writing to the swapchain image, signals a "render complete" semaphore when done, and signals the fence for the CPU.
     - **Presents**, which waits on "render complete" before the image goes to the screen.
 
-A diagram of the frame's command buffer would go well in that last section:
-
-barrier → scene pass → barrier → barrier → UI pass → barrier → present.
-
 # Conclusion
 
 I imagine a lot of this will stay the same (with additions), but, I guess we'll see as we get further into this project.

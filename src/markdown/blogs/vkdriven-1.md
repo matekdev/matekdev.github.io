@@ -2,7 +2,7 @@
 title: 'VKDriven #1 - Vulkan'
 description: 'Let us try Vulkan again...'
 date: '2026-09-26'
-hidden: true
+hidden: false
 ---
 
 I tried Vulkan a couple years ago and completely hated it. Partly because I was brand new to graphics programming, but also, I was shocked that a modern API would require you to write a thousand lines to render a simple triangle. I obviously understand why it's so verbose, but still, a thousand lines? I gave up and decided to start with OpenGL which ended up being the right choice.
@@ -98,8 +98,10 @@ You also have to allocate memory yourself in Vulkan. A lot of tutorials end up u
 
 # Conclusion
 
-Don't use Vulkan if you are just getting started with graphics programming. Using something like WebGPU instead of OpenGL would allow for a softer transition into Vulkan later on.
+Don't use Vulkan if you are just getting started with graphics programming. It still makes sense to start with something like WebGPU or OpenGL, an API that is designed to abstract away the complicated bits.
 
 I do have to admit though, it was only ~1000 lines to get a few models rendering on my screen, so that's a lot better than what it was before.
 
 There's probably some explanations that need some work in this "blog", but, as a first pass these are kind of the topics I found important jumping into Vulkan.
+
+<YoutubeMusic src="0iwZfknui6E" />

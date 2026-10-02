@@ -69,7 +69,7 @@ Creates and manages the Vulkan swapchain.
 
 # `frame_resources.cpp`
 
-Handles our "frames in flight". With two frames in flight, the CPU can record frame N+1 while the GPU is still working on frame N, instead of the two taking turns waiting on each other. Anything the CPU writes each frame gets one copy per frame in flight: the command buffer, the fence, the image-acquired semaphore, and the buffer holding per-frame shader data. Before reusing a copy, we wait on its fence so we know the GPU is done with it.
+Handles the "frames in flight". We define two frames in flight, which means that the CPU can begin recording frame N+1 while the GPU is still working on frame N. For each frame we need to have two copies of each data.
 
 # `sync.h`
 
@@ -85,7 +85,7 @@ A pipeline bakes almost all GPU state into one object up front: shaders, vertex 
 
 - The vertex layout comes from `Vertex` (position, normal, UV).
 - Viewport and scissor are dynamic, so resizing doesn't need a new pipeline.
-- Depth compare is `GREATER_OR_EQUAL` because I use **reverse-Z** (near = 1, far = 0), which spreads depth precision much more evenly than standard Z.
+- Depth compare is `GREATER_OR_EQUAL` because I use **reverse-Z**, which spreads depth precision much more evenly than standard Z.
 - With **dynamic rendering** there's no `VkRenderPass`. The pipeline only needs to know the *formats* of the images it will draw into (`VkPipelineRenderingCreateInfo`). Which images is decided later, when recording.
 
 # `viewport_target.cpp`
@@ -96,7 +96,7 @@ The scene doesn't render straight to the screen. It renders into its own colour 
 
 Back in `app.cpp`, each loop does the following...
 
-1. Polls window events, reloads shaders if they changed, and recreates the swapchain or viewport images if they were resized.
+1. Polls window events, reloads shaders if they changed, and recreates the swapchain if the window was resized.
 2. Builds the UI and updates the camera.
 3. `drawFrame()`:
     - **Waits on this frame-in-flight's fence**, so the GPU is done with its command buffer and data from last time.

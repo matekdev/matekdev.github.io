@@ -9,5 +9,7 @@ function shiftHeadings() {
 
 export default {
 	extensions: ['.md'],
-	remarkPlugins: [shiftHeadings]
+	remarkPlugins: [shiftHeadings],
+	// Prism has no Slang grammar; HLSL is the closest match.
+	highlight: { alias: { slang: 'hlsl' } }
 };

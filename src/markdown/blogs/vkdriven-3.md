@@ -102,4 +102,4 @@ Material m = constants.materials[draw.materialIndex];
 | Push constants | ❌ | ❌ | ❌ | ❌ (read directly) |
 | Images | ❌ | ✅ | ✅ | ❌ |
 
-This blog isn't too exciting and was partly AI generated mostly because I'm just listening a bunch of methods and definitions. Probably not very interesting but it's here as a resource if I ever need to look back.
+This blog isn't too exciting and was partly AI generated mostly because I'm just listing a bunch of methods and definitions. Probably not very interesting but it's here as a resource if I ever need to look back.

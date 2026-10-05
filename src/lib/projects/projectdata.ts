@@ -16,6 +16,12 @@ export const ProjectData: App.Project[] = [
 		href: '/projects/node-rapids'
 	},
 	{
+		name: 'VKDriven',
+		description: 'GPU-driven Vulkan 1.3 renderer (work in progress)',
+		skills: 'C++, Vulkan, Slang, ImGui',
+		href: '/projects/vkdriven'
+	},
+	{
 		name: 'My Summer Cottage: Jam',
 		description: 'Finnish survival simulator',
 		skills: 'C#, Razor, s&box',

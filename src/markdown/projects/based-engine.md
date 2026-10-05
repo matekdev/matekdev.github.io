@@ -10,4 +10,16 @@ It picks up where [Lean Engine](/projects/lean-engine/) left off. After getting 
 
 I wrote about the switch and what came after in the [Based Logs](/blog/basedlogs-15/) series.
 
+## Features
+
+- DirectX 11 renderer with HLSL shaders, with resources managed through ComPtr
+- Blinn-Phong directional lighting
+- Cubemap skybox with static environment reflections
+- Scene rendered to a render target and shown in a docked ImGui viewport
+- Textured model loading with assimp
+- PhysX integration: static and dynamic rigid bodies, plus PhysX Visual Debugger support
+- Object picking with PhysX raycasts, and gizmos to drag physics objects around live
+- Entity component system built on entt
+- Editor UI: entity list, inspector, console, and ImGuizmo transform gizmos
+
 <Youtube id="lY5LsbUydl4" />

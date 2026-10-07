@@ -37,8 +37,9 @@ A bunch of smart people came up with an equation called "the render equation", i
 
 # BRDF
 
-The "bidirectional reflectance distribution function" (BRDF) is apart of the reflectance equation, it's what makes one material look difference from another. It's built from diffuse + specular (this links back to the reflection/refraction split). In my case, I implemented "Cook-Torrance BRDF".
+The "bidirectional reflectance distribution function" (BRDF) is the `fr` part of the reflectance equation. Given the direction light is coming from and the direction we're looking from, it answers: **what fraction of that light bounces toward the camera?**.
 
+It's built from two parts, which link back to the reflection/refraction split: a diffuse part (refracted light) and a specular part (reflected light). In my case, I used Lambert for the diffuse and Cook-Torrance for the specular, which is the combination LearnOpenGL uses.
 Here's the full equation, I'll break it down.
 
 ```

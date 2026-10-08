@@ -9,7 +9,7 @@ Our shaders compute lighting in floating point, so a bright highlight can easily
 
 1. Render the scene into an HDR image in `R16G16B16A16_SFLOAT`, so lighting values above 1.0 are kept.
 2. Run the tonemapping pass:
-   1. Draw a single triangle that covers the whole output image, so the fragment shader runs once per pixel.
+   1. Draw a single triangle that covers the whole output image.
    2. For each pixel, sample the HDR image, multiply by exposure, and apply a tonemapping curve (e.g. AgX)
       that compresses the values into the 0-1 range.
 3. Write the result to an 8-bit sRGB image, which encodes it for display.

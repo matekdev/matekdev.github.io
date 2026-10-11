@@ -4,8 +4,8 @@
 	import Project from '$lib/projects/projectpreview.svelte';
 	import { ProjectData } from './projectdata';
 
-	const featured = ProjectData.filter((project) => project.covers?.length);
-	const others = ProjectData.filter((project) => !project.covers?.length);
+	const featured = ProjectData.filter((project) => project.featured);
+	const others = ProjectData.filter((project) => !project.featured);
 </script>
 
 <Section>

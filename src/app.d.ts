@@ -30,6 +30,7 @@ declare global {
 			href: string;
 			prize?: string;
 			covers?: string[];
+			featured?: boolean;
 		}
 
 		interface ProjectPage {

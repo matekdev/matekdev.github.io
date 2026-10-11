@@ -4,22 +4,27 @@ export const ProjectData: App.Project[] = [
 		description: 'Standalone Steam release of My Summer Cottage',
 		skills: 'C#, Razor, s&box',
 		href: '/projects/my-summer-cottage-standalone',
+		featured: true,
 		covers: [
 			'/projects/covers/my_summer_cottage_standalone_1.webp',
 			'/projects/covers/my_summer_cottage_standalone_2.webp'
 		]
 	},
 	{
+		name: 'VKDriven',
+		description: 'GPU-driven Vulkan 1.3 renderer',
+		skills: 'C++, Vulkan, Slang, ImGui',
+		href: '/projects/vkdriven',
+		featured: true,
+		covers: ['/projects/covers/vkdriven_1.webp', '/projects/covers/vkdriven_2.webp']
+	},
+	{
 		name: 'Node RAPIDS',
 		description: 'GPU-accelerated data-science libraries on Node.js',
 		skills: 'C++, TypeScript, CUDA',
-		href: '/projects/node-rapids'
-	},
-	{
-		name: 'VKDriven',
-		description: 'GPU-driven Vulkan 1.3 renderer (work in progress)',
-		skills: 'C++, Vulkan, Slang, ImGui',
-		href: '/projects/vkdriven'
+		href: '/projects/node-rapids',
+		featured: true,
+		covers: ['/projects/covers/node_rapids_1.webp', '/projects/covers/node_rapids_2.webp']
 	},
 	{
 		name: 'My Summer Cottage: Jam',

@@ -37,6 +37,7 @@ declare global {
 			slug: string;
 			name: string;
 			git?: string;
+			steam?: string;
 			skills?: string;
 		}
 

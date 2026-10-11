@@ -1,6 +1,7 @@
 ---
 name: 'My Summer Cottage: Standalone'
 skills: 'C#, Razor, s&box'
+steam: 'https://store.steampowered.com/app/3115420/My_Summer_Cottage/'
 ---
 
 My Summer Cottage is the full version of our [game jam winner](/projects/my-summer-cottage-jam/), coming to [Steam](https://store.steampowered.com/app/3115420/My_Summer_Cottage/). It's a cozy cottage life sim with a story mode, co-op, character and cottage customization, jobs, and skills.

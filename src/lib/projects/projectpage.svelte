@@ -35,6 +35,15 @@
 								>
 							</Tooltip>
 						{/if}
+						{#if page.metadata.steam}
+							<Tooltip text="Steam">
+								<a
+									href={page.metadata.steam}
+									class="inline-flex rounded-md border border-white/10 bg-white/[0.06] p-2 text-2xl text-blue transition-all hover:-translate-y-0.5 hover:border-blue/50 hover:text-white"
+									><Icon icon="mdi:steam" /></a
+								>
+							</Tooltip>
+						{/if}
 					</div>
 					<p class="max-w-3xl pt-3 text-lg leading-7 text-gray">{description}</p>
 					<div class="flex flex-wrap gap-2 pt-5">

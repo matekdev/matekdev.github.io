@@ -1,11 +1,11 @@
 ---
-title: 'VKDriven #6 - IBL'
-description: 'Image based lighting'
+title: 'VKDriven #8 - Skybox'
+description: 'An HDR skybox, and why I stopped short of image based lighting'
 date: '2026-10-11'
-hidden: true
+hidden: false
 ---
 
-We'll be coming image based lighting today, it seems on the surface very similar to [environment mapping which we previously did here](https://matek.dev/blog/basedlogs-12/).
+The plan for today was image based lighting (IBL), which on the surface seems very similar to [environment mapping which we previously did here](https://matek.dev/blog/basedlogs-12/). I only got as far as the first step, the skybox, so that's what we'll be covering today.
 
 # Skybox
 
@@ -29,8 +29,8 @@ VSOutput main(uint vertexID : SV_VulkanVertexID)
 
 Now you'll notice we also set the depth to 0, there are a few things we do to make sure it renders in the background of the scene.
 
-1. z=0 (as shown above).
-2. The `GREATER_OR_EQUAL` depth test.
+1. z=0 (as shown above), which is the far plane since we use reverse-Z.
+2. The `GREATER_OR_EQUAL` depth test. The depth buffer is cleared to 0, so the sky only passes where nothing else was drawn.
 3. We draw it after the scene.
 
 We then need to turn each sky pixel into a direction in the world, then look up what the environment image shows in that direction.
@@ -62,3 +62,7 @@ float4 main(VSOutput input)
 <Img src="skybox.webp" caption="HDR skybox in Sponza" />
 
 In our previous skybox/cubemap blogs we rendered it as a full on cube (mapping each side of the skybox texture to a different side of the cube). In this case, it's just a full screen triangle where we instead figure out based on the direction of the camera, what part of the texture we should be showing.
+
+# Stopping here
+
+I decided to stop at the skybox rather than go through the rest of IBL (irradiance maps, prefiltered environment maps and a BRDF lookup table). It's a lot of extra work for a fairly subtle difference in a scene like Sponza, and nothing coming up next depends on it, so I'm moving on to other things instead.

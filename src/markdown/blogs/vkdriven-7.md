@@ -1,5 +1,5 @@
 ---
-title: 'VKDriven #6 - CSM'
+title: 'VKDriven #7 - CSM'
 description: 'Cascaded shadow maps'
 date: '2026-10-10'
 hidden: false

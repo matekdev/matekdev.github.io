@@ -46,6 +46,13 @@ export const ProjectData: App.Project[] = [
 		prize: '13,000'
 	},
 	{
+		name: 'MROK',
+		description: 'Multiplayer voxel arena FPS',
+		skills: 'C#, Razor, s&box',
+		href: '/projects/mrok',
+		covers: ['/projects/covers/mrok_1.webp', '/projects/covers/mrok_2.webp']
+	},
+	{
 		name: 'Goblins Fortune',
 		description: 'Spelunky-inspired 2D platformer',
 		skills: 'C#, Razor, s&box',

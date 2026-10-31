@@ -14,8 +14,8 @@
 			<p class="text-4xl font-bold text-white">Projects & Contributions</p>
 		</div>
 		<div class="grid grid-cols-1 gap-4 pb-4 md:grid-cols-2">
-			{#each featured as project, index}
-				<FeaturedProject {project} hero={index === 0} />
+			{#each featured as project}
+				<FeaturedProject {project} />
 			{/each}
 		</div>
 		<div class="grid grid-cols-1 gap-4 md:grid-cols-2">

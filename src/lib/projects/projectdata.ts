@@ -27,6 +27,14 @@ export const ProjectData: App.Project[] = [
 		covers: ['/projects/covers/node_rapids_1.webp', '/projects/covers/node_rapids_2.webp']
 	},
 	{
+		name: 'MROK',
+		description: 'Multiplayer voxel arena FPS',
+		skills: 'C#, Razor, s&box',
+		href: '/projects/mrok',
+		featured: true,
+		covers: ['/projects/covers/mrok_1.webp', '/projects/covers/mrok_2.webp']
+	},
+	{
 		name: 'My Summer Cottage: Jam',
 		description: 'Finnish survival simulator',
 		skills: 'C#, Razor, s&box',
@@ -44,13 +52,6 @@ export const ProjectData: App.Project[] = [
 		href: '/projects/deathcard',
 		covers: ['/projects/covers/death_card_1.webp', '/projects/covers/death_card_2.webp'],
 		prize: '13,000'
-	},
-	{
-		name: 'MROK',
-		description: 'Multiplayer voxel arena FPS',
-		skills: 'C#, Razor, s&box',
-		href: '/projects/mrok',
-		covers: ['/projects/covers/mrok_1.webp', '/projects/covers/mrok_2.webp']
 	},
 	{
 		name: 'Goblins Fortune',

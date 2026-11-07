@@ -1,11 +1,11 @@
 ---
 title: 'VKDriven #9 - Notes'
-description: 'Handwritten notes from studying for a rendering job'
+description: 'Handwritten notes from studying for a rendering job interview'
 date: '2026-11-06'
 hidden: false
 ---
 
-This entry is a bit different. I've been studying for a rendering job, and a lot of what I was going over is stuff I ran into while building VKDriven. So these are my handwritten notes, going roughly from the Vulkan side of things down to the GPU pipeline and PBR.
+This entry is a bit different. I have an interview coming up for a rendering job, and most of what I studied for it is stuff I ran into while building VKDriven. So these are my handwritten notes, going roughly from the Vulkan side of things down to the GPU pipeline and PBR.
 
 Most of the topics have their own entry if you want the longer version with code: [data and bindless textures](/blog/vkdriven-3/), [PBR](/blog/vkdriven-4/), [HDR and tonemapping](/blog/vkdriven-5/), [shadow mapping](/blog/vkdriven-6/) and [cascaded shadow maps](/blog/vkdriven-7/).
 

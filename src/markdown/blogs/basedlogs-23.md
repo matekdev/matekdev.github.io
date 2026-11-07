@@ -73,6 +73,6 @@ fn fragmentMain(input: VertexOutput) -> @location(0) vec4f {
 }
 ```
 
-<Img src="model.jpg"  />
+<Img src="model.webp"   />
 
 <YoutubeMusic src="PBmtJvIcFXI" />
